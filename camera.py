@@ -9,6 +9,11 @@ def capture_card_from_webcam():
     
     while True:
         ret, frame = cap.read()
+        
+        if frame is None or frame.shape[0] == 0 or frame.shape[1] == 0:
+            print("Error: Failed to retrieve frame from webcam.")
+            break
+            
         cv2.imshow('Card Scanner', frame)
 
         key = cv2.waitKey(1) & 0xFF

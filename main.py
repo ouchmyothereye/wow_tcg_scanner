@@ -17,20 +17,73 @@ from vision import extract_text_from_image
 from audio_feedback import play_sound, NO_MATCH_SOUND, OLD_MATCH_SOUND, NEW_MATCH_SOUND
 from card_logging import get_card_session, get_card_data_from_json, update_card_log
 from camera import capture_card_from_webcam
+from fuzzywuzzy import fuzz
+
+def get_best_match_from_json(extracted_name, card_data):
+    best_match = None
+    highest_score = 0
+    
+    for card in card_data:
+        current_score = fuzz.ratio(extracted_name, card["name"])
+        if current_score > highest_score:
+            highest_score = current_score
+            best_match = card
+
+    
+    if not best_match:  # If no match found with threshold, retry without threshold
+        for card in card_data:
+            card_name = card["name"].strip().lower()
+            current_score = fuzz.ratio(extracted_name, card_name)
+            if current_score > highest_score:
+                highest_score = current_score
+                best_match = card
+
+    return best_match
+
+
+def get_best_match_from_json_v2(extracted_name, card_data):
+    best_match = None
+    highest_score = 0
+    threshold = 85  # Setting a threshold for fuzzy matching
+    
+    # Convert the extracted name to lowercase and strip whitespace
+    extracted_name = extracted_name.strip().lower()
+    
+    for card in card_data:
+        card_name = card["name"].strip().lower()
+        current_score = fuzz.ratio(extracted_name, card_name)
+        if current_score > highest_score and current_score >= threshold:
+            highest_score = current_score
+            best_match = card
+
+    
+    if not best_match:  # If no match found with threshold, retry without threshold
+        for card in card_data:
+            card_name = card["name"].strip().lower()
+            current_score = fuzz.ratio(extracted_name, card_name)
+            if current_score > highest_score:
+                highest_score = current_score
+                best_match = card
+
+    return best_match
 
 # Load card data from JSON
 with open(os.path.join(get_script_directory(), 'cards.json'), 'r') as file:
     CARDS_DATA = json.load(file)
 
-def get_card_data_from_json(card_name):
-    for card in CARDS_DATA:
-        if card['name'] == card_name:
-            return card
-    return None
+##def get_best_match_from_json_v2(card_name):
+##    for card in CARDS_DATA:
+  ##      if card['name'] == card_name:
+   ##         return card
+ ##   return None
+
+with open("cards.json", "r") as file:
+    cards_data = json.load(file)
+
 
 def main():
     try:
-        print("Opening webcam. Position the card and wait for auto-capture. Press 'q' to exit.")
+      #  print("Opening webcam. Position the card and wait for auto-capture. Press 'q' to exit.")
         session = get_card_session()
 
         while True:
@@ -46,7 +99,10 @@ def main():
 
             try:
                 card_name, card_set_and_number = extract_text_from_image(captured_image_path)
-                card_data = get_card_data_from_json(card_name)
+                print(f"Extracted Card Name: {card_name}")
+                card_data = get_best_match_from_json_v2(card_name, cards_data)
+                if not card_data:
+                    print(f"No match found in JSON data for card name: {card_name}")
 
                 if card_data:
                     card_info = card_data.get('set') or card_data.get('block') or card_data.get('raid') or "Unknown"

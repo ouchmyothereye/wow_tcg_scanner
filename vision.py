@@ -5,6 +5,7 @@
 
 
 import os
+import cv2
 # from google.cloud.vision import types
 from google.cloud import vision_v1 as vision
 
@@ -12,15 +13,31 @@ from google.cloud import vision_v1 as vision
 client = vision.ImageAnnotatorClient()
 
 def extract_text_from_image(image_path):
-    with open(image_path, 'rb') as image_file:
+        # Read the image
+    image = cv2.imread(image_path)
+    
+    # Crop the top part (330x65 starting from the top)
+    top_crop = image[:65, :]
+    
+    # Crop the bottom part (360x45 starting from the bottom)
+    height, _, _ = image.shape
+    bottom_crop = image[height-45:, :]
+    
+    # Combine the two cropped areas into a single image
+    combined_image = cv2.vconcat([top_crop, bottom_crop])
+    combined_image_path = "combined_cropped.jpg"
+    cv2.imwrite(combined_image_path, combined_image)
+
+    with open(combined_image_path, 'rb') as image_file:
         content = image_file.read()
-
-    image = vision.Image(content=content)
-    response = client.text_detection(image=image)
-
-    # Extract the first line for card name and third line from the bottom for set information
+    combined_vision_image = vision.Image(content=content)
+    response = client.text_detection(image=combined_vision_image)
     lines = response.text_annotations[0].description.strip().split('\n')
-    card_name = lines[0]
-    card_set_and_number = lines[-3] if len(lines) >= 3 else ""
-
+    
+    # We'll assume the card name is in the first block, and ignore blocks starting with a number
+    card_name = lines[1] if lines[0][0].isdigit() else lines[0]
+    
+    # Assuming the set information is in the second block
+    card_set_and_number = lines[1] if card_name == lines[0] else lines[2]
+    
     return card_name, card_set_and_number
