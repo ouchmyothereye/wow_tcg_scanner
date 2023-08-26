@@ -9,10 +9,14 @@
 
 import os
 import json
+import cv2
+import traceback
 from camera import capture_card_from_webcam
-from logging import get_script_directory, get_card_session, update_card_log
+from card_logging import get_script_directory, get_card_session, update_card_log
 from vision import extract_text_from_image
 from audio_feedback import play_sound, NO_MATCH_SOUND, OLD_MATCH_SOUND, NEW_MATCH_SOUND
+from card_logging import get_card_session, get_card_data_from_json, update_card_log
+from camera import capture_card_from_webcam
 
 # Load card data from JSON
 with open(os.path.join(get_script_directory(), 'cards.json'), 'r') as file:
@@ -24,33 +28,47 @@ def get_card_data_from_json(card_name):
             return card
     return None
 
-if __name__ == "__main__":
-    print("Opening webcam. Press 'c' to capture the card. Press 'q' to exit.")
-    session = get_card_session()
+def main():
+    try:
+        print("Opening webcam. Position the card and wait for auto-capture. Press 'q' to exit.")
+        session = get_card_session()
 
-    while True:
-        captured_image_path = capture_card_from_webcam()
-        if not captured_image_path:
-            break
-        try:
-            card_name, card_set_and_number = extract_text_from_image(captured_image_path)
-            card_data = get_card_data_from_json(card_name)
-            
-            if card_data:
-                card_info = card_data.get('set') or card_data.get('block') or card_data.get('raid') or "Unknown"
-                display_line = f"Card Name: {card_name} | Card Number: {card_data['num']} | Set/Block/Raid: {card_info}"
-                
-                # Check if the card already exists in the log and update accordingly
-                new_entry = update_card_log(card_data['name'], card_data['num'], card_info, session)
-                if new_entry:
-                    print("\\033[92m" + display_line + "\\033[0m")  # Print in green
-                    play_sound(NEW_MATCH_SOUND)
-                else:
-                    print(display_line)
-                    play_sound(OLD_MATCH_SOUND)
-            else:
-                print(f"Card {card_name} not found in cards.json!")
+        while True:
+            # Capture the card using the new auto-capture method
+            card_image = capture_card_from_webcam()
+
+            if card_image is None:  # Exit if 'q' was pressed or if there was an issue
+                break
+
+            # Save the captured card image to a file
+            captured_image_path = "captured_card.jpg"
+            cv2.imwrite(captured_image_path, card_image)
+
+            try:
+                card_name, card_set_and_number = extract_text_from_image(captured_image_path)
+                card_data = get_card_data_from_json(card_name)
+
+                if card_data:
+                    card_info = card_data.get('set') or card_data.get('block') or card_data.get('raid') or "Unknown"
+                    display_line = f"Card Name: {card_name} | Card Number: {card_data['num']} | Set/Block/Raid: {card_info}"
+                    new_entry = update_card_log(card_data['name'], card_data['num'], card_data['set'], session)
+
+                    
+                    if new_entry:
+                        print(f"\033[92m{display_line}\033[0m")  # Print in green
+                        play_sound(NEW_MATCH_SOUND)
+
+                    else:
+                        print(display_line)
+                        play_sound(OLD_MATCH_SOUND)
+
+
+            except IndexError:
+                print("Error: Unable to extract card information.")
                 play_sound(NO_MATCH_SOUND)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        traceback.print_exc()  # This will print the detailed traceback
 
-        except IndexError:
-            print("Error: Unable to extract card information.")
+if __name__ == "__main__":
+    main()

@@ -5,8 +5,8 @@
 
 
 import os
-from google.cloud import vision
-from google.cloud.vision import types
+# from google.cloud.vision import types
+from google.cloud import vision_v1 as vision
 
 # Initialize Cloud Vision client
 client = vision.ImageAnnotatorClient()
@@ -15,7 +15,7 @@ def extract_text_from_image(image_path):
     with open(image_path, 'rb') as image_file:
         content = image_file.read()
 
-    image = types.Image(content=content)
+    image = vision.Image(content=content)
     response = client.text_detection(image=image)
 
     # Extract the first line for card name and third line from the bottom for set information

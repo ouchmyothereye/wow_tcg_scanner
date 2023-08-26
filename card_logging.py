@@ -3,6 +3,7 @@
 
 import os
 import csv
+import json
 
 def get_script_directory():
     return os.path.dirname(os.path.realpath(__file__))
@@ -28,32 +29,56 @@ def get_card_session():
             writer.writerow([current_session + 1])
             return current_session + 1
 
-def update_card_log(card_name, card_number, card_info, session):
-    log_file_path = os.path.join(get_script_directory(), 'card_log.csv')
+def get_card_data_from_json(card_name, card_set_and_number=None):
+    """Retrieve card data from the cards.json file using the card's name."""
+    with open("cards.json", "r") as file:
+        data = json.load(file)
+        matching_cards = [card for card in data if card['name'].lower() == card_name.lower()]
+
+        # If only one card matches the name, return it
+        if len(matching_cards) == 1:
+            return matching_cards[0]
+        # If multiple cards match the name and set/number info is provided, refine the search
+        elif len(matching_cards) > 1 and card_set_and_number:
+            for card in matching_cards:
+                if card.get('set') and card_set_and_number in card['set']:
+                    return card
+    return None
+     
+
+def update_card_log(card_name, card_number, set_block_raid, session):
+    card_exists = False
     new_entry = False
+    updated_rows = []
+    card_identifier = f"{card_name}|{set_block_raid}"
 
-    # Check if log file exists
-    if not os.path.exists(log_file_path):
-        with open(log_file_path, 'w', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Session', 'Card Name', 'Card Number', 'Set/Block/Raid', 'Quantity'])
-    
-    # Check if the card already exists in the log
-    entries = []
-    with open(log_file_path, 'r') as file:
-        reader = csv.reader(file)
+    print(f"Attempting to update log for {card_name} from {set_block_raid}.")  # Debugging statement
+
+    with open('card_log.csv', 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
         for row in reader:
-            if row and row[1] == card_name and row[2] == card_number:
-                row[4] = str(int(row[4]) + 1)  # Update quantity
-                new_entry = False
-            entries.append(row)
-    
-    if new_entry:
-        entries.append([session, card_name, card_number, card_info, '1'])
+            if row['Card Name'] == card_name and row['Set/Block/Raid'] == set_block_raid:
+                print(f"Card {card_name} exists in the log. Updating quantity.")  # Debugging statement
+                card_exists = True
+                row['Quantity'] = str(int(row['Quantity']) + 1)
+            updated_rows.append(row)
 
-    # Write updated data to the log
-    with open(log_file_path, 'w', newline='') as file:
-        writer = csv.writer(file)
-        writer.writerows(entries)
+    if not card_exists:
+        print(f"Card {card_name} is new. Adding to the log.")  # Debugging statement
+        new_entry = True
+        updated_rows.append({
+            'Session': session,
+            'Card Name': card_name,
+            'Card Number': card_number,
+            'Set/Block/Raid': set_block_raid,
+            'Quantity': '1'
+        })
+
+    with open('card_log.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['Session', 'Card Name', 'Card Number', 'Set/Block/Raid', 'Quantity']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in updated_rows:
+            writer.writerow(row)
 
     return new_entry

@@ -7,9 +7,9 @@ import pygame
 pygame.mixer.init()
 
 # Paths to audio files
-NO_MATCH_SOUND = "C:\\Users\\hallc\\Desktop\\cards\\no_match.mp3"
-OLD_MATCH_SOUND = "C:\\Users\\hallc\\Desktop\\cards\\old_match.mp3"
-NEW_MATCH_SOUND = "C:\\Users\\hallc\\Desktop\\cards\\new_match.mp3"
+NO_MATCH_SOUND = "no_match.mp3"
+OLD_MATCH_SOUND = "old_match.mp3"
+NEW_MATCH_SOUND = "new_match.mp3"
 
 def play_sound(sound_path):
     pygame.mixer.music.load(sound_path)
