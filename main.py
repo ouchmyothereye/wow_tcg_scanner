@@ -1,3 +1,33 @@
+""" The main.py file seems to be the primary script that integrates all the functionalities of the card scanning system. Here's an overview:
+
+Imports and TODO Comments:
+
+The file starts with a few TODO comments suggesting improvements.
+Essential libraries and functions from other modules (camera.py, card_logging.py, vision.py, and audio_feedback.py) are imported.
+Function: get_best_match_from_json(extracted_name, card_data):
+
+This function takes the extracted card name and a list of card data (from a JSON file).
+It then attempts to find the best match from the list using fuzzy string matching.
+If no satisfactory match is found using the threshold, it retries without the threshold.
+It returns the card data for the best match.
+Function: get_best_match_from_json_v2(extracted_name, card_data):
+
+An improved version of the previous function.
+It sets a threshold for fuzzy matching and searches for a match within the threshold.
+Extracted names and card names are converted to lowercase and whitespace is stripped before comparison.
+Function: main():
+
+The primary execution function of the script.
+Initializes a session for card logging and retrieves the existing card data from a JSON file.
+Captures an image of a card from a webcam.
+Extracts text from the captured image.
+Tries to match the extracted text with card data from the JSON file.
+Updates the card log, displays card details, and plays appropriate audio feedback based on the match.
+Handles exceptions and provides audio feedback for errors.
+Main Execution:
+
+If the script is run as the main program, the main() function is executed. """
+
 # TODO: Implement batch processing to allow multiple cards to be scanned in quick succession.
 # Consider having a buffer time between scans or a UI element indicating readiness for the next scan.
 # Develop a user-friendly interface for the card scanning system.
@@ -98,7 +128,13 @@ def main():
             cv2.imwrite(captured_image_path, card_image)
 
             try:
-                card_name, card_set_and_number = extract_text_from_image(captured_image_path)
+                card_name, card_set_and_number, _ = extract_text_from_image(captured_image_path)
+                # Filter out single-letter blocks from GCV response
+           #     filtered_blocks = [block for block in lines if len(block['description'].strip()) > 1]
+
+                # Extract card name from the first remaining block
+           #     card_name = filtered_blocks[0]['description'].strip()
+
                 print(f"Extracted Card Name: {card_name}")
                 card_data = get_best_match_from_json_v2(card_name, cards_data)
                 if not card_data:

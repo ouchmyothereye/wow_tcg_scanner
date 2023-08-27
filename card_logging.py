@@ -1,3 +1,31 @@
+""" The card_logging.py file deals with the logging and retrieval of card data. Here's a breakdown:
+
+Imports and TODO Comments:
+
+Essential libraries like os, csv, and json are imported.
+There are TODO comments suggesting the integration of a database system for scalability.
+Function: get_script_directory():
+
+Returns the directory in which the script is located.
+Function: get_card_session():
+
+Manages sessions for card logging.
+If a session file doesn't exist, it creates one and initializes the session to 1.
+If a session file exists, it reads the last session number, increments it, and returns the new session number.
+Function: get_card_data_from_json(card_name, card_set_and_number=None):
+
+Retrieves card data from the cards.json file using the card's name.
+If a single card matches the name, it returns that card.
+If multiple cards match the name and set/number information is provided, it refines the search and returns the matching card.
+Function: update_card_log(card_name, card_number, set_block_raid, session):
+
+Updates the card log (card_log.csv) with the given card details.
+Checks if the card already exists in the log:
+If it does, the quantity is incremented.
+If it doesn't, a new entry for the card is added.
+Returns True if a new entry is added, and False otherwise.
+From the provided content, the module primarily focuses on managing sessions, retrieving card data from a JSON file, and logging card details in a CSV file.
+ """
 # TODO: Integrate with a database system for scalability.
 # Suggestions: Use SQLite for a lightweight database or consider more robust systems like PostgreSQL for larger collections.
 
