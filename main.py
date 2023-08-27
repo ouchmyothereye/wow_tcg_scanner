@@ -44,8 +44,8 @@ import traceback
 from camera import capture_card_from_webcam
 from card_logging import get_script_directory, get_card_session, update_card_log
 from vision import extract_text_from_image
-from audio_feedback import play_sound, NO_MATCH_SOUND, OLD_MATCH_SOUND, NEW_MATCH_SOUND
-from card_logging import get_card_session, get_card_data_from_json, update_card_log
+from audio_feedback import play_sound, speak_text, NO_MATCH_SOUND, OLD_MATCH_SOUND, NEW_MATCH_SOUND
+from card_logging import get_card_session, get_card_data_from_json, update_card_log, back_out_last_entry
 from camera import capture_card_from_webcam
 from fuzzywuzzy import fuzz
 
@@ -82,6 +82,8 @@ def get_best_match_from_json_v2(extracted_name, card_data):
     for card in card_data:
         card_name = card["name"].strip().lower()
         current_score = fuzz.ratio(extracted_name, card_name)
+        print(f"Comparing '{extracted_name}' to '{card_name}'. Score: {current_score}")
+
         if current_score > highest_score and current_score >= threshold:
             highest_score = current_score
             best_match = card
@@ -91,6 +93,8 @@ def get_best_match_from_json_v2(extracted_name, card_data):
         for card in card_data:
             card_name = card["name"].strip().lower()
             current_score = fuzz.ratio(extracted_name, card_name)
+            print(f"Comparing '{extracted_name}' to '{card_name}' without threshold. Score: {current_score}")
+            
             if current_score > highest_score:
                 highest_score = current_score
                 best_match = card
@@ -120,6 +124,11 @@ def main():
             # Capture the card using the new auto-capture method
             card_image = capture_card_from_webcam()
 
+            if isinstance(card_image, str) and card_image == 'BACKOUT_LAST_ENTRY':
+                back_out_last_entry()
+                speak_text("Reverted last entry.")
+                continue  # Or continue with whatever logic you prefer
+
             if card_image is None:  # Exit if 'q' was pressed or if there was an issue
                 break
 
@@ -147,13 +156,16 @@ def main():
 
                     
                     if new_entry:
-                        print(f"\033[92m{display_line}\033[0m")  # Print in green
+                        print(f"Logging Card: {card_name} from {card_info}")
+                        print({display_line}) 
                         play_sound(NEW_MATCH_SOUND)
+                        speak_text(card_name)
 
                     else:
-                        print(display_line)
+                        print(f"Logging Card: {card_name} from {card_info}")
                         play_sound(OLD_MATCH_SOUND)
-
+                        print(display_line)
+                        speak_text(card_name)
 
             except IndexError:
                 print("Error: Unable to extract card information.")

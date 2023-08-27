@@ -21,6 +21,8 @@ The function waits for the sound to finish before returning. """
 # Suggestions: Different sounds for different errors, voice feedback with card name, etc.
 
 import pygame
+from gtts import gTTS
+import tempfile
 
 # Initialize pygame mixer
 pygame.mixer.init()
@@ -35,3 +37,13 @@ def play_sound(sound_path):
     pygame.mixer.music.play()
     while pygame.mixer.music.get_busy():
         pygame.time.Clock().tick(10)
+
+def speak_text(text):
+    """
+    Convert text to speech and play it.
+    """
+    tts = gTTS(text=text, lang='en')
+    with tempfile.NamedTemporaryFile(delete=True) as fp:
+        tts.save(fp.name + ".mp3")
+        play_sound(fp.name + ".mp3")
+

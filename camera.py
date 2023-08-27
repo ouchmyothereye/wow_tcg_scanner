@@ -40,5 +40,10 @@ def capture_card_from_webcam():
         if key == ord('q'):
             break
 
+        if key == ord('z'):
+            cap.release()
+            cv2.destroyAllWindows()
+            return 'BACKOUT_LAST_ENTRY'
+
     cap.release()
     cv2.destroyAllWindows()

@@ -82,10 +82,19 @@ def update_card_log(card_name, card_number, set_block_raid, session):
 
     print(f"Attempting to update log for {card_name} from {set_block_raid}.")  # Debugging statement
 
+
+
     with open('card_log.csv', 'r', newline='', encoding='utf-8') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row['Card Name'] == card_name and row['Set/Block/Raid'] == set_block_raid:
+            print(f"Comparing log entry '{row['Card Name']}' to extracted '{card_name}'")
+           # if row['Card Name'] == card_name and row['Set/Block/Raid'] == set_block_raid:
+            if row['Card Name'].strip().lower() == card_name.strip().lower() and row['Set/Block/Raid'].strip().lower() == set_block_raid.strip().lower():
+
+        #for row in reader:
+         #   if card_name == row["Card Name"] and set_block_raid == row["Set/Block/Raid"]:
+        # ... (rest of the code for updating the existing entry)
+
                 print(f"Card {card_name} exists in the log. Updating quantity.")  # Debugging statement
                 card_exists = True
                 row['Quantity'] = str(int(row['Quantity']) + 1)
@@ -110,3 +119,29 @@ def update_card_log(card_name, card_number, set_block_raid, session):
             writer.writerow(row)
 
     return new_entry
+
+def back_out_last_entry():
+    with open('card_log.csv', 'r', newline='', encoding='utf-8') as csvfile:
+        reader = csv.DictReader(csvfile)
+        rows = list(reader)
+
+    # If there are no entries, return
+    if not rows:
+        return
+
+    last_entry = rows[-1]
+
+    # If the quantity of the last entry is more than 1, just decrement the quantity
+    if int(last_entry['Quantity']) > 1:
+        last_entry['Quantity'] = str(int(last_entry['Quantity']) - 1)
+    # If the quantity is 1, remove the entire entry
+    else:
+        rows.pop()
+
+    # Write the modified data back to the CSV
+    with open('card_log.csv', 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = ['Session', 'Card Name', 'Card Number', 'Set/Block/Raid', 'Quantity']
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in rows:
+            writer.writerow(row)
