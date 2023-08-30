@@ -1,3 +1,11 @@
+
+def fuzzy_match_set(gcv_text, set_abbreviation):
+    from fuzzywuzzy import fuzz
+    score = fuzz.partial_ratio(gcv_text.lower(), set_abbreviation.lower())
+    threshold = 80
+    return score >= threshold
+
+
 import sqlite3
 import re
 import cv2
@@ -189,14 +197,7 @@ def find_set_in_description(description, matching_sets):
     for card in matching_sets:
         if card[2].lower() in description.lower():
             return card
-            
-    # Fuzzy match the set abbreviation if no exact match is found
-    for card in matching_sets:
-        if fuzzy_match_set(description, card[2]):
-            return card
-
     return None
-
 
 def update_card_log(card_id, variant_id, instance):
     logger.debug(f"Logging card with Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}")
