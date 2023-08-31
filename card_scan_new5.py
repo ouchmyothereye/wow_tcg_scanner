@@ -6,14 +6,71 @@ from google.cloud import vision_v1 as vision
 import sqlite3
 from datetime import datetime
 from difflib import get_close_matches
+#import fuzzywuzzy as fuzz
+from fuzzywuzzy import fuzz
+import pygame.mixer
+import pyttsx3
+import tkinter as tk
+from tkinter import simpledialog
+
+
+class SuppressComtypesLogs(logging.Filter):
+    def filter(self, record):
+        return 'comtypes.client._events' not in record.msg
+
+# Initialize pygame mixer
+pygame.mixer.init()
 
 # Set up logging
 logging.basicConfig(filename='program.log', level=logging.DEBUG, format='%(asctime)s - %(message)s')
+logger = logging.getLogger()
+logger.addFilter(SuppressComtypesLogs())
 
 # Load Google Cloud Vision credentials from environment variables
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path_to_google_cloud_credentials.json"
 client = vision.ImageAnnotatorClient()
 
+import tkinter as tk
+
+def choose_set_abbreviation(possible_abbreviations):
+    # Function to be called when a button is clicked
+    def on_click(abbreviation):
+        nonlocal chosen_abbreviation
+        chosen_abbreviation = abbreviation
+        root.destroy()
+
+    chosen_abbreviation = None
+    root = tk.Tk()
+    root.title("Choose Set Abbreviation")
+
+    for abbreviation in possible_abbreviations:
+        btn = tk.Button(root, text=abbreviation, command=lambda abbr=abbreviation: on_click(abbr))
+        btn.pack(pady=10)
+
+    root.mainloop()
+    return chosen_abbreviation
+
+
+
+def play_audio(file_path):
+    pygame.mixer.music.load(file_path)
+    pygame.mixer.music.play()
+
+def speak(text):
+    engine = pyttsx3.init()
+    engine.say(text)
+    engine.runAndWait()
+
+def check_existing_card(card_id, variant_id, instance):
+    conn = sqlite3.connect('wow_cards.db')
+    cursor = conn.cursor()
+
+    cursor.execute(f"SELECT COUNT(*) FROM collection_inventory WHERE card_id = ? AND variant_id = ? AND instance = ?", (card_id, variant_id, instance))
+    count = cursor.fetchone()[0]
+
+    conn.close()
+
+    return count > 0
 
 def capture_image():
     cap = cv2.VideoCapture(0)
@@ -74,24 +131,39 @@ def send_to_gcv(image_path):
         logging.warning("No text found in the image.")
         return []
 
-def get_set_abbreviation(extracted_texts, set_abbreviations):
-    """
-    Identify and return the set abbreviation from the extracted texts.
-    """
-    # Join the texts and convert to lowercase
-    cleaned_text = ' '.join(extracted_texts).lower()
-    logging.debug(f"Cleaned text for abbreviation matching: {cleaned_text}")
-    
-    # Iterate over each set abbreviation
-    for abbreviation in set_abbreviations:
-        logging.debug(f"Checking for abbreviation: {abbreviation.lower()}")
-        if abbreviation.lower() in cleaned_text:
-            logging.debug(f"Matched: {abbreviation}")
-            return abbreviation
+def get_set_abbreviation(texts, possible_abbreviations):
+    cleaned_texts = clean_text(texts)
+    logging.info(f"Cleaned text for abbreviation matching: {cleaned_texts}")
 
-    # If no match is found, return None
-    logging.warning("No abbreviation matched.")
-    return None
+    # Convert multi-word abbreviations to a consistent format.
+    formatted_abbreviations = [abbr.replace(" ", "").lower() for abbr in possible_abbreviations]
+
+    # First, attempt exact matching.
+    for index, abbreviation in enumerate(formatted_abbreviations):
+        logging.info(f"Checking for abbreviation: {abbreviation}")
+        if abbreviation in cleaned_texts:
+            logging.info(f"Matched set abbreviation: {possible_abbreviations[index]}")
+            return possible_abbreviations[index]
+
+    # If exact matching failed, attempt fuzzy matching.
+    for index, abbreviation in enumerate(formatted_abbreviations):
+        score = fuzz.token_set_ratio(cleaned_texts, abbreviation)
+        logging.info(f"Fuzzy match score for {abbreviation}: {score}")
+        if score > 85:  # You can adjust this threshold as needed.
+            logging.info(f"Matched set abbreviation using fuzzy matching: {possible_abbreviations[index]}")
+            return possible_abbreviations[index]
+
+    # If both exact and fuzzy matching failed, prompt the user.
+    while True:
+        chosen_abbreviation = choose_set_abbreviation(possible_abbreviations)
+
+        if chosen_abbreviation in possible_abbreviations:
+            return chosen_abbreviation
+        else:
+            print(f"{chosen_abbreviation} is not a valid abbreviation. Please try again.")
+
+
+
 
 def query_database(texts):
     logging.info("Connecting to the 'wow_cards' SQLite database.")
@@ -102,6 +174,8 @@ def query_database(texts):
     lines_from_text = texts[0].split('\n')
 
     matched_abbreviation = None
+    card_name = None
+    set_id = None
 
     for potential_card_name in lines_from_text:
         logging.info(f"Querying 'wow_cards' for potential card name: {potential_card_name}")
@@ -120,40 +194,22 @@ def query_database(texts):
                 result = cursor.fetchall()
                 set_abbreviations = [row[0] for row in result]
                 logging.info(f"Possible set abbreviations for {card_name}: {set_abbreviations}")
-                matched_abbreviation = get_set_abbreviation(extracted_texts, set_abbreviations)
-                if matched_abbreviation:
-                    logging.info(f"Matched set abbreviation: {matched_abbreviation}")
-                    # Extract set_id based on matched abbreviation
-                    logging.info(f"Querying 'sets' for set abbreviation: {matched_abbreviation}")
-                    cursor.execute("SELECT set_id FROM sets WHERE set_abbreviation=?", (matched_abbreviation,))
-                    set_id = cursor.fetchone()[0]
-                    logging.info(f"Set ID found: {set_id}")
-                    break
+                # Do not directly call get_set_abbreviation here; we will call it outside the loop
 
-    if not matched_abbreviation:
-        if not set_id:
-            logging.error("No card name found in the extracted lines of the text.")
-            return
-    else:
-        # Step 5: Extract set_id based on the closest match
-        matched_abbreviation = get_set_abbreviation(extracted_texts, set_abbreviations)
+    # If card_name is found but abbreviation is not matched, ask for it
+    if card_name and not set_id:
+        matched_abbreviation = get_set_abbreviation(texts, set_abbreviations)
         if matched_abbreviation:
             logging.info(f"Matched set abbreviation: {matched_abbreviation}")
-        else:
-            matched_abbreviation = input(f"Valid set abbreviations are: {', '.join(set_abbreviations)}\n"
-                                         "Please enter a valid set abbreviation from the list above: ")
             # Extract set_id based on matched abbreviation
             logging.info(f"Querying 'sets' for set abbreviation: {matched_abbreviation}")
             cursor.execute("SELECT set_id FROM sets WHERE set_abbreviation=?", (matched_abbreviation,))
-            set_id = cursor.fetchone()
-            if set_id:
-                set_id = set_id[0]
-                logging.info(f"Set ID found: {set_id}")
-            else:
-                logging.error(f"No set ID found for abbreviation: {matched_abbreviation}")
-                return
+            set_id = cursor.fetchone()[0]
+            logging.info(f"Set ID found: {set_id}")
 
-    # ... Continue with the rest of the function (Steps 6-8 as shared)
+    if not card_name or not set_id:
+        logging.error("Failed to identify the card or its set. Exiting.")
+        return
 
     # Step 6: Identify card_id
     logging.info(f"Querying 'card_versions' for card name: {card_name} and set ID: {set_id}")
@@ -166,7 +222,7 @@ def query_database(texts):
         logging.error(f"No card ID found for card name: {card_name} and set ID: {set_id}")
         return
 
-# Step 7: Determine variant_id
+    # Step 7: Determine variant_id
     logging.info(f"Querying 'possible_card_variants' for card ID: {card_id}")
     cursor.execute("SELECT variant_id, instance FROM possible_card_variants WHERE card_id=?", (card_id,))
     variants = cursor.fetchall()
@@ -193,10 +249,25 @@ def query_database(texts):
     conn.commit()
 
     logging.info(f"Insertion successful. Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
-
+    # Check if this is a new card or an existing one
+    if check_existing_card(card_id, variant_id, instance):
+        play_audio('old_match.mp3')
+        speak(f"{card_name}")
+    else:
+        play_audio('new_match.mp3')
+        speak(f"{card_name}")
     conn.close()
 
 if __name__ == "__main__":
-    img_path = capture_image()
-    extracted_texts = send_to_gcv(img_path)
-    query_database(extracted_texts)
+    logging.basicConfig(level=logging.INFO)
+    while True:
+        logging.info("Starting the card scanning process.")
+        
+        # Capture image
+        capture_image()
+        
+        # Extract text from image using Google Cloud Vision
+        extracted_texts = send_to_gcv("captured_img.jpg")
+        
+        if extracted_texts:
+            query_database(extracted_texts)

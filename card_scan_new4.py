@@ -6,6 +6,8 @@ from google.cloud import vision_v1 as vision
 import sqlite3
 from datetime import datetime
 from difflib import get_close_matches
+#import fuzzywuzzy as fuzz
+from fuzzywuzzy import fuzz
 
 # Set up logging
 logging.basicConfig(filename='program.log', level=logging.DEBUG, format='%(asctime)s - %(message)s')
@@ -74,24 +76,37 @@ def send_to_gcv(image_path):
         logging.warning("No text found in the image.")
         return []
 
-def get_set_abbreviation(extracted_texts, set_abbreviations):
-    """
-    Identify and return the set abbreviation from the extracted texts.
-    """
-    # Join the texts and convert to lowercase
-    cleaned_text = ' '.join(extracted_texts).lower()
-    logging.debug(f"Cleaned text for abbreviation matching: {cleaned_text}")
-    
-    # Iterate over each set abbreviation
+def get_set_abbreviation(texts, set_abbreviations):
+    cleaned_texts = clean_text(texts)
+
+    # Exact matching
     for abbreviation in set_abbreviations:
-        logging.debug(f"Checking for abbreviation: {abbreviation.lower()}")
-        if abbreviation.lower() in cleaned_text:
-            logging.debug(f"Matched: {abbreviation}")
+        logging.info(f"Checking for abbreviation: {abbreviation}")
+        if abbreviation.lower() in cleaned_texts:
             return abbreviation
 
-    # If no match is found, return None
-    logging.warning("No abbreviation matched.")
-    return None
+    # Fuzzy matching if exact matching fails
+    best_match_score = 0
+    best_match_abbreviation = None
+    for abbreviation in set_abbreviations:
+        score = fuzz.token_set_ratio(cleaned_texts, abbreviation.lower())
+        if score > best_match_score:
+            best_match_score = score
+            best_match_abbreviation = abbreviation
+
+    # If the best fuzzy match score is above a threshold (e.g., 80), return it
+    if best_match_score > 80:
+        return best_match_abbreviation
+
+    # If no match found, prompt the user to select the correct abbreviation
+    logging.warning("No abbreviation matched with the extracted text.")
+    print(f"Possible set abbreviations: {', '.join(set_abbreviations)}")
+    while True:
+        selected_abbreviation = input("Please select the correct set abbreviation from the list above: ").strip()
+        if selected_abbreviation in set_abbreviations:
+            return selected_abbreviation
+        else:
+            print("Invalid selection. Please choose a valid abbreviation from the list.")
 
 def query_database(texts):
     logging.info("Connecting to the 'wow_cards' SQLite database.")
@@ -197,6 +212,15 @@ def query_database(texts):
     conn.close()
 
 if __name__ == "__main__":
-    img_path = capture_image()
-    extracted_texts = send_to_gcv(img_path)
-    query_database(extracted_texts)
+    logging.basicConfig(level=logging.INFO)
+    while True:
+        logging.info("Starting the card scanning process.")
+        
+        # Capture image
+        capture_image()
+        
+        # Extract text from image using Google Cloud Vision
+        extracted_texts = send_to_gcv("captured_img.jpg")
+        
+        if extracted_texts:
+            query_database(extracted_texts)
