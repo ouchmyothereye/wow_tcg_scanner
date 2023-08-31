@@ -1,11 +1,3 @@
-
-def fuzzy_match_set(gcv_text, set_abbreviation):
-    from fuzzywuzzy import fuzz
-    score = fuzz.partial_ratio(gcv_text.lower(), set_abbreviation.lower())
-    threshold = 80
-    return score >= threshold
-
-
 import sqlite3
 import re
 import cv2
@@ -16,7 +8,7 @@ import logging
 
 from fuzzywuzzy import fuzz
 
-
+DB_PATH = "wow_cards.db"
 
 
 variant_id_to_name = {
@@ -197,7 +189,14 @@ def find_set_in_description(description, matching_sets):
     for card in matching_sets:
         if card[2].lower() in description.lower():
             return card
+            
+    # Fuzzy match the set abbreviation if no exact match is found
+    for card in matching_sets:
+        if fuzzy_match_set(description, card[2]):
+            return card
+
     return None
+
 
 def update_card_log(card_id, variant_id, instance):
     logger.debug(f"Logging card with Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}")
@@ -300,3 +299,25 @@ if matching_card:
     handle_card_variants_and_log_with_prompt_updated_v2(matching_card[0])
 else:
     logger.warning("No matching set found in the GCV response.")
+def get_all_sets():
+    '''Fetch all available sets from the database.'''
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    
+    cursor.execute("SELECT DISTINCT set_name, set_abbreviation FROM card_versions")
+    sets = cursor.fetchall()
+    
+    conn.close()
+    return sets
+
+# Prompt the user to pre-select the set before the scanning session
+available_sets = get_all_sets()
+if __name__ == '__main__':
+# Prompt the user to pre-select the set before the scanning session
+    available_sets = get_all_sets()
+print("\nPlease select a set from the list below:")
+for idx, set_info in enumerate(available_sets, 1):
+    print(f"{idx}. {set_info[1]}")
+set_choice = int(input("\nEnter the number corresponding to the set: "))
+selected_set = available_sets[set_choice - 1]
+print(f"\nSelected Set: {selected_set[1]}\n")

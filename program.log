@@ -1,0 +1,445 @@
+2023-08-30 20:43:39,582 - Image captured and saved as captured_img.jpg
+2023-08-30 20:43:59,572 - Image captured and saved as captured_img.jpg
+2023-08-30 20:44:17,382 - Image captured and saved as captured_img.jpg
+2023-08-30 20:44:18,074 - No card name found.
+2023-08-30 20:45:33,525 - Image captured and saved as captured_img.jpg
+2023-08-30 20:46:41,149 - Image captured and saved as captured_img.jpg
+2023-08-30 20:46:41,449 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 20:46:41,834 - Texts found in the image: ['Mystery Goo\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ability into your hand and the rest on the\nbottom of your deck.\nThe greenish substance inside the cauldron\nappears to be similar to what you found in the flask\nArt by Tyler Welpe\ncalcd t\nALLIANCE DK 32/32', 'Mystery', 'Goo', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ability', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', 'The', 'greenish', 'substance', 'inside', 'the', 'cauldron', 'appears', 'to', 'be', 'similar', 'to', 'what', 'you', 'found', 'in', 'the', 'flask', 'Art', 'by', 'Tyler', 'Welpe', 'calcd', 't', 'ALLIANCE', 'DK', '32/32']
+2023-08-30 20:46:41,837 - No card name found.
+2023-08-30 20:49:05,707 - Image captured and saved as captured_img.jpg
+2023-08-30 20:49:05,982 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 20:49:06,439 - Texts found in the image: ['Mystery Goo\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ability into your hand and the rest on the\nbottom of your deck.\nThe greenish substance inside the cauldron\nappears to be similar to what you found in the flask\nArt by Tyler Welpo\nALLIANCE DK 32/32\no cal di', 'Mystery', 'Goo', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ability', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', 'The', 'greenish', 'substance', 'inside', 'the', 'cauldron', 'appears', 'to', 'be', 'similar', 'to', 'what', 'you', 'found', 'in', 'the', 'flask', 'Art', 'by', 'Tyler', 'Welpo', 'ALLIANCE', 'DK', '32/32', 'o', 'cal', 'di']
+2023-08-30 20:49:06,440 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 20:49:06,440 - Querying 'card_versions' for line: Mystery Goo
+Quest
+Pay to complete this quest.
+Reward: Reveal the top five cards of your deck. Put
+a revealed ability into your hand and the rest on the
+bottom of your deck.
+The greenish substance inside the cauldron
+appears to be similar to what you found in the flask
+Art by Tyler Welpo
+ALLIANCE DK 32/32
+o cal di
+2023-08-30 20:49:46,894 - Image captured and saved as captured_img.jpg
+2023-08-30 20:49:47,168 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 20:49:47,556 - Texts found in the image: ['Mystery Goo\nQuest\nPay to complete this quest..\nReward: Reveal the top five cards of your deck. Put\na revealed ability into your hand and the rest on the\nbottom of your deck.\nThe greenish substance inside the cauldron\nappears to be similar to what you found in the flask\nArt by: Tyler Welpen\nALLIANCE DK 32/32 03 0', 'Mystery', 'Goo', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '..', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ability', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', 'The', 'greenish', 'substance', 'inside', 'the', 'cauldron', 'appears', 'to', 'be', 'similar', 'to', 'what', 'you', 'found', 'in', 'the', 'flask', 'Art', 'by', ':', 'Tyler', 'Welpen', 'ALLIANCE', 'DK', '32/32', '03', '0']
+2023-08-30 20:49:47,556 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 20:49:47,556 - Querying 'card_versions' for line: Mystery Goo
+Quest
+Pay to complete this quest..
+Reward: Reveal the top five cards of your deck. Put
+a revealed ability into your hand and the rest on the
+bottom of your deck.
+The greenish substance inside the cauldron
+appears to be similar to what you found in the flask
+Art by: Tyler Welpen
+ALLIANCE DK 32/32 03 0
+2023-08-30 20:49:47,557 - Querying 'card_versions' for line: Mystery
+2023-08-30 20:49:47,558 - Querying 'card_versions' for line: Goo
+2023-08-30 20:49:47,558 - No card name found in the first three lines of the text.
+2023-08-30 21:00:51,178 - Image captured and saved as captured_img.jpg
+2023-08-30 21:00:51,451 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:00:51,864 - Texts found in the image: ['Mystery Goo\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ability into your hand and the rest on the\nbottom of your deck.\nThe greenish substance inside the cauldron\nappears to be similar to what you found in the flask\nArt by: Tyler Welpale\nCod\nALLIANCE DK 32/32', 'Mystery', 'Goo', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ability', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', 'The', 'greenish', 'substance', 'inside', 'the', 'cauldron', 'appears', 'to', 'be', 'similar', 'to', 'what', 'you', 'found', 'in', 'the', 'flask', 'Art', 'by', ':', 'Tyler', 'Welpale', 'Cod', 'ALLIANCE', 'DK', '32/32']
+2023-08-30 21:00:51,864 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:00:51,865 - Querying 'card_versions' for potential card name: Mystery Goo
+2023-08-30 21:01:39,725 - Image captured and saved as captured_img.jpg
+2023-08-30 21:01:40,010 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:01:40,411 - Texts found in the image: ['Mystery Goo\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ability into your hand and the rest on the\nbottom of your deck.\nThe greenish substance inside the cauldron\nappears to be similar to what you found in the flask\nArt by Tyler Wel\nALLIANCE DK 32/32\n2011 cal cod', 'Mystery', 'Goo', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ability', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', 'The', 'greenish', 'substance', 'inside', 'the', 'cauldron', 'appears', 'to', 'be', 'similar', 'to', 'what', 'you', 'found', 'in', 'the', 'flask', 'Art', 'by', 'Tyler', 'Wel', 'ALLIANCE', 'DK', '32/32', '2011', 'cal', 'cod']
+2023-08-30 21:01:40,411 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:01:40,411 - Querying 'card_versions' for potential card name: Mystery Goo
+2023-08-30 21:01:40,412 - Match found in 'card_versions'. Card name: Mystery Goo, Set abbreviation: Alliance DK
+2023-08-30 21:03:00,640 - Image captured and saved as captured_img.jpg
+2023-08-30 21:03:00,933 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:03:01,317 - Texts found in the image: ['Bloodsoul\n2\n2004\nAlly -Orc Warlock\n472DER\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance."\nArt by Win Canar\nREGION 977 319\n3', 'Bloodsoul', '2', '2004', 'Ally', '-Orc', 'Warlock', '472DER', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', '.', '"', 'Art', 'by', 'Win', 'Canar', 'REGION', '977', '319', '3']
+2023-08-30 21:03:01,317 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:03:01,318 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:03:01,318 - Match found in 'card_versions'. Card name: Bloodsoul, Set abbreviation: Class
+2023-08-30 21:17:13,206 - Image captured and saved as captured_img.jpg
+2023-08-30 21:17:13,501 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:17:13,951 - Texts found in the image: ['1\n2\nBloodsoul\nAlly-Orc Warlock\n6220\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nVEGION 9977319\nArt by Wan O\'Cannar\nd\n1\n3', '1', '2', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', '6220', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'VEGION', '9977319', 'Art', 'by', 'Wan', "O'Cannar", 'd', '1', '3']
+2023-08-30 21:17:13,951 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:17:13,951 - Querying 'card_versions' for potential card name: 1
+2023-08-30 21:18:04,390 - Image captured and saved as captured_img.jpg
+2023-08-30 21:18:04,649 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:18:05,042 - Texts found in the image: ['1\n2\nBloodsoul\nAlly-Orc Warlock\n5220\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 977/319\nArt by We Can\nGod\n8\n3', '1', '2', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', '5220', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '977/319', 'Art', 'by', 'We', 'Can', 'God', '8', '3']
+2023-08-30 21:18:05,042 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:18:05,043 - Querying 'card_versions' for potential card name: 1
+2023-08-30 21:18:05,044 - Querying 'card_versions' for potential card name: 2
+2023-08-30 21:18:05,044 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:18:05,044 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:18:05,045 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:21:01,214 - Image captured and saved as captured_img.jpg
+2023-08-30 21:21:01,491 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:21:01,850 - Texts found in the image: ['Bloodsoul\nAlly-Orc Warlock\n2\nANNE\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nVEGION 977/7319\nArt by Wam O Cannar\ncech om i\n$\n3', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', '2', 'ANNE', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'VEGION', '977/7319', 'Art', 'by', 'Wam', 'O', 'Cannar', 'cech', 'om', 'i', '$', '3']
+2023-08-30 21:21:01,851 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:21:01,851 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:21:01,852 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:21:01,852 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:23:59,480 - Image captured and saved as captured_img.jpg
+2023-08-30 21:23:59,743 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:24:00,168 - Texts found in the image: ['1\n2\nBloodsoul\nAlly-Orc Warlock\n6220\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 930/319\nArt by Wam O\'Canner\nON\n8\n3', '1', '2', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', '6220', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '930/319', 'Art', 'by', 'Wam', "O'Canner", 'ON', '8', '3']
+2023-08-30 21:24:00,169 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:24:00,169 - Querying 'card_versions' for potential card name: 1
+2023-08-30 21:24:00,170 - Querying 'card_versions' for potential card name: 2
+2023-08-30 21:24:00,171 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:24:00,171 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:24:00,171 - Matched set abbreviation: Legion
+2023-08-30 21:24:00,171 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:24:45,397 - Image captured and saved as captured_img.jpg
+2023-08-30 21:24:45,678 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:24:46,084 - Texts found in the image: ['Bloodsoul\nAlly-Orc Warlock\n2\n4220\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 977319\nArt by Wam Cannar\nOm\ndie\n1\n3', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', '2', '4220', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '977319', 'Art', 'by', 'Wam', 'Cannar', 'Om', 'die', '1', '3']
+2023-08-30 21:24:46,084 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:24:46,084 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:24:46,085 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:24:46,086 - Matched set abbreviation: Legion
+2023-08-30 21:24:46,086 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:24:46,086 - Set ID found: 34
+2023-08-30 21:24:46,086 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-08-30 21:27:09,723 - Image captured and saved as captured_img.jpg
+2023-08-30 21:27:09,997 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:27:10,632 - Texts found in the image: ['Bloodsoul\n2\n0001\nAlly-Orc Warlock\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 97/319\nArt by Wam O\'Car\nes\ndis\n8\n3', 'Bloodsoul', '2', '0001', 'Ally', '-', 'Orc', 'Warlock', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '97/319', 'Art', 'by', 'Wam', "O'Car", 'es', 'dis', '8', '3']
+2023-08-30 21:27:10,632 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:27:10,633 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:27:10,634 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:27:10,634 - Matched set abbreviation: Legion
+2023-08-30 21:27:10,634 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:27:10,634 - Set ID found: 34
+2023-08-30 21:27:10,634 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-08-30 21:27:38,559 - Image captured and saved as captured_img.jpg
+2023-08-30 21:27:38,855 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:27:39,253 - Texts found in the image: ['1\n2\nBloodsoul\nAlly-Orc Warlock\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 977/319\nArt by Win O\'Cannar\nom\ndi\n3', '1', '2', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '977/319', 'Art', 'by', 'Win', "O'Cannar", 'om', 'di', '3']
+2023-08-30 21:27:39,253 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:27:39,254 - Querying 'card_versions' for potential card name: 1
+2023-08-30 21:27:39,255 - Querying 'card_versions' for potential card name: 2
+2023-08-30 21:27:39,255 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:27:39,256 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:27:39,256 - Matched set abbreviation: Legion
+2023-08-30 21:27:39,256 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:27:39,256 - Set ID found: 34
+2023-08-30 21:27:39,256 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-08-30 21:27:39,257 - Card ID found: 1941
+2023-08-30 21:27:39,257 - Querying 'possible_card_variants' for card ID: 1941
+2023-08-30 21:27:39,257 - Multiple variants found for card ID 1941: [9, 2, 3, 5]
+2023-08-30 21:30:42,528 - Image captured and saved as captured_img.jpg
+2023-08-30 21:30:42,805 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:30:44,742 - Texts found in the image: ['1\n2\nBloodsoul\nAlly-Orc Warlock\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 937/319\nArt by Wian O\'Conner\nis dit\n3', '1', '2', 'Bloodsoul', 'Ally', '-', 'Orc', 'Warlock', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '937/319', 'Art', 'by', 'Wian', "O'Conner", 'is', 'dit', '3']
+2023-08-30 21:30:44,742 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:30:44,743 - Querying 'card_versions' for potential card name: 1
+2023-08-30 21:30:44,744 - Querying 'card_versions' for potential card name: 2
+2023-08-30 21:30:44,744 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:30:44,744 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:30:44,745 - Matched set abbreviation: Legion
+2023-08-30 21:30:44,745 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:30:44,745 - Set ID found: 34
+2023-08-30 21:30:44,745 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-08-30 21:30:44,745 - Card ID found: 1941
+2023-08-30 21:30:44,745 - Querying 'possible_card_variants' for card ID: 1941
+2023-08-30 21:30:44,745 - Multiple variants found for card ID 1941: [9, 2, 3, 5]
+2023-08-30 21:30:56,581 - Inserting into 'collection_inventory'. Card ID: 1941, Variant ID: 2, Instance: 1, Date: 2023-08-30
+2023-08-30 21:32:11,260 - Image captured and saved as captured_img.jpg
+2023-08-30 21:32:11,547 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:32:11,924 - Texts found in the image: ['Bloodsoul\n2\nONNE\nAlly -Orc Warlock\nThis ally can attack only heroes.\n"Doom comes for you, and it takes\npleasure in your resistance\nLEGION 997/319\nArt by Wian O\'Ca\nGIS\ndin\n3', 'Bloodsoul', '2', 'ONNE', 'Ally', '-Orc', 'Warlock', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', ',', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'LEGION', '997/319', 'Art', 'by', 'Wian', "O'Ca", 'GIS', 'din', '3']
+2023-08-30 21:32:11,924 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:32:11,924 - Querying 'card_versions' for potential card name: Bloodsoul
+2023-08-30 21:32:11,925 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-08-30 21:32:11,926 - Matched set abbreviation: Legion
+2023-08-30 21:32:11,926 - Querying 'sets' for set abbreviation: Legion
+2023-08-30 21:32:11,926 - Set ID found: 34
+2023-08-30 21:32:11,926 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-08-30 21:32:11,926 - Card ID found: 1941
+2023-08-30 21:32:11,926 - Querying 'possible_card_variants' for card ID: 1941
+2023-08-30 21:32:11,926 - Multiple variants found for card ID 1941: [9, 2, 3, 5]
+2023-08-30 21:32:14,520 - Inserting into 'collection_inventory'. Card ID: 1941, Variant ID: 2, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 21:32:14,526 - Insertion successful. Card ID: 1941, Variant ID: 2, Instance: 1, Date: 2023-08-30
+2023-08-30 21:33:22,432 - Image captured and saved as captured_img.jpg
+2023-08-30 21:33:22,713 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:33:23,285 - Texts found in the image: ['The Essence of Enmity\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ally into your hand and the rest on the\nbottom of your deck.\n"The creatures you seek swarm over the Den of Flame to the\nnorthwest and the Stonemaul Ruins to the north\n-Brogg\nALLIANCE DK 29/32\nArt by William O\'Connu\nCall Good!', 'The', 'Essence', 'of', 'Enmity', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ally', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', '"', 'The', 'creatures', 'you', 'seek', 'swarm', 'over', 'the', 'Den', 'of', 'Flame', 'to', 'the', 'northwest', 'and', 'the', 'Stonemaul', 'Ruins', 'to', 'the', 'north', '-Brogg', 'ALLIANCE', 'DK', '29/32', 'Art', 'by', 'William', "O'Connu", 'Call', 'Good', '!']
+2023-08-30 21:33:23,285 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:33:23,286 - Querying 'card_versions' for potential card name: The Essence of Enmity
+2023-08-30 21:33:23,287 - Possible set abbreviations for The Essence of Enmity: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Worldbreaker']
+2023-08-30 21:33:23,287 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:33:31,640 - Matched set abbreviation: Alliance DK
+2023-08-30 21:33:31,640 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 21:33:31,640 - Set ID found: 2
+2023-08-30 21:33:31,640 - Querying 'card_versions' for card name: The Essence of Enmity and set ID: 2
+2023-08-30 21:33:31,641 - Card ID found: 34
+2023-08-30 21:33:31,641 - Querying 'possible_card_variants' for card ID: 34
+2023-08-30 21:33:31,641 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 21:36:37,311 - Image captured and saved as captured_img.jpg
+2023-08-30 21:36:37,599 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:36:38,187 - Texts found in the image: ['The Essence of Enmity\nQuest\nPay to complete this quest.\nReward: Reveal the top five cards of your deck. Put\na revealed ally into your hand and the rest on the\nbottom of your deck.\n"The creatures you seek swarm over the Den of Flame to the\nnorthwest and the Stonemaul Ruins to the north -Brogs\nALLIANCE DK 29/32\nArt by am O Connor\nchild co', 'The', 'Essence', 'of', 'Enmity', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Reveal', 'the', 'top', 'five', 'cards', 'of', 'your', 'deck', '.', 'Put', 'a', 'revealed', 'ally', 'into', 'your', 'hand', 'and', 'the', 'rest', 'on', 'the', 'bottom', 'of', 'your', 'deck', '.', '"', 'The', 'creatures', 'you', 'seek', 'swarm', 'over', 'the', 'Den', 'of', 'Flame', 'to', 'the', 'northwest', 'and', 'the', 'Stonemaul', 'Ruins', 'to', 'the', 'north', '-Brogs', 'ALLIANCE', 'DK', '29/32', 'Art', 'by', 'am', 'O', 'Connor', 'child', 'co']
+2023-08-30 21:36:38,188 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:36:38,188 - Querying 'card_versions' for potential card name: The Essence of Enmity
+2023-08-30 21:36:38,189 - Possible set abbreviations for The Essence of Enmity: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Worldbreaker']
+2023-08-30 21:36:38,190 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:36:42,047 - Matched set abbreviation: Alliance DK
+2023-08-30 21:36:42,048 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 21:36:42,048 - Set ID found: 2
+2023-08-30 21:36:42,048 - Querying 'card_versions' for card name: The Essence of Enmity and set ID: 2
+2023-08-30 21:36:42,048 - Card ID found: 34
+2023-08-30 21:36:42,048 - Querying 'possible_card_variants' for card ID: 34
+2023-08-30 21:36:42,048 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 21:36:42,049 - Inserting into 'collection_inventory'. Card ID: 34, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 21:36:42,053 - Insertion successful. Card ID: 34, Variant ID: 5, Instance: 1, Date: 2023-08-30
+2023-08-30 21:41:00,607 - Image captured and saved as captured_img.jpg
+2023-08-30 21:41:00,889 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:41:01,305 - Texts found in the image: ['The Key to Freedom\nQuest\n99\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nALLIANCE DK 31/32\nArt by Matt Dixon\ncadent, in', 'The', 'Key', 'to', 'Freedom', 'Quest', '99', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'ALLIANCE', 'DK', '31/32', 'Art', 'by', 'Matt', 'Dixon', 'cadent', ',', 'in']
+2023-08-30 21:41:01,306 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:41:01,306 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 21:41:01,308 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 21:41:01,308 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:41:08,350 - Matched set abbreviation: Alliance DK
+2023-08-30 21:41:08,350 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 21:41:08,350 - Set ID found: 2
+2023-08-30 21:41:08,350 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 21:41:08,350 - Card ID found: 36
+2023-08-30 21:41:08,351 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 21:41:08,351 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 21:41:08,351 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 21:41:08,355 - Insertion successful. Card ID: 36, Variant ID: 5, Instance: 1, Date: 2023-08-30
+2023-08-30 21:46:31,264 - Image captured and saved as captured_img.jpg
+2023-08-30 21:46:31,540 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:46:32,162 - Texts found in the image: ['The Key to Freedom\nQuest\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nALLIANCE DK 31/32\nArt by Matt Dian\nGert\nmin', 'The', 'Key', 'to', 'Freedom', 'Quest', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'ALLIANCE', 'DK', '31/32', 'Art', 'by', 'Matt', 'Dian', 'Gert', 'min']
+2023-08-30 21:46:32,162 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:46:32,163 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 21:46:32,164 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 21:46:32,165 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:46:39,407 - Matched set abbreviation: Alliance DK
+2023-08-30 21:46:39,407 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 21:46:39,407 - Set ID found: 2
+2023-08-30 21:46:39,407 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 21:46:39,408 - Card ID found: 36
+2023-08-30 21:46:39,408 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 21:46:39,408 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 21:46:39,408 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 21:57:57,077 - Image captured and saved as captured_img.jpg
+2023-08-30 21:57:57,363 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 21:57:57,818 - Texts found in the image: ['The Key to Freedom\nQuest\nOC\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nArt by Matt Dixon\nALLIANCE DK 31/32\nca ace', 'The', 'Key', 'to', 'Freedom', 'Quest', 'OC', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'Art', 'by', 'Matt', 'Dixon', 'ALLIANCE', 'DK', '31/32', 'ca', 'ace']
+2023-08-30 21:57:57,818 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 21:57:57,819 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 21:57:57,820 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 21:57:57,821 - No set abbreviation found or closely matched in the text.
+2023-08-30 21:58:01,448 - Matched set abbreviation: Alliance DK
+2023-08-30 21:58:01,448 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 21:58:01,448 - Set ID found: 2
+2023-08-30 21:58:01,448 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 21:58:01,449 - Card ID found: 36
+2023-08-30 21:58:01,449 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 21:58:01,449 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 21:58:01,449 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 22:00:50,959 - Image captured and saved as captured_img.jpg
+2023-08-30 22:00:51,234 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:00:51,693 - Texts found in the image: ['The Key to Freedom\nQuest\nDC\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nALLIANCE OK 31/32\nArt by Matt Dian\nC', 'The', 'Key', 'to', 'Freedom', 'Quest', 'DC', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'ALLIANCE', 'OK', '31/32', 'Art', 'by', 'Matt', 'Dian', 'C']
+2023-08-30 22:00:51,694 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:00:51,694 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 22:00:51,696 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 22:00:51,696 - No set abbreviation found or closely matched in the text.
+2023-08-30 22:00:56,028 - Matched set abbreviation: Alliance DK
+2023-08-30 22:00:56,028 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:00:56,028 - Set ID found: 2
+2023-08-30 22:00:56,028 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 22:00:56,029 - Card ID found: 36
+2023-08-30 22:00:56,029 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 22:00:56,029 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:00:56,029 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 22:01:48,157 - Image captured and saved as captured_img.jpg
+2023-08-30 22:01:48,430 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:01:48,934 - Texts found in the image: ['The Key to Freedom\nQuest\nOC\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nALLIANCE DK 31/32\nArt by: Matt Dixon\ncalat! vnet in', 'The', 'Key', 'to', 'Freedom', 'Quest', 'OC', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'ALLIANCE', 'DK', '31/32', 'Art', 'by', ':', 'Matt', 'Dixon', 'calat', '!', 'vnet', 'in']
+2023-08-30 22:01:48,934 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:01:48,935 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 22:01:48,936 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 22:01:48,937 - No set abbreviation found or closely matched in the text.
+2023-08-30 22:01:51,288 - Matched set abbreviation: Alliance DK
+2023-08-30 22:01:51,288 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:01:51,288 - Set ID found: 2
+2023-08-30 22:01:51,288 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 22:01:51,289 - Card ID found: 36
+2023-08-30 22:01:51,289 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 22:01:51,289 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:01:51,289 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 22:01:51,293 - Insertion successful. Card ID: 36, Variant ID: 5, Instance: 1, Date: 2023-08-30
+2023-08-30 22:03:34,934 - Image captured and saved as captured_img.jpg
+2023-08-30 22:03:35,230 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:03:35,719 - Texts found in the image: ['The Key to Freedom\nQuest\nOC\nPay to complete this quest\nReward: Draw a card.\nThe small brass key looks simple enough\nALLIANCE DK 31/32\nArt by Matt Dixon\ncada Fe', 'The', 'Key', 'to', 'Freedom', 'Quest', 'OC', 'Pay', 'to', 'complete', 'this', 'quest', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'ALLIANCE', 'DK', '31/32', 'Art', 'by', 'Matt', 'Dixon', 'cada', 'Fe']
+2023-08-30 22:03:35,719 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:03:35,720 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 22:03:35,721 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 22:03:35,721 - No set abbreviation found or closely matched in the text.
+2023-08-30 22:03:41,314 - Matched set abbreviation: Alliance DK
+2023-08-30 22:03:41,314 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:03:41,315 - Set ID found: 2
+2023-08-30 22:03:41,315 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 22:03:41,315 - Card ID found: 36
+2023-08-30 22:03:41,315 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 22:03:41,315 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:03:41,315 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30
+2023-08-30 22:03:41,320 - Insertion successful. Card ID: 36, Variant ID: 5, Instance: 1, Date: 2023-08-30
+2023-08-30 22:08:31,253 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:08:34,646 - Image captured and saved as captured_img.jpg
+2023-08-30 22:08:34,946 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:08:35,392 - Texts found in the image: ['The Key to Freedom\nQuest\nDC\nPay to complete this quest.\nReward: Draw a card.\nThe small brass key looks simple enough\nArt by Man Dian\nALLIANCE DK 31/32\nca 21', 'The', 'Key', 'to', 'Freedom', 'Quest', 'DC', 'Pay', 'to', 'complete', 'this', 'quest', '.', 'Reward', ':', 'Draw', 'a', 'card', '.', 'The', 'small', 'brass', 'key', 'looks', 'simple', 'enough', 'Art', 'by', 'Man', 'Dian', 'ALLIANCE', 'DK', '31/32', 'ca', '21']
+2023-08-30 22:08:35,393 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:08:35,393 - Querying 'card_versions' for potential card name: The Key to Freedom
+2023-08-30 22:08:35,394 - Possible set abbreviations for The Key to Freedom: ['Alliance DK', 'Alliance Druid', 'Alliance Hunter', 'Alliance Mage', 'Alliance Paladin', 'Alliance Priest', 'Alliance Rogue', 'Alliance Shaman', 'Alliance Warlock', 'Alliance Warrior', 'Elderlimb', 'Hogger', 'Horde DK', 'Horde Druid', 'Horde Hunter', 'Horde Mage', 'Horde Paladin', 'Horde Priest', 'Horde Rogue', 'Horde Shaman', 'Horde Warlock', 'Horde Warrior', 'Jaina', 'Sylvanus', 'Worldbreaker', 'Murkdeep']
+2023-08-30 22:08:35,394 - Cleaned text for abbreviation matching: the key to freedom
+quest
+dc
+pay to complete this quest.
+reward: draw a card.
+the small brass key looks simple enough
+art by man dian
+alliance dk 31/32
+ca 21 the key to freedom quest dc pay to complete this quest . reward : draw a card . the small brass key looks simple enough art by man dian alliance dk 31/32 ca 21
+2023-08-30 22:08:35,394 - Checking for abbreviation: alliance dk
+2023-08-30 22:08:35,394 - Matched: Alliance DK
+2023-08-30 22:08:35,394 - Matched set abbreviation: Alliance DK
+2023-08-30 22:08:35,394 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:08:35,394 - Set ID found: 2
+2023-08-30 22:08:35,394 - Querying 'card_versions' for card name: The Key to Freedom and set ID: 2
+2023-08-30 22:08:35,395 - Card ID found: 36
+2023-08-30 22:08:35,395 - Querying 'possible_card_variants' for card ID: 36
+2023-08-30 22:08:35,395 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:08:35,395 - Inserting into 'collection_inventory'. Card ID: 36, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:08:35.395457
+2023-08-30 22:08:35,399 - Insertion successful. Card ID: 36, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:08:35.395457
+2023-08-30 22:09:38,989 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:09:44,483 - Image captured and saved as captured_img.jpg
+2023-08-30 22:09:44,773 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:09:45,191 - Texts found in the image: ['3\nAngry Dread\nEquipment -1H Weapon-Mace\nWhen this weapon enters play, you may draw\na card.\n"So get to beat someone over the\nhead with this? I\'m int-Parvink\nMelee (1)\nArt by: R Past\nALLIANCE DK 24/32 cac\n2', '3', 'Angry', 'Dread', 'Equipment', '-1H', 'Weapon', '-', 'Mace', 'When', 'this', 'weapon', 'enters', 'play', ',', 'you', 'may', 'draw', 'a', 'card', '.', '"', 'So', 'get', 'to', 'beat', 'someone', 'over', 'the', 'head', 'with', 'this', '?', "I'm", 'int', '-', 'Parvink', 'Melee', '(', '1', ')', 'Art', 'by', ':', 'R', 'Past', 'ALLIANCE', 'DK', '24/32', 'cac', '2']
+2023-08-30 22:09:45,191 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:09:45,192 - Querying 'card_versions' for potential card name: 3
+2023-08-30 22:09:45,193 - Querying 'card_versions' for potential card name: Angry Dread
+2023-08-30 22:09:45,194 - Possible set abbreviations for Angry Dread: ['Alliance DK', 'Alliance Paladin', 'Wrathgate', 'Horde DK', 'Horde Paladin']
+2023-08-30 22:09:45,194 - Cleaned text for abbreviation matching: 3
+angry dread
+equipment -1h weapon-mace
+when this weapon enters play, you may draw
+a card.
+"so get to beat someone over the
+head with this? i'm int-parvink
+melee (1)
+art by: r past
+alliance dk 24/32 cac
+2 3 angry dread equipment -1h weapon - mace when this weapon enters play , you may draw a card . " so get to beat someone over the head with this ? i'm int - parvink melee ( 1 ) art by : r past alliance dk 24/32 cac 2
+2023-08-30 22:09:45,194 - Checking for abbreviation: alliance dk
+2023-08-30 22:09:45,194 - Matched: Alliance DK
+2023-08-30 22:09:45,194 - Matched set abbreviation: Alliance DK
+2023-08-30 22:09:45,194 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:09:45,194 - Set ID found: 2
+2023-08-30 22:09:45,194 - Querying 'card_versions' for card name: Angry Dread and set ID: 2
+2023-08-30 22:09:45,194 - Card ID found: 6
+2023-08-30 22:09:45,194 - Querying 'possible_card_variants' for card ID: 6
+2023-08-30 22:09:45,194 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:09:45,195 - Inserting into 'collection_inventory'. Card ID: 6, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:09:45.194608
+2023-08-30 22:09:45,199 - Insertion successful. Card ID: 6, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:09:45.194608
+2023-08-30 22:09:55,545 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:10:00,562 - Image captured and saved as captured_img.jpg
+2023-08-30 22:10:00,839 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:10:01,281 - Texts found in the image: ["3\nBloodbane's Fall\nEquipment - Armor - Cloth\nYour hero has Assault 1. (It has +1 ATK on your turn.)\nThis cloak of Orbaz Bloodbane imbues\nthe wearer with his latent aggression\nALLIANCE DK 23/32\nBack (1)\nArt by Dave Alp\ncated in", '3', "Bloodbane's", 'Fall', 'Equipment', '-', 'Armor', '-', 'Cloth', 'Your', 'hero', 'has', 'Assault', '1.', '(', 'It', 'has', '+1', 'ATK', 'on', 'your', 'turn', '.', ')', 'This', 'cloak', 'of', 'Orbaz', 'Bloodbane', 'imbues', 'the', 'wearer', 'with', 'his', 'latent', 'aggression', 'ALLIANCE', 'DK', '23/32', 'Back', '(', '1', ')', 'Art', 'by', 'Dave', 'Alp', 'cated', 'in']
+2023-08-30 22:10:01,281 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:10:01,282 - Querying 'card_versions' for potential card name: 3
+2023-08-30 22:10:01,283 - Querying 'card_versions' for potential card name: Bloodbane's Fall
+2023-08-30 22:10:01,283 - Possible set abbreviations for Bloodbane's Fall: ['Alliance DK', 'Alliance Shaman', 'Alliance Warrior', 'Class', 'Scourgewar', 'Elderlimb', 'Hogger', 'Horde DK', 'Jaina', 'Sylvanus', 'Murkdeep']
+2023-08-30 22:10:01,283 - Cleaned text for abbreviation matching: 3
+bloodbane's fall
+equipment - armor - cloth
+your hero has assault 1. (it has +1 atk on your turn.)
+this cloak of orbaz bloodbane imbues
+the wearer with his latent aggression
+alliance dk 23/32
+back (1)
+art by dave alp
+cated in 3 bloodbane's fall equipment - armor - cloth your hero has assault 1. ( it has +1 atk on your turn . ) this cloak of orbaz bloodbane imbues the wearer with his latent aggression alliance dk 23/32 back ( 1 ) art by dave alp cated in
+2023-08-30 22:10:01,284 - Checking for abbreviation: alliance dk
+2023-08-30 22:10:01,284 - Matched: Alliance DK
+2023-08-30 22:10:01,284 - Matched set abbreviation: Alliance DK
+2023-08-30 22:10:01,284 - Querying 'sets' for set abbreviation: Alliance DK
+2023-08-30 22:10:01,284 - Set ID found: 2
+2023-08-30 22:10:01,284 - Querying 'card_versions' for card name: Bloodbane's Fall and set ID: 2
+2023-08-30 22:10:01,284 - Card ID found: 9
+2023-08-30 22:10:01,284 - Querying 'possible_card_variants' for card ID: 9
+2023-08-30 22:10:01,284 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:10:01,284 - Inserting into 'collection_inventory'. Card ID: 9, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:10:01.284783
+2023-08-30 22:10:01,288 - Insertion successful. Card ID: 9, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:10:01.284783
+2023-08-30 22:11:49,993 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:11:52,875 - Image captured and saved as captured_img.jpg
+2023-08-30 22:11:53,170 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:11:53,559 - Texts found in the image: ['Kamu of Thunder Bluff\nHero - Tauren Druid\nOn your turn: O Flip Kamu Kamu deals\n1 arcane damage to target hero or ally for each.\nhero and ally you control.\nORDE DRUID 1/98 Art by Efrom Palacion\n28', 'Kamu', 'of', 'Thunder', 'Bluff', 'Hero', '-', 'Tauren', 'Druid', 'On', 'your', 'turn', ':', 'O', 'Flip', 'Kamu', 'Kamu', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'for', 'each', '.', 'hero', 'and', 'ally', 'you', 'control', '.', 'ORDE', 'DRUID', '1/98', 'Art', 'by', 'Efrom', 'Palacion', '28']
+2023-08-30 22:11:53,559 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:11:53,560 - Querying 'card_versions' for potential card name: Kamu of Thunder Bluff
+2023-08-30 22:11:53,562 - Possible set abbreviations for Kamu of Thunder Bluff: ['Horde Druid']
+2023-08-30 22:11:53,562 - Cleaned text for abbreviation matching: kamu of thunder bluff
+hero - tauren druid
+on your turn: o flip kamu kamu deals
+1 arcane damage to target hero or ally for each.
+hero and ally you control.
+orde druid 1/98 art by efrom palacion
+28 kamu of thunder bluff hero - tauren druid on your turn : o flip kamu kamu deals 1 arcane damage to target hero or ally for each . hero and ally you control . orde druid 1/98 art by efrom palacion 28
+2023-08-30 22:11:53,562 - Checking for abbreviation: horde druid
+2023-08-30 22:11:53,562 - No abbreviation matched.
+2023-08-30 22:12:09,921 - Querying 'sets' for set abbreviation: Horde Druid
+2023-08-30 22:12:09,921 - Set ID found: 96
+2023-08-30 22:12:09,921 - Querying 'card_versions' for card name: Kamu of Thunder Bluff and set ID: 96
+2023-08-30 22:12:09,922 - Card ID found: 3341
+2023-08-30 22:12:09,922 - Querying 'possible_card_variants' for card ID: 3341
+2023-08-30 22:12:09,922 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:12:09,922 - Inserting into 'collection_inventory'. Card ID: 3341, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:12:09.922915
+2023-08-30 22:12:09,926 - Insertion successful. Card ID: 3341, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:12:09.922915
+2023-08-30 22:14:47,756 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:14:50,473 - Image captured and saved as captured_img.jpg
+2023-08-30 22:14:50,767 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:14:51,218 - Texts found in the image: ['Kamu of Thunder Bluff\nHero - Tauren Druid\nOn your turn: O Flip Kamu Kamu deals\n1 arcane damage to target hero or ally for each\nhero and ally you control.\nHOLDEDRUID 1/33\nArt by Elrem Palacion\n28', 'Kamu', 'of', 'Thunder', 'Bluff', 'Hero', '-', 'Tauren', 'Druid', 'On', 'your', 'turn', ':', 'O', 'Flip', 'Kamu', 'Kamu', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'for', 'each', 'hero', 'and', 'ally', 'you', 'control', '.', 'HOLDEDRUID', '1/33', 'Art', 'by', 'Elrem', 'Palacion', '28']
+2023-08-30 22:14:51,218 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:14:51,219 - Querying 'card_versions' for potential card name: Kamu of Thunder Bluff
+2023-08-30 22:14:51,220 - Possible set abbreviations for Kamu of Thunder Bluff: ['Horde Druid']
+2023-08-30 22:14:51,220 - Cleaned text for abbreviation matching: kamu of thunder bluff
+hero - tauren druid
+on your turn: o flip kamu kamu deals
+1 arcane damage to target hero or ally for each
+hero and ally you control.
+holdedruid 1/33
+art by elrem palacion
+28 kamu of thunder bluff hero - tauren druid on your turn : o flip kamu kamu deals 1 arcane damage to target hero or ally for each hero and ally you control . holdedruid 1/33 art by elrem palacion 28
+2023-08-30 22:14:51,220 - Checking for abbreviation: horde druid
+2023-08-30 22:14:51,220 - No abbreviation matched.
+2023-08-30 22:14:57,683 - Querying 'sets' for set abbreviation: Horde Druid
+2023-08-30 22:14:57,683 - Set ID found: 96
+2023-08-30 22:14:57,683 - Querying 'card_versions' for card name: Kamu of Thunder Bluff and set ID: 96
+2023-08-30 22:14:57,684 - Card ID found: 3341
+2023-08-30 22:14:57,684 - Querying 'possible_card_variants' for card ID: 3341
+2023-08-30 22:14:57,684 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:14:57,684 - Inserting into 'collection_inventory'. Card ID: 3341, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:14:57.684895
+2023-08-30 22:14:57,688 - Insertion successful. Card ID: 3341, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:14:57.684895
+2023-08-30 22:33:23,662 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:33:23,690 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:35:01,615 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:35:05,020 - Image captured and saved as captured_img.jpg
+2023-08-30 22:35:05,295 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:35:05,685 - Texts found in the image: ['Kamu of Thunder Bluff\nHero - Tauren Druid\nOn your turn: O. Flip Kamu Kamu deals\n1 arcane damage to target hero or ally for each\nhero and ally you control.\nHORDEDRUIC 1/18 C\nArt by Erem Palacios\n28', 'Kamu', 'of', 'Thunder', 'Bluff', 'Hero', '-', 'Tauren', 'Druid', 'On', 'your', 'turn', ':', 'O.', 'Flip', 'Kamu', 'Kamu', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'for', 'each', 'hero', 'and', 'ally', 'you', 'control', '.', 'HORDEDRUIC', '1/18', 'C', 'Art', 'by', 'Erem', 'Palacios', '28']
+2023-08-30 22:35:16,563 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-08-30 22:35:19,639 - Image captured and saved as captured_img.jpg
+2023-08-30 22:35:19,934 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-08-30 22:35:20,355 - Texts found in the image: ['Kamu of Thunder Bluff\nHero - Tauren Druid\nOn your turn: O Flip Kamu Kamu deals\n1 arcane damage to target hero or ally for each\nhero and ally you control.\nArt by Eren Palacion\nHORDEDALAC / Cod t\n28', 'Kamu', 'of', 'Thunder', 'Bluff', 'Hero', '-', 'Tauren', 'Druid', 'On', 'your', 'turn', ':', 'O', 'Flip', 'Kamu', 'Kamu', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'for', 'each', 'hero', 'and', 'ally', 'you', 'control', '.', 'Art', 'by', 'Eren', 'Palacion', 'HORDEDALAC', '/', 'Cod', 't', '28']
+2023-08-30 22:35:20,355 - Connecting to the 'wow_cards' SQLite database.
+2023-08-30 22:35:20,355 - Querying 'card_versions' for potential card name: Kamu of Thunder Bluff
+2023-08-30 22:35:20,357 - Possible set abbreviations for Kamu of Thunder Bluff: ['Horde Druid']
+2023-08-30 22:35:20,357 - Cleaned text for abbreviation matching: kamu of thunder bluff
+hero - tauren druid
+on your turn: o flip kamu kamu deals
+1 arcane damage to target hero or ally for each
+hero and ally you control.
+art by eren palacion
+hordedalac / cod t
+28 kamu of thunder bluff hero - tauren druid on your turn : o flip kamu kamu deals 1 arcane damage to target hero or ally for each hero and ally you control . art by eren palacion hordedalac / cod t 28
+2023-08-30 22:35:20,357 - Checking for abbreviation: horde druid
+2023-08-30 22:35:20,357 - No abbreviation matched.
+2023-08-30 22:35:23,585 - Querying 'sets' for set abbreviation: Horde Druid
+2023-08-30 22:35:23,585 - Set ID found: 96
+2023-08-30 22:35:23,585 - Querying 'card_versions' for card name: Kamu of Thunder Bluff and set ID: 96
+2023-08-30 22:35:23,585 - Card ID found: 3341
+2023-08-30 22:35:23,585 - Querying 'possible_card_variants' for card ID: 3341
+2023-08-30 22:35:23,586 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-08-30 22:35:23,586 - Inserting into 'collection_inventory'. Card ID: 3341, Variant ID: 5, Instance: 1, Scan Date: 2023-08-30 22:35:23.586655
+2023-08-30 22:35:23,590 - Insertion successful. Card ID: 3341, Variant ID: 5, Instance: 1, Date: 2023-08-30 22:35:23.586655
+2023-08-31 07:29:47,366 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
