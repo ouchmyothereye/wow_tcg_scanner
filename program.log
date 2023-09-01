@@ -164,3 +164,378 @@
 2023-08-31 23:34:41,526 - Insertion successful. Card ID: 17, Variant ID: 5, Instance: 1, Date: 2023-08-31 23:34:41.522544
 2023-08-31 23:34:41,526 - Starting the card scanning process.
 2023-08-31 23:34:49,347 - Exiting program
+2023-09-01 08:57:57,929 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 08:57:58,116 - Starting the card scanning process.
+2023-09-01 08:58:11,834 - Exiting program
+2023-09-01 08:59:39,858 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 08:59:39,886 - Starting the card scanning process.
+2023-09-01 09:01:33,920 - Exiting program
+2023-09-01 09:01:38,258 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:01:38,291 - Starting the card scanning process.
+2023-09-01 09:01:41,571 - Exiting program
+2023-09-01 09:01:44,608 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:01:44,635 - Starting the card scanning process.
+2023-09-01 09:01:46,614 - Exiting program
+2023-09-01 09:01:49,690 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:01:49,726 - Starting the card scanning process.
+2023-09-01 09:01:51,566 - Exiting program
+2023-09-01 09:02:05,374 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:02:05,410 - Starting the card scanning process.
+2023-09-01 09:02:16,291 - Image captured and saved as captured_img.jpg
+2023-09-01 09:02:16,578 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:02:17,038 - Texts found in the image: ['Blessing of Faith\nInstant Ability-Holy Blessing\nAttach to target friendly ally\nOngoing Attached ally has +1/+1.\nO Destroy this ability Destroy target ability.\n"That the Light\nGungpk Hamy\nHAREPTAINS/ Art by J\nCurea', 'Blessing', 'of', 'Faith', 'Instant', 'Ability', '-', 'Holy', 'Blessing', 'Attach', 'to', 'target', 'friendly', 'ally', 'Ongoing', 'Attached', 'ally', 'has', '+', '1', '/', '+', '1', '.', 'O', 'Destroy', 'this', 'ability', 'Destroy', 'target', 'ability', '.', '"', 'That', 'the', 'Light', 'Gungpk', 'Hamy', 'HAREPTAINS', '/', 'Art', 'by', 'J', 'Curea']
+2023-09-01 09:02:17,038 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:02:17,039 - Querying 'wow_cards' for potential card name: Blessing of Faith
+2023-09-01 09:02:17,040 - Possible set abbreviations for Blessing of Faith: ['Elements', 'Horde Paladin']
+2023-09-01 09:02:17,041 - Cleaned text for abbreviation matching: blessingoffaithinstantabilityholyblessingattachtotargetfriendlyallyongoingattachedallyhas11odestroythisabilitydestroytargetabilitythatthelightgungpkhamyhareptainsartbyjcurea
+2023-09-01 09:02:17,041 - Checking for abbreviation: elements
+2023-09-01 09:02:17,041 - Checking for abbreviation: hordepaladin
+2023-09-01 09:02:17,041 - Fuzzy match score for elements: 8
+2023-09-01 09:02:17,041 - Fuzzy match score for hordepaladin: 12
+2023-09-01 09:02:19,095 - Matched set abbreviation: Horde Paladin
+2023-09-01 09:02:19,095 - Querying 'sets' for set abbreviation: Horde Paladin
+2023-09-01 09:02:19,099 - Single Set ID 102 found for card name Blessing of Faith and abbreviation Horde Paladin.
+2023-09-01 09:02:19,099 - Querying 'card_versions' for card name: Blessing of Faith and set ID: 102
+2023-09-01 09:02:19,100 - Card ID found: 3466
+2023-09-01 09:02:19,100 - Querying 'possible_card_variants' for card ID: 3466
+2023-09-01 09:02:19,100 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:02:19,101 - Checked existing card with card_id: 3466, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:02:20,811 - Inserting into 'collection_inventory'. Card Name:Blessing of Faith, Card ID: 3466, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:02:20.811721
+2023-09-01 09:22:47,541 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:22:47,578 - Starting the card scanning process.
+2023-09-01 09:22:53,235 - Image captured and saved as captured_img.jpg
+2023-09-01 09:22:53,523 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:22:54,162 - Texts found in the image: ['5\nColossal Skull-Clad Cleaver\nEquipment-tH Weapon-Axe Melee (1)\nWhen an opposing ally is destroyed, add a skull counter\nto this weapon.\nThis weapon has Assault 1 for each skull counter on it\ngruesome appearance is matche\n2', '5', 'Colossal', 'Skull', '-', 'Clad', 'Cleaver', 'Equipment', '-', 'tH', 'Weapon', '-', 'Axe', 'Melee', '(', '1', ')', 'When', 'an', 'opposing', 'ally', 'is', 'destroyed', ',', 'add', 'a', 'skull', 'counter', 'to', 'this', 'weapon', '.', 'This', 'weapon', 'has', 'Assault', '1', 'for', 'each', 'skull', 'counter', 'on', 'it', 'gruesome', 'appearance', 'is', 'matche', '2']
+2023-09-01 09:22:54,162 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:22:54,163 - Querying 'wow_cards' for potential card name: 5
+2023-09-01 09:22:54,164 - Querying 'wow_cards' for potential card name: Colossal Skull-Clad Cleaver
+2023-09-01 09:22:54,165 - Possible set abbreviations for Colossal Skull-Clad Cleaver: ['Alliance DK', 'Wrathgate']
+2023-09-01 09:22:54,165 - Cleaned text for abbreviation matching: 5colossalskullcladcleaverequipmentthweaponaxemelee1whenanopposingallyisdestroyedaddaskullcountertothisweaponthisweaponhasassault1foreachskullcounteronitgruesomeappearanceismatche2
+2023-09-01 09:22:54,165 - Checking for abbreviation: alliancedk
+2023-09-01 09:22:54,165 - Checking for abbreviation: wrathgate
+2023-09-01 09:22:54,165 - Fuzzy match score for alliancedk: 10
+2023-09-01 09:22:54,165 - Fuzzy match score for wrathgate: 10
+2023-09-01 09:22:59,015 - Matched set abbreviation: Alliance DK
+2023-09-01 09:22:59,015 - Querying 'sets' for set abbreviation: Alliance DK
+2023-09-01 09:22:59,019 - Single Set ID 2 found for card name Colossal Skull-Clad Cleaver and abbreviation Alliance DK.
+2023-09-01 09:22:59,019 - Querying 'card_versions' for card name: Colossal Skull-Clad Cleaver and set ID: 2
+2023-09-01 09:22:59,020 - Card ID found: 12
+2023-09-01 09:22:59,020 - Querying 'possible_card_variants' for card ID: 12
+2023-09-01 09:22:59,020 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:22:59,021 - Checked existing card with card_id: 12, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:23:01,159 - Inserting into 'collection_inventory'. Card Name:Colossal Skull-Clad Cleaver, Card ID: 12, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:23:01.158379
+2023-09-01 09:23:34,654 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:23:34,680 - Starting the card scanning process.
+2023-09-01 09:23:39,780 - Image captured and saved as captured_img.jpg
+2023-09-01 09:23:40,058 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:23:40,529 - Texts found in the image: ['5\nColossal Skull-Clad Cleaver\nEquipment-tH Weapon-Axe\nWhen an opposing ally is destroyed, add a skull counter\nto this weapon.\nThis weapon has Assault 1 for each skull counter on it.\nThe gruesome appearance\nVER 2/0\nMelee (1)\n2', '5', 'Colossal', 'Skull', '-', 'Clad', 'Cleaver', 'Equipment', '-', 'tH', 'Weapon', '-', 'Axe', 'When', 'an', 'opposing', 'ally', 'is', 'destroyed', ',', 'add', 'a', 'skull', 'counter', 'to', 'this', 'weapon', '.', 'This', 'weapon', 'has', 'Assault', '1', 'for', 'each', 'skull', 'counter', 'on', 'it', '.', 'The', 'gruesome', 'appearance', 'VER', '2/0', 'Melee', '(', '1', ')', '2']
+2023-09-01 09:23:40,529 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:23:40,529 - Querying 'wow_cards' for potential card name: 5
+2023-09-01 09:23:40,530 - Querying 'wow_cards' for potential card name: Colossal Skull-Clad Cleaver
+2023-09-01 09:23:40,531 - Possible set abbreviations for Colossal Skull-Clad Cleaver: ['Alliance DK', 'Wrathgate']
+2023-09-01 09:23:40,531 - Cleaned text for abbreviation matching: 5colossalskullcladcleaverequipmentthweaponaxewhenanopposingallyisdestroyedaddaskullcountertothisweaponthisweaponhasassault1foreachskullcounteronitthegruesomeappearancevermelee12
+2023-09-01 09:23:40,532 - Checking for abbreviation: alliancedk
+2023-09-01 09:23:40,532 - Checking for abbreviation: wrathgate
+2023-09-01 09:23:40,532 - Fuzzy match score for alliancedk: 10
+2023-09-01 09:23:40,532 - Fuzzy match score for wrathgate: 9
+2023-09-01 09:23:42,646 - Matched set abbreviation: Alliance DK
+2023-09-01 09:23:42,646 - Querying 'sets' for set abbreviation: Alliance DK
+2023-09-01 09:23:42,651 - Single Set ID 2 found for card name Colossal Skull-Clad Cleaver and abbreviation Alliance DK.
+2023-09-01 09:23:42,651 - Querying 'card_versions' for card name: Colossal Skull-Clad Cleaver and set ID: 2
+2023-09-01 09:23:42,652 - Card ID found: 12
+2023-09-01 09:23:42,652 - Querying 'possible_card_variants' for card ID: 12
+2023-09-01 09:23:42,652 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:23:42,653 - Checked existing card with card_id: 12, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:23:44,783 - Inserting into 'collection_inventory'. Card Name:Colossal Skull-Clad Cleaver, Card ID: 12, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:23:44.783861
+2023-09-01 09:23:44,787 - Insertion successful. Card Name:Colossal Skull-Clad Cleaver, Card ID: 12, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:23:44.783861
+2023-09-01 09:23:44,787 - Starting the card scanning process.
+2023-09-01 09:23:49,203 - Exiting program
+2023-09-01 09:24:18,095 - Checking \\192.168.4.85\data\wowtcgscanner-aeb6a060c6ef.json for explicit credentials as part of auth process...
+2023-09-01 09:24:18,121 - Starting the card scanning process.
+2023-09-01 09:24:22,783 - Image captured and saved as captured_img.jpg
+2023-09-01 09:24:23,058 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:24:23,627 - Texts found in the image: ['2\nHorn of Winter\nAbility - Frost\nYour hero and allies you control have Assault 1\nthis turn. (They have +1 ATK on your turn.)\nThe est sound you hear before death\nSTUDS YOUR HOU -Ayaka Winterhoof\nALLIANCE DK 7/32\nAt by Rutherland Long\nGHILINGI', '2', 'Horn', 'of', 'Winter', 'Ability', '-', 'Frost', 'Your', 'hero', 'and', 'allies', 'you', 'control', 'have', 'Assault', '1', 'this', 'turn', '.', '(', 'They', 'have', '+1', 'ATK', 'on', 'your', 'turn', '.', ')', 'The', 'est', 'sound', 'you', 'hear', 'before', 'death', 'STUDS', 'YOUR', 'HOU', '-Ayaka', 'Winterhoof', 'ALLIANCE', 'DK', '7/32', 'At', 'by', 'Rutherland', 'Long', 'GHILINGI']
+2023-09-01 09:24:23,627 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:24:23,628 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:24:23,630 - Querying 'wow_cards' for potential card name: Horn of Winter
+2023-09-01 09:24:23,631 - Possible set abbreviations for Horn of Winter: ['Alliance DK', 'Horde DK', 'Elements']
+2023-09-01 09:24:23,631 - Cleaned text for abbreviation matching: 2hornofwinterabilityfrostyourheroandalliesyoucontrolhaveassault1thisturntheyhaveatkonyourturntheestsoundyouhearbeforedeathstudsyourhouwinterhoofalliancedkatbyrutherlandlongghilingi
+2023-09-01 09:24:23,631 - Checking for abbreviation: alliancedk
+2023-09-01 09:24:23,631 - Matched set abbreviation: Alliance DK
+2023-09-01 09:24:23,631 - Matched set abbreviation: Alliance DK
+2023-09-01 09:24:23,631 - Querying 'sets' for set abbreviation: Alliance DK
+2023-09-01 09:24:23,634 - Single Set ID 2 found for card name Horn of Winter and abbreviation Alliance DK.
+2023-09-01 09:24:23,634 - Querying 'card_versions' for card name: Horn of Winter and set ID: 2
+2023-09-01 09:24:23,634 - Card ID found: 17
+2023-09-01 09:24:23,634 - Querying 'possible_card_variants' for card ID: 17
+2023-09-01 09:24:23,634 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:24:23,635 - Checked existing card with card_id: 17, variant_id: 5, instance: 1. Count found: 12
+2023-09-01 09:24:25,135 - Inserting into 'collection_inventory'. Card Name:Horn of Winter, Card ID: 17, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:24:25.135189
+2023-09-01 09:24:25,139 - Insertion successful. Card Name:Horn of Winter, Card ID: 17, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:24:25.135189
+2023-09-01 09:24:25,140 - Starting the card scanning process.
+2023-09-01 09:24:32,562 - Image captured and saved as captured_img.jpg
+2023-09-01 09:24:32,853 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:24:33,234 - Texts found in the image: ['X\n0\nReaper of Dark Souls\nWeapon-Sword\nMelee (1)\nThis weapon enters play with X+1 ATK counters.\nThe Scourge know this blade wel and thungers\nSCOURGEWAA 242\n2', 'X', '0', 'Reaper', 'of', 'Dark', 'Souls', 'Weapon', '-', 'Sword', 'Melee', '(', '1', ')', 'This', 'weapon', 'enters', 'play', 'with', 'X', '+', '1', 'ATK', 'counters', '.', 'The', 'Scourge', 'know', 'this', 'blade', 'wel', 'and', 'thungers', 'SCOURGEWAA', '242', '2']
+2023-09-01 09:24:33,234 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:24:33,235 - Querying 'wow_cards' for potential card name: X
+2023-09-01 09:24:33,236 - Querying 'wow_cards' for potential card name: 0
+2023-09-01 09:24:33,237 - Querying 'wow_cards' for potential card name: Reaper of Dark Souls
+2023-09-01 09:24:33,237 - Card name is unique. Set ID for Reaper of Dark Souls: 47
+2023-09-01 09:24:33,237 - Querying 'card_versions' for card name: Reaper of Dark Souls and set ID: 47
+2023-09-01 09:24:33,237 - Card ID found: 6130
+2023-09-01 09:24:33,238 - Querying 'possible_card_variants' for card ID: 6130
+2023-09-01 09:24:33,238 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:24:33,238 - Checked existing card with card_id: 6130, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:24:35,053 - Inserting into 'collection_inventory'. Card Name:Reaper of Dark Souls, Card ID: 6130, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:24:35.053643
+2023-09-01 09:24:35,058 - Insertion successful. Card Name:Reaper of Dark Souls, Card ID: 6130, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:24:35.053643
+2023-09-01 09:24:35,058 - Starting the card scanning process.
+2023-09-01 09:24:41,346 - Image captured and saved as captured_img.jpg
+2023-09-01 09:24:41,636 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:24:41,921 - Texts found in the image: ['Brothers in Death\nQuest\nOn your turn: Pay to complete this quest\nReward: Remove target ally in a graveyard from the game.\nIf you do, put a 3/3 Ghoul ally token into play\nSCOURGE WAR J', 'Brothers', 'in', 'Death', 'Quest', 'On', 'your', 'turn', ':', 'Pay', 'to', 'complete', 'this', 'quest', 'Reward', ':', 'Remove', 'target', 'ally', 'in', 'a', 'graveyard', 'from', 'the', 'game', '.', 'If', 'you', 'do', ',', 'put', 'a', '3/3', 'Ghoul', 'ally', 'token', 'into', 'play', 'SCOURGE', 'WAR', 'J']
+2023-09-01 09:24:41,921 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:24:41,922 - Querying 'wow_cards' for potential card name: Brothers in Death
+2023-09-01 09:24:41,924 - Possible set abbreviations for Brothers in Death: ['Alliance DK', 'Scourgewar', 'Horde DK']
+2023-09-01 09:24:41,924 - Cleaned text for abbreviation matching: brothersindeathquestonyourturnpaytocompletethisquestrewardremovetargetallyinagraveyardfromthegameifyoudoputaghoulallytokenintoplayscourgewarj
+2023-09-01 09:24:41,924 - Checking for abbreviation: alliancedk
+2023-09-01 09:24:41,924 - Checking for abbreviation: scourgewar
+2023-09-01 09:24:41,924 - Matched set abbreviation: Scourgewar
+2023-09-01 09:24:41,924 - Matched set abbreviation: Scourgewar
+2023-09-01 09:24:41,924 - Querying 'sets' for set abbreviation: Scourgewar
+2023-09-01 09:24:41,927 - Single Set ID 47 found for card name Brothers in Death and abbreviation Scourgewar.
+2023-09-01 09:24:41,927 - Querying 'card_versions' for card name: Brothers in Death and set ID: 47
+2023-09-01 09:24:41,928 - Card ID found: 2101
+2023-09-01 09:24:41,928 - Querying 'possible_card_variants' for card ID: 2101
+2023-09-01 09:24:41,928 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:24:41,928 - Checked existing card with card_id: 2101, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:24:43,542 - Inserting into 'collection_inventory'. Card Name:Brothers in Death, Card ID: 2101, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:24:43.542462
+2023-09-01 09:24:43,546 - Insertion successful. Card Name:Brothers in Death, Card ID: 2101, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:24:43.542462
+2023-09-01 09:24:43,546 - Starting the card scanning process.
+2023-09-01 09:24:45,571 - Image captured and saved as captured_img.jpg
+2023-09-01 09:24:45,847 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:24:46,183 - Texts found in the image: ['Dreadsteed of Xoroth\nQuest\nOn your turn Pay O to complete this quest\nReward Put target Demon ally from your graveyard\ninto play if its cost is less than or equal to the number\nof resources you control.\nThis quest will be perious, but a warlock of your stature\nSCOURGE WAR 25210x', 'Dreadsteed', 'of', 'Xoroth', 'Quest', 'On', 'your', 'turn', 'Pay', 'O', 'to', 'complete', 'this', 'quest', 'Reward', 'Put', 'target', 'Demon', 'ally', 'from', 'your', 'graveyard', 'into', 'play', 'if', 'its', 'cost', 'is', 'less', 'than', 'or', 'equal', 'to', 'the', 'number', 'of', 'resources', 'you', 'control', '.', 'This', 'quest', 'will', 'be', 'perious', ',', 'but', 'a', 'warlock', 'of', 'your', 'stature', 'SCOURGE', 'WAR', '25210x']
+2023-09-01 09:24:46,184 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:24:46,184 - Querying 'wow_cards' for potential card name: Dreadsteed of Xoroth
+2023-09-01 09:24:46,185 - Card name is unique. Set ID for Dreadsteed of Xoroth: 47
+2023-09-01 09:24:46,185 - Querying 'card_versions' for card name: Dreadsteed of Xoroth and set ID: 47
+2023-09-01 09:24:46,186 - Card ID found: 2799
+2023-09-01 09:24:46,186 - Querying 'possible_card_variants' for card ID: 2799
+2023-09-01 09:24:46,186 - Multiple variants found for card ID 2799: [2, 5]
+2023-09-01 09:24:50,942 - Checked existing card with card_id: 2799, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:24:52,801 - Inserting into 'collection_inventory'. Card Name:Dreadsteed of Xoroth, Card ID: 2799, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:24:52.801131
+2023-09-01 09:24:52,805 - Insertion successful. Card Name:Dreadsteed of Xoroth, Card ID: 2799, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:24:52.801131
+2023-09-01 09:24:52,805 - Starting the card scanning process.
+2023-09-01 09:25:00,757 - Image captured and saved as captured_img.jpg
+2023-09-01 09:25:01,046 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:25:01,492 - Texts found in the image: ['en\nNaedia of Silvermoon City\nHero-Blood Elf Paladin\nOn your turn Flip Naedia\nNaedia deals\n2 unpreventable holy damage to target hero or ally\nMOLDE PARADIN 1/1\n29', 'en', 'Naedia', 'of', 'Silvermoon', 'City', 'Hero', '-', 'Blood', 'Elf', 'Paladin', 'On', 'your', 'turn', 'Flip', 'Naedia', 'Naedia', 'deals', '2', 'unpreventable', 'holy', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'MOLDE', 'PARADIN', '1/1', '29']
+2023-09-01 09:25:01,492 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:25:01,492 - Querying 'wow_cards' for potential card name: en
+2023-09-01 09:25:01,493 - Querying 'wow_cards' for potential card name: Naedia of Silvermoon City
+2023-09-01 09:25:01,494 - Card name is unique. Set ID for Naedia of Silvermoon City: 102
+2023-09-01 09:25:01,494 - Querying 'card_versions' for card name: Naedia of Silvermoon City and set ID: 102
+2023-09-01 09:25:01,494 - Card ID found: 3501
+2023-09-01 09:25:01,494 - Querying 'possible_card_variants' for card ID: 3501
+2023-09-01 09:25:01,494 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:25:01,495 - Checked existing card with card_id: 3501, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:25:03,459 - Inserting into 'collection_inventory'. Card Name:Naedia of Silvermoon City, Card ID: 3501, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:25:03.459348
+2023-09-01 09:25:03,463 - Insertion successful. Card Name:Naedia of Silvermoon City, Card ID: 3501, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:25:03.459348
+2023-09-01 09:25:03,463 - Starting the card scanning process.
+2023-09-01 09:25:05,317 - Image captured and saved as captured_img.jpg
+2023-09-01 09:25:05,592 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:25:06,473 - Texts found in the image: ['2\nBloodsoul\n20-0\nAlly-Ore Warlock\nThis ally can attack only heroes.\n"Doom comes for you and it takes\npleasure in your resistance\nAt le We\n3', '2', 'Bloodsoul', '20-0', 'Ally', '-', 'Ore', 'Warlock', 'This', 'ally', 'can', 'attack', 'only', 'heroes', '.', '"', 'Doom', 'comes', 'for', 'you', 'and', 'it', 'takes', 'pleasure', 'in', 'your', 'resistance', 'At', 'le', 'We', '3']
+2023-09-01 09:25:06,473 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:25:06,474 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:25:06,475 - Querying 'wow_cards' for potential card name: Bloodsoul
+2023-09-01 09:25:06,476 - Possible set abbreviations for Bloodsoul: ['Class', 'Legion', 'Ancients']
+2023-09-01 09:25:06,476 - Cleaned text for abbreviation matching: 2bloodsoulallyorewarlockthisallycanattackonlyheroesdoomcomesforyouandittakespleasureinyourresistanceatlewe3
+2023-09-01 09:25:06,476 - Checking for abbreviation: class
+2023-09-01 09:25:06,476 - Checking for abbreviation: legion
+2023-09-01 09:25:06,476 - Checking for abbreviation: ancients
+2023-09-01 09:25:06,476 - Fuzzy match score for class: 9
+2023-09-01 09:25:06,476 - Fuzzy match score for legion: 9
+2023-09-01 09:25:06,476 - Fuzzy match score for ancients: 12
+2023-09-01 09:25:09,565 - Matched set abbreviation: Legion
+2023-09-01 09:25:09,565 - Querying 'sets' for set abbreviation: Legion
+2023-09-01 09:25:15,329 - User selected Set ID 34 associated with block name Burning Crusade and set abbreviation Legion.
+2023-09-01 09:25:15,329 - Set ID found: 34
+2023-09-01 09:25:15,329 - Querying 'card_versions' for card name: Bloodsoul and set ID: 34
+2023-09-01 09:25:15,329 - Card ID found: 1941
+2023-09-01 09:25:15,330 - Querying 'possible_card_variants' for card ID: 1941
+2023-09-01 09:25:15,330 - Multiple variants found for card ID 1941: [9, 2, 3, 5]
+2023-09-01 09:25:18,523 - Checked existing card with card_id: 1941, variant_id: 2, instance: 1. Count found: 4
+2023-09-01 09:25:19,876 - Inserting into 'collection_inventory'. Card Name:Bloodsoul, Card ID: 1941, Variant ID: 2, Instance: 1, Scan Date: 2023-09-01 09:25:19.876666
+2023-09-01 09:25:19,879 - Insertion successful. Card Name:Bloodsoul, Card ID: 1941, Variant ID: 2, Instance: 1, Date: 2023-09-01 09:25:19.876666
+2023-09-01 09:25:19,879 - Starting the card scanning process.
+2023-09-01 09:25:26,206 - Image captured and saved as captured_img.jpg
+2023-09-01 09:25:26,484 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:25:26,934 - Texts found in the image: ["3\n2\nLatro Abiectus\nAlly-Night Elf Rogue\nElusive (This ally can't be attacked.)\nam morally certain you have made a\nALLIANCE SHAMAN 17/34 by\n2", '3', '2', 'Latro', 'Abiectus', 'Ally', '-', 'Night', 'Elf', 'Rogue', 'Elusive', '(', 'This', 'ally', "can't", 'be', 'attacked', '.', ')', 'am', 'morally', 'certain', 'you', 'have', 'made', 'a', 'ALLIANCE', 'SHAMAN', '17/34', 'by', '2']
+2023-09-01 09:25:26,934 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:25:26,935 - Querying 'wow_cards' for potential card name: 3
+2023-09-01 09:25:26,936 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:25:26,936 - Querying 'wow_cards' for potential card name: Latro Abiectus
+2023-09-01 09:25:26,937 - Possible set abbreviations for Latro Abiectus: ['Alliance DK', 'Alliance Shaman', 'Class', 'Azeroth']
+2023-09-01 09:25:26,937 - Cleaned text for abbreviation matching: 32latroabiectusallynightelfrogueelusivethisallybeattackedammorallycertainyouhavemadeaallianceshamanby2
+2023-09-01 09:25:26,938 - Checking for abbreviation: alliancedk
+2023-09-01 09:25:26,938 - Checking for abbreviation: allianceshaman
+2023-09-01 09:25:26,938 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:25:26,938 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:25:26,938 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:25:26,941 - Single Set ID 11 found for card name Latro Abiectus and abbreviation Alliance Shaman.
+2023-09-01 09:25:26,941 - Querying 'card_versions' for card name: Latro Abiectus and set ID: 11
+2023-09-01 09:25:26,941 - Card ID found: 297
+2023-09-01 09:25:26,941 - Querying 'possible_card_variants' for card ID: 297
+2023-09-01 09:25:26,941 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:25:26,942 - Checked existing card with card_id: 297, variant_id: 5, instance: 1. Count found: 0
+2023-09-01 09:25:28,684 - Inserting into 'collection_inventory'. Card Name:Latro Abiectus, Card ID: 297, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:25:28.684954
+2023-09-01 09:25:28,688 - Insertion successful. Card Name:Latro Abiectus, Card ID: 297, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:25:28.684954
+2023-09-01 09:25:28,688 - Starting the card scanning process.
+2023-09-01 09:25:45,709 - Image captured and saved as captured_img.jpg
+2023-09-01 09:25:45,998 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:25:46,281 - Texts found in the image: ["Crul'horak, the Lightning's Arc\nEquipment-1H Weapon-Axe\nMelee (1)\nallies you control have Assault X, where X is\nthe ATK of this weapon.\nMILCH SHAMAN O/100\n0", "Crul'horak", ',', 'the', "Lightning's", 'Arc', 'Equipment', '-', '1H', 'Weapon', '-', 'Axe', 'Melee', '(', '1', ')', 'allies', 'you', 'control', 'have', 'Assault', 'X', ',', 'where', 'X', 'is', 'the', 'ATK', 'of', 'this', 'weapon', '.', 'MILCH', 'SHAMAN', 'O', '/', '100', '0']
+2023-09-01 09:25:46,281 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:25:46,282 - Querying 'wow_cards' for potential card name: Crul'horak, the Lightning's Arc
+2023-09-01 09:25:46,283 - Querying 'wow_cards' for potential card name: Equipment-1H Weapon-Axe
+2023-09-01 09:25:46,284 - Querying 'wow_cards' for potential card name: Melee (1)
+2023-09-01 09:25:46,284 - Querying 'wow_cards' for potential card name: allies you control have Assault X, where X is
+2023-09-01 09:25:46,284 - Querying 'wow_cards' for potential card name: the ATK of this weapon.
+2023-09-01 09:25:46,285 - Querying 'wow_cards' for potential card name: MILCH SHAMAN O/100
+2023-09-01 09:25:46,285 - Querying 'wow_cards' for potential card name: 0
+2023-09-01 09:25:46,286 - Failed to identify the card or its set. Exiting.
+2023-09-01 09:25:46,286 - Starting the card scanning process.
+2023-09-01 09:25:53,583 - Image captured and saved as captured_img.jpg
+2023-09-01 09:25:53,860 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:25:54,153 - Texts found in the image: ['2\n1\nCrul\'korak, the Lightning\'s Arc\nEquipment-1H Weapon-Axe\nMelee (1)\nallies you control have Assault X, where X is\nthe ATK of this weapon.\n"The sinister energy Netarian used to raise Onya\nNake\nAt by Pew an\nATURANCE SHAMAN SD/30\n0', '2', '1', "Crul'korak", ',', 'the', "Lightning's", 'Arc', 'Equipment', '-', '1H', 'Weapon', '-', 'Axe', 'Melee', '(', '1', ')', 'allies', 'you', 'control', 'have', 'Assault', 'X', ',', 'where', 'X', 'is', 'the', 'ATK', 'of', 'this', 'weapon', '.', '"', 'The', 'sinister', 'energy', 'Netarian', 'used', 'to', 'raise', 'Onya', 'Nake', 'At', 'by', 'Pew', 'an', 'ATURANCE', 'SHAMAN', 'SD', '/', '30', '0']
+2023-09-01 09:25:54,153 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:25:54,154 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:25:54,154 - Querying 'wow_cards' for potential card name: 1
+2023-09-01 09:25:54,155 - Querying 'wow_cards' for potential card name: Crul'korak, the Lightning's Arc
+2023-09-01 09:25:54,156 - Possible set abbreviations for Crul'korak, the Lightning's Arc: ['Alliance Shaman', 'Twilight']
+2023-09-01 09:25:54,156 - Cleaned text for abbreviation matching: 21thearcequipment1hweaponaxemelee1alliesyoucontrolhaveassaultxwherexistheatkofthisweaponthesinisterenergynetarianusedtoraiseonyanakeatbypewanaturanceshamansd300
+2023-09-01 09:25:54,156 - Checking for abbreviation: allianceshaman
+2023-09-01 09:25:54,156 - Checking for abbreviation: twilight
+2023-09-01 09:25:54,156 - Fuzzy match score for allianceshaman: 16
+2023-09-01 09:25:54,156 - Fuzzy match score for twilight: 8
+2023-09-01 09:25:55,849 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:25:55,850 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:25:55,853 - Single Set ID 11 found for card name Crul'korak, the Lightning's Arc and abbreviation Alliance Shaman.
+2023-09-01 09:25:55,854 - Querying 'card_versions' for card name: Crul'korak, the Lightning's Arc and set ID: 11
+2023-09-01 09:25:55,854 - Card ID found: 277
+2023-09-01 09:25:55,854 - Querying 'possible_card_variants' for card ID: 277
+2023-09-01 09:25:55,854 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:25:55,855 - Checked existing card with card_id: 277, variant_id: 5, instance: 1. Count found: 2
+2023-09-01 09:25:58,280 - Inserting into 'collection_inventory'. Card Name:Crul'korak, the Lightning's Arc, Card ID: 277, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:25:58.280627
+2023-09-01 09:25:58,284 - Insertion successful. Card Name:Crul'korak, the Lightning's Arc, Card ID: 277, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:25:58.280627
+2023-09-01 09:25:58,284 - Starting the card scanning process.
+2023-09-01 09:26:00,838 - Image captured and saved as captured_img.jpg
+2023-09-01 09:26:01,115 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:26:01,377 - Texts found in the image: ['2\nLatro Abiectus\nAlly-Night Elf Rogue\nElusive (This ally can\'t be attacked.)\n"am morally certain you have made a\ncritical error in judgment orc\nALLIANCE SHAMAN 17/34\nAt by C Langley\n1000\n2', '2', 'Latro', 'Abiectus', 'Ally', '-', 'Night', 'Elf', 'Rogue', 'Elusive', '(', 'This', 'ally', "can't", 'be', 'attacked', '.', ')', '"', 'am', 'morally', 'certain', 'you', 'have', 'made', 'a', 'critical', 'error', 'in', 'judgment', 'orc', 'ALLIANCE', 'SHAMAN', '17/34', 'At', 'by', 'C', 'Langley', '1000', '2']
+2023-09-01 09:26:01,378 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:26:01,378 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:26:01,379 - Querying 'wow_cards' for potential card name: Latro Abiectus
+2023-09-01 09:26:01,380 - Possible set abbreviations for Latro Abiectus: ['Alliance DK', 'Alliance Shaman', 'Class', 'Azeroth']
+2023-09-01 09:26:01,380 - Cleaned text for abbreviation matching: 2latroabiectusallynightelfrogueelusivethisallybeattackedammorallycertainyouhavemadeacriticalerrorinjudgmentorcallianceshamanatbyclangley10002
+2023-09-01 09:26:01,380 - Checking for abbreviation: alliancedk
+2023-09-01 09:26:01,380 - Checking for abbreviation: allianceshaman
+2023-09-01 09:26:01,380 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:01,380 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:01,380 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:26:01,383 - Single Set ID 11 found for card name Latro Abiectus and abbreviation Alliance Shaman.
+2023-09-01 09:26:01,383 - Querying 'card_versions' for card name: Latro Abiectus and set ID: 11
+2023-09-01 09:26:01,384 - Card ID found: 297
+2023-09-01 09:26:01,384 - Querying 'possible_card_variants' for card ID: 297
+2023-09-01 09:26:01,384 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:26:01,384 - Checked existing card with card_id: 297, variant_id: 5, instance: 1. Count found: 1
+2023-09-01 09:26:03,130 - Inserting into 'collection_inventory'. Card Name:Latro Abiectus, Card ID: 297, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:26:03.130492
+2023-09-01 09:26:03,134 - Insertion successful. Card Name:Latro Abiectus, Card ID: 297, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:26:03.130492
+2023-09-01 09:26:03,134 - Starting the card scanning process.
+2023-09-01 09:26:08,750 - Image captured and saved as captured_img.jpg
+2023-09-01 09:26:09,031 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:26:09,326 - Texts found in the image: ["2\n0\nInferno Totem\nAbility Ally-Elemental\nFire Totem (1)\nAt the start of your turn, this Totem deals 4 fire\ndamage to target opposing hero.\n(Totems can't attack)\nit takes just one spark to gnile an\nEarthseer Nakza\nAt by Slevom\nWARANCE SHAMAN 0/00\n3", '2', '0', 'Inferno', 'Totem', 'Ability', 'Ally', '-', 'Elemental', 'Fire', 'Totem', '(', '1', ')', 'At', 'the', 'start', 'of', 'your', 'turn', ',', 'this', 'Totem', 'deals', '4', 'fire', 'damage', 'to', 'target', 'opposing', 'hero', '.', '(', 'Totems', "can't", 'attack', ')', 'it', 'takes', 'just', 'one', 'spark', 'to', 'gnile', 'an', 'Earthseer', 'Nakza', 'At', 'by', 'Slevom', 'WARANCE', 'SHAMAN', '0/00', '3']
+2023-09-01 09:26:09,326 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:26:09,327 - Querying 'wow_cards' for potential card name: 2
+2023-09-01 09:26:09,328 - Querying 'wow_cards' for potential card name: 0
+2023-09-01 09:26:09,328 - Querying 'wow_cards' for potential card name: Inferno Totem
+2023-09-01 09:26:09,329 - Possible set abbreviations for Inferno Totem: ['Alliance Shaman', 'Horde Shaman', 'Twilight']
+2023-09-01 09:26:09,329 - Cleaned text for abbreviation matching: 20infernototemabilityallyelementalfiretotem1atthestartofyourturnthistotemdeals4firedamagetotargetopposingherototemsattackittakesjustonesparktognileanearthseernakzaatbyslevomwaranceshaman3
+2023-09-01 09:26:09,329 - Checking for abbreviation: allianceshaman
+2023-09-01 09:26:09,329 - Checking for abbreviation: hordeshaman
+2023-09-01 09:26:09,329 - Checking for abbreviation: twilight
+2023-09-01 09:26:09,330 - Fuzzy match score for allianceshaman: 14
+2023-09-01 09:26:09,330 - Fuzzy match score for hordeshaman: 11
+2023-09-01 09:26:09,330 - Fuzzy match score for twilight: 7
+2023-09-01 09:26:13,015 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:13,015 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:26:13,018 - Single Set ID 11 found for card name Inferno Totem and abbreviation Alliance Shaman.
+2023-09-01 09:26:13,018 - Querying 'card_versions' for card name: Inferno Totem and set ID: 11
+2023-09-01 09:26:13,019 - Card ID found: 294
+2023-09-01 09:26:13,019 - Querying 'possible_card_variants' for card ID: 294
+2023-09-01 09:26:13,019 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:26:13,020 - Checked existing card with card_id: 294, variant_id: 5, instance: 1. Count found: 0
+2023-09-01 09:26:14,617 - Inserting into 'collection_inventory'. Card Name:Inferno Totem, Card ID: 294, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:26:14.617993
+2023-09-01 09:26:14,622 - Insertion successful. Card Name:Inferno Totem, Card ID: 294, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:26:14.617993
+2023-09-01 09:26:14,622 - Starting the card scanning process.
+2023-09-01 09:26:20,315 - Image captured and saved as captured_img.jpg
+2023-09-01 09:26:20,609 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:26:20,888 - Texts found in the image: ['3\nAncestral Recovery\nAbility-Restoration\nPut up to two target allies from your graveyard\ninto your hand.\n"Rise and be renewed, brothers\nALLIANCE SHAMAN 2/34\nArt by', '3', 'Ancestral', 'Recovery', 'Ability', '-', 'Restoration', 'Put', 'up', 'to', 'two', 'target', 'allies', 'from', 'your', 'graveyard', 'into', 'your', 'hand', '.', '"', 'Rise', 'and', 'be', 'renewed', ',', 'brothers', 'ALLIANCE', 'SHAMAN', '2/34', 'Art', 'by']
+2023-09-01 09:26:20,888 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:26:20,889 - Querying 'wow_cards' for potential card name: 3
+2023-09-01 09:26:20,890 - Querying 'wow_cards' for potential card name: Ancestral Recovery
+2023-09-01 09:26:20,891 - Possible set abbreviations for Ancestral Recovery: ['Alliance Shaman', 'Elements']
+2023-09-01 09:26:20,891 - Cleaned text for abbreviation matching: 3ancestralrecoveryabilityrestorationputuptotwotargetalliesfromyourgraveyardintoyourhandriseandberenewedbrothersallianceshamanartby
+2023-09-01 09:26:20,891 - Checking for abbreviation: allianceshaman
+2023-09-01 09:26:20,891 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:20,891 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:20,891 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:26:23,629 - User selected Set ID 11 associated with block name Class Starter 2011 and set abbreviation Alliance Shaman.
+2023-09-01 09:26:23,629 - Set ID found: 11
+2023-09-01 09:26:23,629 - Querying 'card_versions' for card name: Ancestral Recovery and set ID: 11
+2023-09-01 09:26:23,630 - Card ID found: 265
+2023-09-01 09:26:23,630 - Querying 'possible_card_variants' for card ID: 265
+2023-09-01 09:26:23,630 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:26:23,630 - Checked existing card with card_id: 265, variant_id: 5, instance: 1. Count found: 2
+2023-09-01 09:26:25,467 - Inserting into 'collection_inventory'. Card Name:Ancestral Recovery, Card ID: 265, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:26:25.466964
+2023-09-01 09:26:25,472 - Insertion successful. Card Name:Ancestral Recovery, Card ID: 265, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:26:25.466964
+2023-09-01 09:26:25,472 - Starting the card scanning process.
+2023-09-01 09:26:28,826 - Image captured and saved as captured_img.jpg
+2023-09-01 09:26:29,118 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:26:29,786 - Texts found in the image: ['3\nAncestral Recovery\nAbility-Restoration\nPut up to two target allies from your graveyard\ninto your hand.\n"Rise and be renewed brothers\nBragi Stormstein.\nArt by Dan Sam\nALLIANCE SHAMAN 2/34\n"\nd', '3', 'Ancestral', 'Recovery', 'Ability', '-', 'Restoration', 'Put', 'up', 'to', 'two', 'target', 'allies', 'from', 'your', 'graveyard', 'into', 'your', 'hand', '.', '"', 'Rise', 'and', 'be', 'renewed', 'brothers', 'Bragi', 'Stormstein', '.', 'Art', 'by', 'Dan', 'Sam', 'ALLIANCE', 'SHAMAN', '2/34', '"', 'd']
+2023-09-01 09:26:29,787 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:26:29,787 - Querying 'wow_cards' for potential card name: 3
+2023-09-01 09:26:29,788 - Querying 'wow_cards' for potential card name: Ancestral Recovery
+2023-09-01 09:26:29,789 - Possible set abbreviations for Ancestral Recovery: ['Alliance Shaman', 'Elements']
+2023-09-01 09:26:29,789 - Cleaned text for abbreviation matching: 3ancestralrecoveryabilityrestorationputuptotwotargetalliesfromyourgraveyardintoyourhandriseandberenewedbrothersbragistormsteinartbydansamallianceshamand
+2023-09-01 09:26:29,789 - Checking for abbreviation: allianceshaman
+2023-09-01 09:26:29,789 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:29,789 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:29,789 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:26:31,217 - User selected Set ID 11 associated with block name Class Starter 2011 and set abbreviation Alliance Shaman.
+2023-09-01 09:26:31,217 - Set ID found: 11
+2023-09-01 09:26:31,217 - Querying 'card_versions' for card name: Ancestral Recovery and set ID: 11
+2023-09-01 09:26:31,218 - Card ID found: 265
+2023-09-01 09:26:31,218 - Querying 'possible_card_variants' for card ID: 265
+2023-09-01 09:26:31,218 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:26:31,218 - Checked existing card with card_id: 265, variant_id: 5, instance: 1. Count found: 3
+2023-09-01 09:26:33,056 - Inserting into 'collection_inventory'. Card Name:Ancestral Recovery, Card ID: 265, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:26:33.056666
+2023-09-01 09:26:33,060 - Insertion successful. Card Name:Ancestral Recovery, Card ID: 265, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:26:33.056666
+2023-09-01 09:26:33,060 - Starting the card scanning process.
+2023-09-01 09:26:40,578 - Image captured and saved as captured_img.jpg
+2023-09-01 09:26:40,857 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-01 09:26:41,143 - Texts found in the image: ['3\nT\nClaws of Torment\nEquipment-1H Weapon-Fist\nMelee (1)\nYour hero has Dual Wield. (You can control a second\none-handed Melee weapon instead of an Off-Hand\nequipment. You can strike with a second Melee weapon\nduring the same combat)\nALLIANCE SHAMAN 27/34\nco: CMI Ba\n0', '3', 'T', 'Claws', 'of', 'Torment', 'Equipment', '-', '1H', 'Weapon', '-', 'Fist', 'Melee', '(', '1', ')', 'Your', 'hero', 'has', 'Dual', 'Wield', '.', '(', 'You', 'can', 'control', 'a', 'second', 'one', '-', 'handed', 'Melee', 'weapon', 'instead', 'of', 'an', 'Off', '-', 'Hand', 'equipment', '.', 'You', 'can', 'strike', 'with', 'a', 'second', 'Melee', 'weapon', 'during', 'the', 'same', 'combat', ')', 'ALLIANCE', 'SHAMAN', '27/34', 'co', ':', 'CMI', 'Ba', '0']
+2023-09-01 09:26:41,144 - Connecting to the 'wow_cards' SQLite database.
+2023-09-01 09:26:41,144 - Querying 'wow_cards' for potential card name: 3
+2023-09-01 09:26:41,145 - Querying 'wow_cards' for potential card name: T
+2023-09-01 09:26:41,146 - Querying 'wow_cards' for potential card name: Claws of Torment
+2023-09-01 09:26:41,147 - Possible set abbreviations for Claws of Torment: ['Alliance Shaman', 'Twilight']
+2023-09-01 09:26:41,147 - Cleaned text for abbreviation matching: 3tclawsoftormentequipment1hweaponfistmelee1yourherohasdualwieldyoucancontrolasecondonehandedmeleeweaponinsteadofanoffhandequipmentyoucanstrikewithasecondmeleeweaponduringthesamecombatallianceshamancocmiba0
+2023-09-01 09:26:41,147 - Checking for abbreviation: allianceshaman
+2023-09-01 09:26:41,147 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:41,147 - Matched set abbreviation: Alliance Shaman
+2023-09-01 09:26:41,147 - Querying 'sets' for set abbreviation: Alliance Shaman
+2023-09-01 09:26:41,150 - Single Set ID 11 found for card name Claws of Torment and abbreviation Alliance Shaman.
+2023-09-01 09:26:41,150 - Querying 'card_versions' for card name: Claws of Torment and set ID: 11
+2023-09-01 09:26:41,150 - Card ID found: 275
+2023-09-01 09:26:41,150 - Querying 'possible_card_variants' for card ID: 275
+2023-09-01 09:26:41,150 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-01 09:26:41,151 - Checked existing card with card_id: 275, variant_id: 5, instance: 1. Count found: 5
+2023-09-01 09:26:42,744 - Inserting into 'collection_inventory'. Card Name:Claws of Torment, Card ID: 275, Variant ID: 5, Instance: 1, Scan Date: 2023-09-01 09:26:42.744495
+2023-09-01 09:26:42,748 - Insertion successful. Card Name:Claws of Torment, Card ID: 275, Variant ID: 5, Instance: 1, Date: 2023-09-01 09:26:42.744495
+2023-09-01 09:26:42,748 - Starting the card scanning process.

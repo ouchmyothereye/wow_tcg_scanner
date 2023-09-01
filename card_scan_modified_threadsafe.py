@@ -11,6 +11,7 @@ from fuzzywuzzy import fuzz
 import pygame.mixer
 import pyttsx3
 import tkinter as tk
+import threading
 from tkinter import simpledialog
 import keyboard
 from tkinter import messagebox
@@ -33,13 +34,39 @@ logger = logging.getLogger()
 logger.addFilter(SuppressComtypesLogs())
 logging.getLogger('comtypes').setLevel(logging.CRITICAL)
 
+
+# Set up the tkinter window for logging
+root = tk.Tk()
+root.title("Card Scan Log")
+text_widget = tk.Text(root, wrap=tk.WORD)
+text_widget.pack(expand=True, fill=tk.BOTH)
+
+
+def log_to_gui(message):
+    text_widget.after(0, lambda: text_widget.insert(tk.END, message + '\n'))
+    text_widget.after(0, lambda: text_widget.see(tk.END))
+
+
+# This function will be called to update the tkinter window
+def log_message(message):
+    logging.info(message)
+    log_to_gui(message)
+
+# Run the tkinter main loop in a separate thread
+def run_tk_root():
+    root.mainloop()
+
+root.mainloop()
+
 # Load Google Cloud Vision credentials from environment variables
 #os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "path_to_google_cloud_credentials.json"
 client = vision.ImageAnnotatorClient()
 
 import tkinter as tk
+import threading
 
 import tkinter as tk
+import threading
 from tkinter import messagebox
 
 def mark_card_as_ignored():
@@ -333,17 +360,20 @@ def query_database(texts):
 
 
 
+    
     # Step 8: Insert into collection_inventory
     current_date = datetime.now()
-    logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
+    log_message(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
     cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
                     (card_id, variant_id, instance, current_date))
     conn.commit()
 
-    logging.info(f"Insertion successful. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
+    log_message(f"Insertion successful. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
+
     # Check if this is a new card or an existing one
 
-if __name__ == "__main__":
+
+def main_logic():
     logging.basicConfig(level=logging.INFO)
     while True:
         logging.info("Starting the card scanning process.")
@@ -356,3 +386,6 @@ if __name__ == "__main__":
         
         if extracted_texts:
             query_database(extracted_texts)
+
+if __name__ == "__main__":
+    threading.Thread(target=main_logic).start()
