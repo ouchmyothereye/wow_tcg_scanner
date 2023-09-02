@@ -15,7 +15,18 @@ from tkinter import simpledialog
 import keyboard
 from tkinter import messagebox
 
-
+variant_name_mapping = {
+    1: "Oversized",
+    2: "Foil",
+    3: "Extended Art",
+    4: "Alternate Art",
+    5: "Standard",
+    6: "Loot",
+    7: "Extended Art Foil",
+    8: "Alternate Art Foil",
+    9: "Extended Alternate Art",
+    10: "Oversized Extended Art"
+}
 
 
 class SuppressComtypesLogs(logging.Filter):
@@ -318,10 +329,10 @@ def query_database(texts):
     else:
         unique_variant_ids = list(set([v[0] for v in variants]))
         logging.warning(f"Multiple variants found for card ID {card_id}: {unique_variant_ids}")
-        variant_id = None
-        while variant_id not in unique_variant_ids:
-            variant_id = int(input(f"Please select a variant ID from {unique_variant_ids}: "))
-        instance = next(v[1] for v in variants if v[0] == variant_id)
+        
+# GUI-based function to choose a variant_id
+    variant_id = query_database(unique_variant_ids)
+    instance = next(v[1] for v in variants if v[0] == variant_id)
     
     if check_existing_card(card_id, variant_id, instance):
         play_audio('old_match.mp3')
@@ -356,3 +367,7 @@ if __name__ == "__main__":
         
         if extracted_texts:
             query_database(extracted_texts)
+
+
+
+# Mapping of variant_ids to their corresponding names

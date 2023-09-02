@@ -42,6 +42,67 @@ import tkinter as tk
 import tkinter as tk
 from tkinter import messagebox
 
+# Mapping of variant_ids to their corresponding names
+variant_name_mapping = {
+    1: "Oversized",
+    2: "Foil",
+    3: "Extended Art",
+    4: "Alternate Art",
+    5: "Standard",
+    6: "Loot",
+    7: "Extended Art Foil",
+    8: "Alternate Art Foil",
+    9: "Extended Alternate Art",
+    10: "Oversized Extended Art"
+}
+
+def choose_variant_id(variant_ids):
+    import pygame
+    pygame.init()
+
+    # Set up display
+    screen = pygame.display.set_mode((400, 50 * len(variant_ids)))
+    pygame.display.set_caption('Select Variant')
+
+    # Define colors
+    BLACK = (0, 0, 0)
+    WHITE = (255, 255, 255)
+    GREEN = (0, 255, 0)
+    RED = (255, 0, 0)
+
+    # Loop until the user clicks a button
+    done = False
+
+    # Used to manage how fast the screen updates
+    clock = pygame.time.Clock()
+
+    while not done:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                done = True
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                pos = pygame.mouse.get_pos()
+                for idx, variant_id in enumerate(variant_ids):
+                    if 0 <= pos[1] <= (idx + 1) * 50:
+                        pygame.quit()
+                        return variant_id
+
+        # --- Drawing code should go here
+        screen.fill(WHITE)
+
+        for idx, variant_id in enumerate(variant_ids):
+            pygame.draw.rect(screen, BLACK, [50, 50 * idx, 300, 50], 2)
+            font = pygame.font.SysFont('calibri', 25)
+            text = font.render(variant_name_mapping[variant_id], True, BLACK)
+            screen.blit(text, [125, 50 * idx + 15])
+
+        # --- Go ahead and update the screen with what we've drawn.
+        pygame.display.flip()
+
+        # --- Limit to 60 frames per second
+        clock.tick(60)
+
+
 def mark_card_as_ignored():
     success = update_ignore_flag()
     if success:
@@ -70,9 +131,11 @@ def choose_set_abbreviation(possible_abbreviations):
 
 
 def play_audio(file_path):
+    if not pygame.mixer.get_init():
+        pygame.mixer.init()
     pygame.mixer.music.load(file_path)
     pygame.mixer.music.play()
-
+    
 def speak(text):
     engine = pyttsx3.init()
     engine.say(text)
@@ -304,24 +367,31 @@ def query_database(texts):
         logging.error(f"No card ID found for card name: {card_name} and set ID: {set_id}")
         return
 
-    # Step 7: Determine variant_id
-    logging.info(f"Querying 'possible_card_variants' for card ID: {card_id}")
+    
+
+# Step 7: Determine variant_id
     cursor.execute("SELECT variant_id, instance FROM possible_card_variants WHERE card_id=?", (card_id,))
     variants = cursor.fetchall()
-    if not variants:
-        logging.error(f"No variants found for card ID: {card_id}")
-        return
 
+# If there's only one variant and it's variant_id 5, use it directly
     if len(variants) == 1 and variants[0][0] == 5:
         variant_id, instance = variants[0]
         logging.info(f"Only one variant with ID 5 found. Variant ID: {variant_id}, Instance: {instance}")
     else:
+        # If there are multiple variants or if the single variant is other than 5
         unique_variant_ids = list(set([v[0] for v in variants]))
         logging.warning(f"Multiple variants found for card ID {card_id}: {unique_variant_ids}")
-        variant_id = None
-        while variant_id not in unique_variant_ids:
-            variant_id = int(input(f"Please select a variant ID from {unique_variant_ids}: "))
+        variant_id = choose_variant_id(unique_variant_ids)
         instance = next(v[1] for v in variants if v[0] == variant_id)
+    # Step 8: Insert into collection_inventory
+        current_date = datetime.now()
+        logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
+        cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
+                        (card_id, variant_id, instance, current_date))
+        conn.commit()
+
+    logging.info(f"Insertion successful. Card Name: {card_name}, Set ID: {set_id}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
+    # Check if this is a new card or an existing one
     
     if check_existing_card(card_id, variant_id, instance):
         play_audio('old_match.mp3')
@@ -329,19 +399,6 @@ def query_database(texts):
     else:
         play_audio('new_match.mp3')
         speak(f"{card_name}")
-    #conn.close()
-
-
-
-    # Step 8: Insert into collection_inventory
-    current_date = datetime.now()
-    logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
-    cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
-                    (card_id, variant_id, instance, current_date))
-    conn.commit()
-
-    logging.info(f"Insertion successful. Card Name: {card_name}, Set ID: {set_id}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
-    # Check if this is a new card or an existing one
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
@@ -356,3 +413,6 @@ if __name__ == "__main__":
         
         if extracted_texts:
             query_database(extracted_texts)
+
+
+

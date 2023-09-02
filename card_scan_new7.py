@@ -223,113 +223,111 @@ def choose_set_block_name(possible_block_names):
 
 
 
-def query_database(texts):
+# Splitting the 'query_database' function into smaller functions
+
+# 1. Database Connection
+def connect_to_database():
     logging.info("Connecting to the 'wow_cards' SQLite database.")
     conn = sqlite3.connect('wow_cards.db')
     cursor = conn.cursor()
+    return conn, cursor
 
-    # Step 4: Query wow_cards for card_name
+# 2. Query Card Name
+# Modified 'query_card_name' to always return three values
+
+def query_card_name(cursor, texts):
     lines_from_text = texts[0].split('\n')
-
-    matched_abbreviation = None
-    card_name = None
-    set_id = None
-
     for potential_card_name in lines_from_text:
         logging.info(f"Querying 'wow_cards' for potential card name: {potential_card_name}")
         cursor.execute("SELECT DISTINCT set_id FROM wow_cards WHERE card_name=?", (potential_card_name,))
         result = cursor.fetchall()
         if result:
             card_name = potential_card_name
-            # If card name is unique, directly use the set_id
-            if len(result) == 1:
+            if len(result) == 1:  # Card name is unique
                 set_id = result[0][0]
-                logging.info(f"Card name is unique. Set ID for {card_name}: {set_id}")
-                break
+                return card_name, set_id, None
             else:
-                # If card name is not unique, continue with previous method to identify set abbreviation
                 cursor.execute("SELECT DISTINCT set_abbreviation FROM card_versions WHERE card_name=?", (potential_card_name,))
                 result = cursor.fetchall()
                 set_abbreviations = [row[0] for row in result]
-                logging.info(f"Possible set abbreviations for {card_name}: {set_abbreviations}")
-                # Do not directly call get_set_abbreviation here; we will call it outside the loop
-            break
-
-    # If card_name is found but abbreviation is not matched, ask for it
-    if card_name and not set_id:
-        matched_abbreviation = get_set_abbreviation(texts, set_abbreviations)
-        if matched_abbreviation:
-            logging.info(f"Matched set abbreviation: {matched_abbreviation}")
-            # Extract set_id based on matched abbreviation
-            logging.info(f"Querying 'sets' for set abbreviation: {matched_abbreviation}")
-            cursor.execute("SELECT card_versions.set_id, card_versions.block_name, card_versions.set_abbreviation FROM card_versions WHERE card_versions.set_abbreviation=?", (matched_abbreviation,))
-            results = cursor.fetchall()
+                return card_name, None, set_abbreviations
+    return None, None, None
 
 
-            cursor.execute("""
-                SELECT card_versions.set_id, card_versions.block_name, card_versions.set_abbreviation 
-                FROM card_versions 
-                WHERE card_versions.card_name=? AND card_versions.set_abbreviation=?
-            """, (card_name, matched_abbreviation,))
+# 4. Query Card ID
+def query_card_id(cursor, card_name, matched_abbreviation):
+    cursor.execute("SELECT card_id FROM card_versions WHERE card_name=? AND set_abbreviation=?", (card_name, matched_abbreviation))
+    result = cursor.fetchone()
+    if result:
+        return result[0]
+    return None
 
-            specific_results = cursor.fetchall()
-
-            if len(specific_results) == 1:
-                set_id = specific_results[0][0]
-                logging.info(f"Single Set ID {set_id} found for card name {card_name} and abbreviation {matched_abbreviation}.")
-            else:
-                options = list(set([f"{row[2]}/{row[1]}" for row in results]))  # Forming unique "set abbreviation / block_name" options
-                chosen_option = choose_set_block_name(options)
-                chosen_set_abbreviation, chosen_block_name = chosen_option.split("/")
-                for row in specific_results:
-                    if row[1] == chosen_block_name and row[2] == chosen_set_abbreviation:
-                        set_id = row[0]
-                        break
-                logging.info(f"User selected Set ID {set_id} associated with block name {chosen_block_name} and set abbreviation {chosen_set_abbreviation}.")
-
-                logging.info(f"Set ID found: {set_id}")
-
-    if not card_name or not set_id:
-        logging.error("Failed to identify the card or its set. Exiting.")
-        return
-
-    # Step 6: Identify card_id
-    logging.info(f"Querying 'card_versions' for card name: {card_name} and set ID: {set_id}")
-    cursor.execute("SELECT card_id FROM card_versions WHERE card_name=? AND set_id=?", (card_name, set_id))
-    card_id = cursor.fetchone()
-    if card_id:
-        card_id = card_id[0]
-        logging.info(f"Card ID found: {card_id}")
-    else:
-        logging.error(f"No card ID found for card name: {card_name} and set ID: {set_id}")
-        return
-
-    # Step 7: Determine variant_id
-    logging.info(f"Querying 'possible_card_variants' for card ID: {card_id}")
+# 5. Handle Variants
+def handle_variants(cursor, card_id):
     cursor.execute("SELECT variant_id, instance FROM possible_card_variants WHERE card_id=?", (card_id,))
     variants = cursor.fetchall()
-    if not variants:
-        logging.error(f"No variants found for card ID: {card_id}")
-        return
-
     if len(variants) == 1 and variants[0][0] == 5:
         variant_id, instance = variants[0]
-        logging.info(f"Only one variant with ID 5 found. Variant ID: {variant_id}, Instance: {instance}")
+        return variant_id, instance
     else:
         unique_variant_ids = list(set([v[0] for v in variants]))
-        logging.warning(f"Multiple variants found for card ID {card_id}: {unique_variant_ids}")
         variant_id = None
         while variant_id not in unique_variant_ids:
             variant_id = int(input(f"Please select a variant ID from {unique_variant_ids}: "))
         instance = next(v[1] for v in variants if v[0] == variant_id)
+        return variant_id, instance
+
+# 6. Insert into Collection Inventory
+def insert_into_inventory(cursor, conn, card_id, variant_id, instance, card_name):
+    current_date = datetime.now()
+    logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
+    cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
+                   (card_id, variant_id, instance, current_date))
+    conn.commit()
+    logging.info(f"Insertion successful. Card Name: {card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
+
+# Updated 'query_database' function
+# Incorporating the missed section into the 'query_database' function
+
+# Modifying the 'query_database' function to handle 'matched_abbreviation' initialization
+
+def query_database(texts):
+    conn, cursor = connect_to_database()
     
+    # Query card name
+    card_name, set_id, set_abbreviations = query_card_name(cursor, texts)
+    
+    matched_abbreviation = None
+    # If card name is found but set_id is not matched, get set abbreviation
+    if card_name and not set_id:
+        matched_abbreviation = get_set_abbreviation(texts, set_abbreviations)
+        if matched_abbreviation:
+            set_id = query_card_id(cursor, card_name, matched_abbreviation)
+    
+    # Query card ID
+    card_id = query_card_id(cursor, card_name, matched_abbreviation)
+    
+    # Handle variants
+    variant_id, instance = handle_variants(cursor, card_id)
+    
+    # Insert into collection inventory
+    insert_into_inventory(cursor, conn, card_id, variant_id, instance, card_name)
+    
+    # Check if the card already exists and play appropriate audio
     if check_existing_card(card_id, variant_id, instance):
         play_audio('old_match.mp3')
         speak(f"{card_name}")
     else:
         play_audio('new_match.mp3')
         speak(f"{card_name}")
-    #conn.close()
+
+    conn.close()
+
+
+# Note: The 'get_set_abbreviation' and 'check_existing_card' functions are assumed to exist elsewhere in the script.
+
+
+# Note: The 'get_set_abbreviation' function is assumed to exist elsewhere in the script.
 
 
 
