@@ -33096,3 +33096,201 @@
 2023-09-03 21:15:03,428 - Checked existing card with card_id: 7613, variant_id: 5, instance: 1. Count found: 7
 2023-09-03 21:15:04,737 - Starting the card scanning process.
 2023-09-03 21:18:16,422 - Exiting program
+2023-09-03 21:19:33,613 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 21:19:33,622 - Starting the card scanning process.
+2023-09-03 21:19:44,160 - Image captured and saved as captured_img.jpg
+2023-09-03 21:19:44,465 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:19:45,039 - Texts found in the image: ['Vindicator Enkallus\nAlly-Draenel Shaman\n3\nProtector\n"Spirits of the land, hear my call\nSASALITAL 15. In\n4', 'Vindicator', 'Enkallus', 'Ally', '-', 'Draenel', 'Shaman', '3', 'Protector', '"', 'Spirits', 'of', 'the', 'land', ',', 'hear', 'my', 'call', 'SASALITAL', '15.', 'In', '4']
+2023-09-03 21:19:45,039 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:19:45,041 - Querying 'wow_cards' for potential card name: Vindicator Enkallus
+2023-09-03 21:19:45,046 - Possible set abbreviations for Vindicator Enkallus: ['Class', 'Dark Portal']
+2023-09-03 21:19:45,046 - Cleaned text for abbreviation matching: vindicatorenkallusallydraenelshaman3protectorspiritsofthelandhearmycallsasalitalin4
+2023-09-03 21:19:45,046 - Checking for abbreviation: class
+2023-09-03 21:19:45,046 - Checking for abbreviation: darkportal
+2023-09-03 21:19:45,047 - Fuzzy match score for class: 11
+2023-09-03 21:19:45,047 - Fuzzy match score for darkportal: 15
+2023-09-03 21:19:47,154 - Matched set abbreviation: Dark Portal
+2023-09-03 21:19:47,154 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:19:48,408 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 21:19:48,408 - Set ID found: 37
+2023-09-03 21:19:48,408 - Querying 'card_versions' for card name: Vindicator Enkallus and set ID: 37
+2023-09-03 21:19:48,409 - Card ID found: 7439
+2023-09-03 21:19:48,410 - Multiple variants found for card ID 7439: [2, 3, 5]
+2023-09-03 21:19:50,492 - Inserting into 'collection_inventory'. Card Name:Vindicator Enkallus, Card ID: 7439, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:19:50.492637
+2023-09-03 21:19:50,506 - Insertion successful. Card Name: Vindicator Enkallus, Set ID: 37, Card ID: 7439, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:19:50.492637
+2023-09-03 21:19:50,507 - Checked existing card with card_id: 7439, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 21:19:52,444 - Starting the card scanning process.
+2023-09-03 21:19:56,473 - Image captured and saved as captured_img.jpg
+2023-09-03 21:19:56,780 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:19:57,022 - Texts found in the image: ['Valanos\nAlly-Draenel Hunter\n2\n"Kodo and stag? HA\nTry hunting clefthoof and albuk\nArt by\nSARNATAL STOR\n5', 'Valanos', 'Ally', '-', 'Draenel', 'Hunter', '2', '"', 'Kodo', 'and', 'stag', '?', 'HA', 'Try', 'hunting', 'clefthoof', 'and', 'albuk', 'Art', 'by', 'SARNATAL', 'STOR', '5']
+2023-09-03 21:19:57,022 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:19:57,023 - Querying 'wow_cards' for potential card name: Valanos
+2023-09-03 21:19:57,027 - Possible set abbreviations for Valanos: ['Alliance Hunter', 'Class', 'Dark Portal']
+2023-09-03 21:19:57,027 - Cleaned text for abbreviation matching: valanosallydraenelhunter2kodoandstaghatryhuntingclefthoofandalbukartbysarnatalstor5
+2023-09-03 21:19:57,027 - Checking for abbreviation: alliancehunter
+2023-09-03 21:19:57,027 - Checking for abbreviation: class
+2023-09-03 21:19:57,027 - Checking for abbreviation: darkportal
+2023-09-03 21:19:57,028 - Fuzzy match score for alliancehunter: 23
+2023-09-03 21:19:57,028 - Fuzzy match score for class: 9
+2023-09-03 21:19:57,028 - Fuzzy match score for darkportal: 15
+2023-09-03 21:19:58,653 - Matched set abbreviation: Dark Portal
+2023-09-03 21:19:58,653 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:19:58,653 - Single Set ID 37 found for card name Valanos and abbreviation Dark Portal.
+2023-09-03 21:19:58,653 - Querying 'card_versions' for card name: Valanos and set ID: 37
+2023-09-03 21:19:58,653 - Card ID found: 7357
+2023-09-03 21:19:58,653 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:19:58,653 - Inserting into 'collection_inventory'. Card Name:Valanos, Card ID: 7357, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:19:58.653836
+2023-09-03 21:19:58,671 - Insertion successful. Card Name: Valanos, Set ID: 37, Card ID: 7357, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:19:58.653836
+2023-09-03 21:19:58,671 - Checked existing card with card_id: 7357, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 21:20:00,047 - Starting the card scanning process.
+2023-09-03 21:20:02,443 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:02,744 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:02,985 - Texts found in the image: ['Valanos\nAlly-Draenel Hunter\n"Kdo and a H\n5', 'Valanos', 'Ally', '-', 'Draenel', 'Hunter', '"', 'Kdo', 'and', 'a', 'H', '5']
+2023-09-03 21:20:02,986 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:02,986 - Querying 'wow_cards' for potential card name: Valanos
+2023-09-03 21:20:02,989 - Possible set abbreviations for Valanos: ['Alliance Hunter', 'Class', 'Dark Portal']
+2023-09-03 21:20:02,989 - Cleaned text for abbreviation matching: valanosallydraenelhunterkdoandah5
+2023-09-03 21:20:02,989 - Checking for abbreviation: alliancehunter
+2023-09-03 21:20:02,989 - Checking for abbreviation: class
+2023-09-03 21:20:02,989 - Checking for abbreviation: darkportal
+2023-09-03 21:20:02,991 - Fuzzy match score for alliancehunter: 47
+2023-09-03 21:20:02,991 - Fuzzy match score for class: 16
+2023-09-03 21:20:02,991 - Fuzzy match score for darkportal: 9
+2023-09-03 21:20:04,336 - Matched set abbreviation: Dark Portal
+2023-09-03 21:20:04,336 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:20:04,341 - Single Set ID 37 found for card name Valanos and abbreviation Dark Portal.
+2023-09-03 21:20:04,341 - Querying 'card_versions' for card name: Valanos and set ID: 37
+2023-09-03 21:20:04,341 - Card ID found: 7357
+2023-09-03 21:20:04,341 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:04,341 - Inserting into 'collection_inventory'. Card Name:Valanos, Card ID: 7357, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:04.341669
+2023-09-03 21:20:04,351 - Insertion successful. Card Name: Valanos, Set ID: 37, Card ID: 7357, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:04.341669
+2023-09-03 21:20:04,351 - Checked existing card with card_id: 7357, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 21:20:05,731 - Starting the card scanning process.
+2023-09-03 21:20:10,188 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:10,492 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:10,738 - Texts found in the image: ['2\nValanos\nAlly-Draenel Hunter\n"Kodo and stag? HA\nTry hunting clefthoof and tabuk\nGO A 1136\n5', '2', 'Valanos', 'Ally', '-', 'Draenel', 'Hunter', '"', 'Kodo', 'and', 'stag', '?', 'HA', 'Try', 'hunting', 'clefthoof', 'and', 'tabuk', 'GO', 'A', '1136', '5']
+2023-09-03 21:20:10,739 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:10,740 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 21:20:10,742 - Querying 'wow_cards' for potential card name: Valanos
+2023-09-03 21:20:10,744 - Possible set abbreviations for Valanos: ['Alliance Hunter', 'Class', 'Dark Portal']
+2023-09-03 21:20:10,744 - Cleaned text for abbreviation matching: 2valanosallydraenelhunterkodoandstaghatryhuntingclefthoofandtabukgoa11365
+2023-09-03 21:20:10,744 - Checking for abbreviation: alliancehunter
+2023-09-03 21:20:10,744 - Checking for abbreviation: class
+2023-09-03 21:20:10,744 - Checking for abbreviation: darkportal
+2023-09-03 21:20:10,745 - Fuzzy match score for alliancehunter: 25
+2023-09-03 21:20:10,745 - Fuzzy match score for class: 10
+2023-09-03 21:20:10,745 - Fuzzy match score for darkportal: 5
+2023-09-03 21:20:11,753 - Matched set abbreviation: Dark Portal
+2023-09-03 21:20:11,753 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:20:11,753 - Single Set ID 37 found for card name Valanos and abbreviation Dark Portal.
+2023-09-03 21:20:11,753 - Querying 'card_versions' for card name: Valanos and set ID: 37
+2023-09-03 21:20:11,753 - Card ID found: 7357
+2023-09-03 21:20:11,753 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:11,753 - Inserting into 'collection_inventory'. Card Name:Valanos, Card ID: 7357, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:11.753270
+2023-09-03 21:20:11,768 - Insertion successful. Card Name: Valanos, Set ID: 37, Card ID: 7357, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:11.753270
+2023-09-03 21:20:11,771 - Checked existing card with card_id: 7357, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 21:20:13,154 - Starting the card scanning process.
+2023-09-03 21:20:14,844 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:15,146 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:15,401 - Texts found in the image: ['3\nTim\nAlly-Human Mage\nElusive\nViber\n\u2192Tim deals 1 arcane damage to target\nhero or ally.\n1\n"There are some who call me Tam\nANDRA OFIC', '3', 'Tim', 'Ally', '-', 'Human', 'Mage', 'Elusive', 'Viber', '\u2192', 'Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', '1', '"', 'There', 'are', 'some', 'who', 'call', 'me', 'Tam', 'ANDRA', 'OFIC']
+2023-09-03 21:20:15,401 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:15,402 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:20:15,404 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:15,405 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:15,405 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:15,406 - Card ID found: 7122
+2023-09-03 21:20:15,406 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:15,406 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:15.406725
+2023-09-03 21:20:15,418 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:15.406725
+2023-09-03 21:20:15,419 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 21:20:16,563 - Starting the card scanning process.
+2023-09-03 21:20:18,434 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:18,735 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:19,526 - Texts found in the image: ['3\nTim\nWA\nAlly-Human Mage\nElusive\n\u2192Tim deals 1 arcane damage to target\nhero or ally.\n1\n"There are some who call me\nWAMAT PORTALTRY TH Ak\nTim\n1', '3', 'Tim', 'WA', 'Ally', '-', 'Human', 'Mage', 'Elusive', '\u2192', 'Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', '1', '"', 'There', 'are', 'some', 'who', 'call', 'me', 'WAMAT', 'PORTALTRY', 'TH', 'Ak', 'Tim', '1']
+2023-09-03 21:20:19,527 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:19,527 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:20:19,530 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:19,530 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:19,530 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:19,530 - Card ID found: 7122
+2023-09-03 21:20:19,530 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:19,530 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:19.530191
+2023-09-03 21:20:19,544 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:19.530191
+2023-09-03 21:20:19,547 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 21:20:20,690 - Starting the card scanning process.
+2023-09-03 21:20:22,253 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:22,556 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:22,820 - Texts found in the image: ['3\nAlly-Human Mage\nElusive\nTim\nTim deals 1 arcane damage to target\nhero or ally.\n1\nThere are some who call me\nCAN PORTAL DY CHE\n1', '3', 'Ally', '-', 'Human', 'Mage', 'Elusive', 'Tim', 'Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', '1', 'There', 'are', 'some', 'who', 'call', 'me', 'CAN', 'PORTAL', 'DY', 'CHE', '1']
+2023-09-03 21:20:22,821 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:22,822 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:20:22,824 - Querying 'wow_cards' for potential card name: Ally-Human Mage
+2023-09-03 21:20:22,826 - Querying 'wow_cards' for potential card name: Elusive
+2023-09-03 21:20:22,826 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:22,827 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:22,827 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:22,828 - Card ID found: 7122
+2023-09-03 21:20:22,828 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:22,828 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:22.828279
+2023-09-03 21:20:22,841 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:22.828279
+2023-09-03 21:20:22,842 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 21:20:23,979 - Starting the card scanning process.
+2023-09-03 21:20:28,104 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:28,405 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:28,605 - Texts found in the image: ['Tim\nAlly-Human Mage\nElusive\na Tim deals 1 arcane damage to target\nhero or ally', 'Tim', 'Ally', '-', 'Human', 'Mage', 'Elusive', 'a', 'Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally']
+2023-09-03 21:20:28,606 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:28,606 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:28,608 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:28,608 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:28,609 - Card ID found: 7122
+2023-09-03 21:20:28,609 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:28,609 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:28.609790
+2023-09-03 21:20:28,623 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:28.609790
+2023-09-03 21:20:28,624 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 21:20:29,772 - Starting the card scanning process.
+2023-09-03 21:20:31,432 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:31,735 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:31,977 - Texts found in the image: ['3\nTim\nAlly-Human Mage\nElusive\n\u27a1Tim deals 1 arcane damage to target\nhero or ally.\n1\nThere are some who call me Tim\nSAA 47 35\nQ\n1', '3', 'Tim', 'Ally', '-', 'Human', 'Mage', 'Elusive', '\u27a1Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', '1', 'There', 'are', 'some', 'who', 'call', 'me', 'Tim', 'SAA', '47', '35', 'Q', '1']
+2023-09-03 21:20:31,978 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:31,978 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:20:31,981 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:31,982 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:31,982 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:31,983 - Card ID found: 7122
+2023-09-03 21:20:31,983 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:31,984 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:31.984373
+2023-09-03 21:20:31,993 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:31.984373
+2023-09-03 21:20:31,995 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 21:20:33,144 - Starting the card scanning process.
+2023-09-03 21:20:34,740 - Image captured and saved as captured_img.jpg
+2023-09-03 21:20:35,041 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:20:35,319 - Texts found in the image: ['3\nTim\nAlly-Human Mage\nElusive\n\u27a1Tim deals 1 arcane damage to target\nhero or ally.\n"There are some who call me\nDARKI PORTAL 52 315 Art by\n1', '3', 'Tim', 'Ally', '-', 'Human', 'Mage', 'Elusive', '\u27a1Tim', 'deals', '1', 'arcane', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', '"', 'There', 'are', 'some', 'who', 'call', 'me', 'DARKI', 'PORTAL', '52', '315', 'Art', 'by', '1']
+2023-09-03 21:20:35,320 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:20:35,320 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:20:35,322 - Querying 'wow_cards' for potential card name: Tim
+2023-09-03 21:20:35,323 - Card name is unique. Set ID for Tim: 37
+2023-09-03 21:20:35,323 - Querying 'card_versions' for card name: Tim and set ID: 37
+2023-09-03 21:20:35,324 - Card ID found: 7122
+2023-09-03 21:20:35,324 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:20:35,324 - Inserting into 'collection_inventory'. Card Name:Tim, Card ID: 7122, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:20:35.324727
+2023-09-03 21:20:35,338 - Insertion successful. Card Name: Tim, Set ID: 37, Card ID: 7122, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:20:35.324727
+2023-09-03 21:20:35,340 - Checked existing card with card_id: 7122, variant_id: 5, instance: 1. Count found: 6
+2023-09-03 21:20:36,483 - Starting the card scanning process.
+2023-09-03 21:22:03,330 - Exiting program
+2023-09-03 21:29:02,620 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 21:29:02,631 - Starting the card scanning process.
+2023-09-03 21:29:12,295 - Image captured and saved as captured_img.jpg
+2023-09-03 21:29:12,598 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:29:13,009 - Texts found in the image: ['4\n3\nOrc Necrolyte\nAlly-Orc Warlock\nWhen this ally enters play, it deals 2 shadow\ndamage to target opposing hero and heals\n2 damage from your hero.\n"Gudan\'s weakne\nBETRAYAL 183/202\n3', '4', '3', 'Orc', 'Necrolyte', 'Ally', '-', 'Orc', 'Warlock', 'When', 'this', 'ally', 'enters', 'play', ',', 'it', 'deals', '2', 'shadow', 'damage', 'to', 'target', 'opposing', 'hero', 'and', 'heals', '2', 'damage', 'from', 'your', 'hero', '.', '"', "Gudan's", 'weakne', 'BETRAYAL', '183/202', '3']
+2023-09-03 21:29:13,011 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:29:13,011 - Querying 'wow_cards' for potential card name: 4
+2023-09-03 21:29:13,014 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:29:13,014 - Querying 'wow_cards' for potential card name: Orc Necrolyte
+2023-09-03 21:29:13,015 - Card name is unique. Set ID for Orc Necrolyte: 41
+2023-09-03 21:29:13,015 - Querying 'card_versions' for card name: Orc Necrolyte and set ID: 41
+2023-09-03 21:29:13,015 - Card ID found: 5829
+2023-09-03 21:29:13,015 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:29:13,015 - Inserting into 'collection_inventory'. Card Name:Orc Necrolyte, Card ID: 5829, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:29:13.015268
+2023-09-03 21:29:13,028 - Insertion successful. Card Name: Orc Necrolyte, Set ID: 41, Card ID: 5829, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:29:13.015268
+2023-09-03 21:29:13,030 - Checked existing card with card_id: 5829, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 21:29:14,609 - Starting the card scanning process.
+2023-09-03 21:29:35,427 - Exiting program
