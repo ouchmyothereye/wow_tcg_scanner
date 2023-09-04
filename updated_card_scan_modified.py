@@ -124,35 +124,48 @@ def mark_card_as_ignored():
 
 
 def choose_set_abbreviation(possible_abbreviations):
-    # Function to be called when a button is clicked
-    def on_click(abbreviation):
-        nonlocal chosen_abbreviation
-        chosen_abbreviation = abbreviation
-        root.destroy()
+    import pygame
+    pygame.init()
 
-    # Function to handle keyboard input
-    def on_key_press(event):
-        # Check if key pressed is a number and corresponds to a choice
-        if event.char.isdigit() and 0 < int(event.char) <= len(possible_abbreviations):
-            on_click(possible_abbreviations[int(event.char) - 1])
+    # Set up display
+    screen_width = 400
+    screen_height = 50 * len(possible_abbreviations)
+    screen = pygame.display.set_mode((screen_width, screen_height))
+    pygame.display.set_caption('Choose Set Abbreviation')
 
-    chosen_abbreviation = None
-    root = tk.Tk()
-    root.title("Choose Set Abbreviation")
-    
-    # Ensure the main window has focus
-    root.focus_set()
+    BLACK = (0, 0, 0)
+    WHITE = (255, 255, 255)
 
-    for index, abbreviation in enumerate(possible_abbreviations, start=1):
-        btn_text = f"{index}. {abbreviation}"
-        btn = tk.Button(root, text=btn_text, command=lambda abbr=abbreviation: on_click(abbr))
-        btn.pack(pady=10)
+    done = False
+    clock = pygame.time.Clock()
 
-    # Bind key press event to the main window
-    root.bind("<Key>", on_key_press)
+    while not done:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                done = True
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                pos = pygame.mouse.get_pos()
+                for idx, abbreviation in enumerate(possible_abbreviations):
+                    if 0 <= pos[1] <= (idx + 1) * 50:
+                        pygame.quit()
+                        return abbreviation
+            elif event.type == pygame.KEYDOWN:
+                if event.unicode.isdigit():
+                    number_pressed = int(event.unicode)
+                    if 0 < number_pressed <= len(possible_abbreviations):
+                        pygame.quit()
+                        return possible_abbreviations[number_pressed - 1]
 
-    root.mainloop()
-    return chosen_abbreviation
+        screen.fill(WHITE)
+        for idx, abbreviation in enumerate(possible_abbreviations):
+            pygame.draw.rect(screen, BLACK, [50, 50 * idx, screen_width - 100, 50], 2)
+            font = pygame.font.SysFont('calibri', 25)
+            text = font.render(abbreviation, True, BLACK)
+            screen.blit(text, [125, 50 * idx + 15])
+
+        pygame.display.flip()
+        clock.tick(60)
+
 
 
 
@@ -297,35 +310,48 @@ def get_set_abbreviation(texts, possible_abbreviations):
 import tkinter as tk
 
 def choose_set_block_name(possible_block_names):
-    # Function to be called when a button is clicked
-    def on_click(block_name):
-        nonlocal chosen_block_name
-        chosen_block_name = block_name
-        root.destroy()
-    
-    # Function to handle keyboard input
-    def on_key_press(event):
-        # Check if key pressed is a number and corresponds to a choice
-        if event.char.isdigit() and 0 < int(event.char) <= len(possible_block_names):
-            on_click(possible_block_names[int(event.char) - 1])
-    
-    chosen_block_name = None
-    root = tk.Tk()
-    root.title("Choose Block Name")
-    
-    # Ensure the main window has focus
-    root.focus_set()
+    import pygame
+    pygame.init()
 
-    for index, block_name in enumerate(possible_block_names, start=1):
-        btn_text = f"{index}. {block_name}"
-        btn = tk.Button(root, text=btn_text, command=lambda bn=block_name: on_click(bn))
-        btn.pack(pady=10)
+    # Set up display
+    screen_width = 400
+    screen_height = 50 * len(possible_block_names)
+    screen = pygame.display.set_mode((screen_width, screen_height))
+    pygame.display.set_caption('Choose Block Name')
 
-    # Bind key press event to the main window
-    root.bind("<Key>", on_key_press)
+    BLACK = (0, 0, 0)
+    WHITE = (255, 255, 255)
 
-    root.mainloop()
-    return chosen_block_name
+    done = False
+    clock = pygame.time.Clock()
+
+    while not done:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                done = True
+            elif event.type == pygame.MOUSEBUTTONDOWN:
+                pos = pygame.mouse.get_pos()
+                for idx, block_name in enumerate(possible_block_names):
+                    if 0 <= pos[1] <= (idx + 1) * 50:
+                        pygame.quit()
+                        return block_name
+            elif event.type == pygame.KEYDOWN:
+                if event.unicode.isdigit():
+                    number_pressed = int(event.unicode)
+                    if 0 < number_pressed <= len(possible_block_names):
+                        pygame.quit()
+                        return possible_block_names[number_pressed - 1]
+
+        screen.fill(WHITE)
+        for idx, block_name in enumerate(possible_block_names):
+            pygame.draw.rect(screen, BLACK, [50, 50 * idx, screen_width - 100, 50], 2)
+            font = pygame.font.SysFont('calibri', 25)
+            text = font.render(block_name, True, BLACK)
+            screen.blit(text, [125, 50 * idx + 15])
+
+        pygame.display.flip()
+        clock.tick(60)
+
 
 
 ##UPDATE
