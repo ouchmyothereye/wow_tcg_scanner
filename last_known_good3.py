@@ -70,7 +70,7 @@ def choose_variant_id(variant_ids):
     GREEN = (0, 255, 0)
     RED = (255, 0, 0)
 
-    # Loop until the user clicks a button or presses a number key
+    # Loop until the user clicks a button
     done = False
 
     # Used to manage how fast the screen updates
@@ -80,8 +80,6 @@ def choose_variant_id(variant_ids):
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 done = True
-
-            # Handle mouse button click
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 pos = pygame.mouse.get_pos()
                 for idx, variant_id in enumerate(variant_ids):
@@ -89,21 +87,12 @@ def choose_variant_id(variant_ids):
                         pygame.quit()
                         return variant_id
 
-            # Handle key press
-            elif event.type == pygame.KEYDOWN:
-                if event.unicode.isdigit():
-                    number_pressed = int(event.unicode)
-                    if 0 < number_pressed <= len(variant_ids):
-                        pygame.quit()
-                        return variant_ids[number_pressed - 1]
-
         # --- Drawing code should go here
         screen.fill(WHITE)
 
         for idx, variant_id in enumerate(variant_ids):
             pygame.draw.rect(screen, BLACK, [50, 50 * idx, 300, 50], 2)
             font = pygame.font.SysFont('calibri', 25)
-            # Assuming 'variant_name_mapping' is a global dictionary or available in the scope
             text = font.render(variant_name_mapping[variant_id], True, BLACK)
             screen.blit(text, [125, 50 * idx + 15])
 
@@ -121,36 +110,23 @@ def mark_card_as_ignored():
     else:
         messagebox.showerror("Error", "Failed to mark the card as ignored!")
 
-
 def choose_set_abbreviation(possible_abbreviations):
     # Function to be called when a button is clicked
     def on_click(abbreviation):
         nonlocal chosen_abbreviation
         chosen_abbreviation = abbreviation
         root.destroy()
-    
-    # Function to handle keyboard input
-    def on_key_press(event):
-        # Check if key pressed is a number and corresponds to a choice
-        if event.char.isdigit() and 0 < int(event.char) <= len(possible_abbreviations):
-            on_click(possible_abbreviations[int(event.char) - 1])
-    
+
     chosen_abbreviation = None
     root = tk.Tk()
     root.title("Choose Set Abbreviation")
 
-    # Create buttons for each choice
-    for index, abbreviation in enumerate(possible_abbreviations, start=1):
-        btn_text = f"{index}. {abbreviation}"
-        btn = tk.Button(root, text=btn_text, command=lambda abbr=abbreviation: on_click(abbr))
+    for abbreviation in possible_abbreviations:
+        btn = tk.Button(root, text=abbreviation, command=lambda abbr=abbreviation: on_click(abbr))
         btn.pack(pady=10)
-
-    # Bind key press event to the main window
-    root.bind("<Key>", on_key_press)
 
     root.mainloop()
     return chosen_abbreviation
-
 
 
 
@@ -290,37 +266,23 @@ def get_set_abbreviation(texts, possible_abbreviations):
         else:
             print(f"{chosen_abbreviation} is not a valid abbreviation. Please try again.")
 
-import tkinter as tk
-
 def choose_set_block_name(possible_block_names):
     # Function to be called when a button is clicked
     def on_click(block_name):
         nonlocal chosen_block_name
         chosen_block_name = block_name
         root.destroy()
-    
-    # Function to handle keyboard input
-    def on_key_press(event):
-        # Check if key pressed is a number and corresponds to a choice
-        if event.char.isdigit() and 0 < int(event.char) <= len(possible_block_names):
-            on_click(possible_block_names[int(event.char) - 1])
-    
+
     chosen_block_name = None
     root = tk.Tk()
     root.title("Choose Block Name")
 
-    # Create buttons for each choice
-    for index, block_name in enumerate(possible_block_names, start=1):
-        btn_text = f"{index}. {block_name}"
-        btn = tk.Button(root, text=btn_text, command=lambda bn=block_name: on_click(bn))
+    for block_name in possible_block_names:
+        btn = tk.Button(root, text=block_name, command=lambda bn=block_name: on_click(bn))
         btn.pack(pady=10)
-
-    # Bind key press event to the main window
-    root.bind("<Key>", on_key_press)
 
     root.mainloop()
     return chosen_block_name
-
 
 
 
