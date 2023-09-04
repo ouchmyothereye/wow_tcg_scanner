@@ -122,24 +122,27 @@ def mark_card_as_ignored():
         messagebox.showerror("Error", "Failed to mark the card as ignored!")
 
 
+
 def choose_set_abbreviation(possible_abbreviations):
     # Function to be called when a button is clicked
     def on_click(abbreviation):
         nonlocal chosen_abbreviation
         chosen_abbreviation = abbreviation
         root.destroy()
-    
+
     # Function to handle keyboard input
     def on_key_press(event):
         # Check if key pressed is a number and corresponds to a choice
         if event.char.isdigit() and 0 < int(event.char) <= len(possible_abbreviations):
             on_click(possible_abbreviations[int(event.char) - 1])
-    
+
     chosen_abbreviation = None
     root = tk.Tk()
     root.title("Choose Set Abbreviation")
+    
+    # Ensure the main window has focus
+    root.focus_set()
 
-    # Create buttons for each choice
     for index, abbreviation in enumerate(possible_abbreviations, start=1):
         btn_text = f"{index}. {abbreviation}"
         btn = tk.Button(root, text=btn_text, command=lambda abbr=abbreviation: on_click(abbr))
@@ -150,6 +153,7 @@ def choose_set_abbreviation(possible_abbreviations):
 
     root.mainloop()
     return chosen_abbreviation
+
 
 
 
@@ -308,8 +312,10 @@ def choose_set_block_name(possible_block_names):
     chosen_block_name = None
     root = tk.Tk()
     root.title("Choose Block Name")
+    
+    # Ensure the main window has focus
+    root.focus_set()
 
-    # Create buttons for each choice
     for index, block_name in enumerate(possible_block_names, start=1):
         btn_text = f"{index}. {block_name}"
         btn = tk.Button(root, text=btn_text, command=lambda bn=block_name: on_click(bn))
@@ -320,6 +326,7 @@ def choose_set_block_name(possible_block_names):
 
     root.mainloop()
     return chosen_block_name
+
 
 
 
