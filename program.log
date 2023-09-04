@@ -32961,3 +32961,138 @@
 2023-09-03 18:37:46,946 - Checked existing card with card_id: 7439, variant_id: 5, instance: 1. Count found: 2
 2023-09-03 18:37:48,833 - Starting the card scanning process.
 2023-09-03 18:37:57,858 - Exiting program
+2023-09-03 21:13:54,069 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 21:13:54,078 - Starting the card scanning process.
+2023-09-03 21:14:04,033 - Image captured and saved as captured_img.jpg
+2023-09-03 21:14:04,335 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:14:04,872 - Texts found in the image: ["Shadow Word: Death\nShadow\nYour hero deals 3 shadow damage to target\nhero or ally if that character doesn't have fatal\ndamage on it, put 3 damage on your hero", 'Shadow', 'Word', ':', 'Death', 'Shadow', 'Your', 'hero', 'deals', '3', 'shadow', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'if', 'that', 'character', "doesn't", 'have', 'fatal', 'damage', 'on', 'it', ',', 'put', '3', 'damage', 'on', 'your', 'hero']
+2023-09-03 21:14:04,872 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:14:04,873 - Querying 'wow_cards' for potential card name: Shadow Word: Death
+2023-09-03 21:14:04,875 - Possible set abbreviations for Shadow Word: Death: ['Class', 'Dark Portal', 'Elements']
+2023-09-03 21:14:04,875 - Cleaned text for abbreviation matching: shadowworddeathshadowyourherodeals3shadowdamagetotargetheroorallyifthatcharacterhavefataldamageonitput3damageonyourhero
+2023-09-03 21:14:04,875 - Checking for abbreviation: class
+2023-09-03 21:14:04,875 - Checking for abbreviation: darkportal
+2023-09-03 21:14:04,875 - Checking for abbreviation: elements
+2023-09-03 21:14:04,875 - Fuzzy match score for class: 3
+2023-09-03 21:14:04,875 - Fuzzy match score for darkportal: 9
+2023-09-03 21:14:04,875 - Fuzzy match score for elements: 2
+2023-09-03 21:14:06,885 - Matched set abbreviation: Dark Portal
+2023-09-03 21:14:06,885 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:14:12,438 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 21:14:12,439 - Set ID found: 37
+2023-09-03 21:14:12,439 - Querying 'card_versions' for card name: Shadow Word: Death and set ID: 37
+2023-09-03 21:14:12,439 - Card ID found: 6467
+2023-09-03 21:14:12,440 - Multiple variants found for card ID 6467: [2, 5]
+2023-09-03 21:14:14,188 - Inserting into 'collection_inventory'. Card Name:Shadow Word: Death, Card ID: 6467, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:14:14.188294
+2023-09-03 21:14:14,193 - Insertion successful. Card Name: Shadow Word: Death, Set ID: 37, Card ID: 6467, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:14:14.188294
+2023-09-03 21:14:14,195 - Checked existing card with card_id: 6467, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 21:14:16,426 - Starting the card scanning process.
+2023-09-03 21:14:17,962 - Image captured and saved as captured_img.jpg
+2023-09-03 21:14:18,265 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:14:18,531 - Texts found in the image: ['Mind Vision\nAbility-Shadow\nChoose an opponent.\nOngoing That opponent plays with his hand revealed.\nWhen you play a card, destroy Mind Vision. If you do,\ndraw a card\nEverything looks so much smaller\nSOITTAMUS IN', 'Mind', 'Vision', 'Ability', '-', 'Shadow', 'Choose', 'an', 'opponent', '.', 'Ongoing', 'That', 'opponent', 'plays', 'with', 'his', 'hand', 'revealed', '.', 'When', 'you', 'play', 'a', 'card', ',', 'destroy', 'Mind', 'Vision', '.', 'If', 'you', 'do', ',', 'draw', 'a', 'card', 'Everything', 'looks', 'so', 'much', 'smaller', 'SOITTAMUS', 'IN']
+2023-09-03 21:14:18,531 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:14:18,532 - Querying 'wow_cards' for potential card name: Mind Vision
+2023-09-03 21:14:18,534 - Card name is unique. Set ID for Mind Vision: 37
+2023-09-03 21:14:18,535 - Querying 'card_versions' for card name: Mind Vision and set ID: 37
+2023-09-03 21:14:18,536 - Card ID found: 5518
+2023-09-03 21:14:18,536 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:14:18,536 - Inserting into 'collection_inventory'. Card Name:Mind Vision, Card ID: 5518, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:14:18.536200
+2023-09-03 21:14:18,548 - Insertion successful. Card Name: Mind Vision, Set ID: 37, Card ID: 5518, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:14:18.536200
+2023-09-03 21:14:18,549 - Checked existing card with card_id: 5518, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 21:14:19,949 - Starting the card scanning process.
+2023-09-03 21:14:21,480 - Image captured and saved as captured_img.jpg
+2023-09-03 21:14:21,782 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:14:22,057 - Texts found in the image: ["2\nShadow Word: Death\nInstant Ability-Shadow\nYour hero deals 3 shadow damage to target\nhero or ally. If that character doesn't have fatal\ndamage on it, put 3 damage on your hero.\nAs words goes frequently the last\nMile Bow\nGE VERDE CORTAMIING", '2', 'Shadow', 'Word', ':', 'Death', 'Instant', 'Ability', '-', 'Shadow', 'Your', 'hero', 'deals', '3', 'shadow', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', 'If', 'that', 'character', "doesn't", 'have', 'fatal', 'damage', 'on', 'it', ',', 'put', '3', 'damage', 'on', 'your', 'hero', '.', 'As', 'words', 'goes', 'frequently', 'the', 'last', 'Mile', 'Bow', 'GE', 'VERDE', 'CORTAMIING']
+2023-09-03 21:14:22,057 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:14:22,058 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 21:14:22,060 - Querying 'wow_cards' for potential card name: Shadow Word: Death
+2023-09-03 21:14:22,063 - Possible set abbreviations for Shadow Word: Death: ['Class', 'Dark Portal', 'Elements']
+2023-09-03 21:14:22,063 - Cleaned text for abbreviation matching: 2shadowworddeathinstantabilityshadowyourherodeals3shadowdamagetotargetheroorallyifthatcharacterhavefataldamageonitput3damageonyourheroaswordsgoesfrequentlythelastmilebowgeverdecortamiing
+2023-09-03 21:14:22,063 - Checking for abbreviation: class
+2023-09-03 21:14:22,063 - Checking for abbreviation: darkportal
+2023-09-03 21:14:22,063 - Checking for abbreviation: elements
+2023-09-03 21:14:22,063 - Fuzzy match score for class: 4
+2023-09-03 21:14:22,064 - Fuzzy match score for darkportal: 8
+2023-09-03 21:14:22,064 - Fuzzy match score for elements: 8
+2023-09-03 21:14:29,271 - Matched set abbreviation: Dark Portal
+2023-09-03 21:14:29,271 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:14:30,139 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 21:14:30,139 - Set ID found: 37
+2023-09-03 21:14:30,139 - Querying 'card_versions' for card name: Shadow Word: Death and set ID: 37
+2023-09-03 21:14:30,140 - Card ID found: 6467
+2023-09-03 21:14:30,140 - Multiple variants found for card ID 6467: [2, 5]
+2023-09-03 21:14:31,417 - Inserting into 'collection_inventory'. Card Name:Shadow Word: Death, Card ID: 6467, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:14:31.417376
+2023-09-03 21:14:31,423 - Insertion successful. Card Name: Shadow Word: Death, Set ID: 37, Card ID: 6467, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:14:31.417376
+2023-09-03 21:14:31,426 - Checked existing card with card_id: 6467, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 21:14:33,568 - Starting the card scanning process.
+2023-09-03 21:14:34,663 - Image captured and saved as captured_img.jpg
+2023-09-03 21:14:34,970 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:14:35,249 - Texts found in the image: ["2\nShadow Word: Death\nInstant Ability-Shadow\nYour hero deals 3 shadow damage to target\nhero or ally. If that character doesn't have fatal\ndamage on it, put 3 damage on your hero.\nCAS PIDURAYS IN 19", '2', 'Shadow', 'Word', ':', 'Death', 'Instant', 'Ability', '-', 'Shadow', 'Your', 'hero', 'deals', '3', 'shadow', 'damage', 'to', 'target', 'hero', 'or', 'ally', '.', 'If', 'that', 'character', "doesn't", 'have', 'fatal', 'damage', 'on', 'it', ',', 'put', '3', 'damage', 'on', 'your', 'hero', '.', 'CAS', 'PIDURAYS', 'IN', '19']
+2023-09-03 21:14:35,250 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:14:35,251 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 21:14:35,253 - Querying 'wow_cards' for potential card name: Shadow Word: Death
+2023-09-03 21:14:35,254 - Possible set abbreviations for Shadow Word: Death: ['Class', 'Dark Portal', 'Elements']
+2023-09-03 21:14:35,255 - Cleaned text for abbreviation matching: 2shadowworddeathinstantabilityshadowyourherodeals3shadowdamagetotargetheroorallyifthatcharacterhavefataldamageonitput3damageonyourherocaspiduraysin19
+2023-09-03 21:14:35,255 - Checking for abbreviation: class
+2023-09-03 21:14:35,255 - Checking for abbreviation: darkportal
+2023-09-03 21:14:35,255 - Checking for abbreviation: elements
+2023-09-03 21:14:35,255 - Fuzzy match score for class: 5
+2023-09-03 21:14:35,255 - Fuzzy match score for darkportal: 8
+2023-09-03 21:14:35,255 - Fuzzy match score for elements: 5
+2023-09-03 21:14:36,601 - Matched set abbreviation: Dark Portal
+2023-09-03 21:14:36,601 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:14:37,232 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 21:14:37,232 - Set ID found: 37
+2023-09-03 21:14:37,232 - Querying 'card_versions' for card name: Shadow Word: Death and set ID: 37
+2023-09-03 21:14:37,233 - Card ID found: 6467
+2023-09-03 21:14:37,233 - Multiple variants found for card ID 6467: [2, 5]
+2023-09-03 21:14:44,537 - Inserting into 'collection_inventory'. Card Name:Shadow Word: Death, Card ID: 6467, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:14:44.537464
+2023-09-03 21:14:44,546 - Insertion successful. Card Name: Shadow Word: Death, Set ID: 37, Card ID: 6467, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:14:44.537464
+2023-09-03 21:14:44,546 - Checked existing card with card_id: 6467, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 21:14:46,698 - Starting the card scanning process.
+2023-09-03 21:14:48,299 - Image captured and saved as captured_img.jpg
+2023-09-03 21:14:48,598 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:14:48,870 - Texts found in the image: ['3\nTrophy Kill\nInstant Ability-Marksmanship\nDestroy target ally with cost 4 or more.\nHunters pride themselves on felling\nthe most dangerous of beasts\nkrby\nSACOLAS CH', '3', 'Trophy', 'Kill', 'Instant', 'Ability', '-', 'Marksmanship', 'Destroy', 'target', 'ally', 'with', 'cost', '4', 'or', 'more', '.', 'Hunters', 'pride', 'themselves', 'on', 'felling', 'the', 'most', 'dangerous', 'of', 'beasts', 'krby', 'SACOLAS', 'CH']
+2023-09-03 21:14:48,871 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:14:48,872 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 21:14:48,874 - Querying 'wow_cards' for potential card name: Trophy Kill
+2023-09-03 21:14:48,875 - Possible set abbreviations for Trophy Kill: ['Alliance Hunter', 'Class', 'Dark Portal']
+2023-09-03 21:14:48,875 - Cleaned text for abbreviation matching: 3trophykillinstantabilitymarksmanshipdestroytargetallywithcost4ormorehunterspridethemselvesonfellingthemostdangerousofbeastskrbysacolasch
+2023-09-03 21:14:48,875 - Checking for abbreviation: alliancehunter
+2023-09-03 21:14:48,875 - Checking for abbreviation: class
+2023-09-03 21:14:48,875 - Checking for abbreviation: darkportal
+2023-09-03 21:14:48,875 - Fuzzy match score for alliancehunter: 17
+2023-09-03 21:14:48,875 - Fuzzy match score for class: 6
+2023-09-03 21:14:48,876 - Fuzzy match score for darkportal: 11
+2023-09-03 21:14:54,239 - Matched set abbreviation: Dark Portal
+2023-09-03 21:14:54,239 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:14:54,245 - Single Set ID 37 found for card name Trophy Kill and abbreviation Dark Portal.
+2023-09-03 21:14:54,245 - Querying 'card_versions' for card name: Trophy Kill and set ID: 37
+2023-09-03 21:14:54,245 - Card ID found: 7252
+2023-09-03 21:14:54,246 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:14:54,246 - Inserting into 'collection_inventory'. Card Name:Trophy Kill, Card ID: 7252, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:14:54.246601
+2023-09-03 21:14:54,251 - Insertion successful. Card Name: Trophy Kill, Set ID: 37, Card ID: 7252, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:14:54.246601
+2023-09-03 21:14:54,252 - Checked existing card with card_id: 7252, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 21:14:55,663 - Starting the card scanning process.
+2023-09-03 21:15:00,493 - Image captured and saved as captured_img.jpg
+2023-09-03 21:15:00,798 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 21:15:01,019 - Texts found in the image: ["Wing Clip\nInstant Ability - Survival\nTarget hero or ally can't attack your hero\nthis turn. Your hero deals 1 melee damage\nto that character.\nArly 1", 'Wing', 'Clip', 'Instant', 'Ability', '-', 'Survival', 'Target', 'hero', 'or', 'ally', "can't", 'attack', 'your', 'hero', 'this', 'turn', '.', 'Your', 'hero', 'deals', '1', 'melee', 'damage', 'to', 'that', 'character', '.', 'Arly', '1']
+2023-09-03 21:15:01,020 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 21:15:01,021 - Querying 'wow_cards' for potential card name: Wing Clip
+2023-09-03 21:15:01,024 - Possible set abbreviations for Wing Clip: ['Dark Portal', 'Worldbreaker']
+2023-09-03 21:15:01,024 - Cleaned text for abbreviation matching: wingclipinstantabilitysurvivaltargetheroorallyattackyourherothisturnyourherodeals1meleedamagetothatcharacterarly1
+2023-09-03 21:15:01,024 - Checking for abbreviation: darkportal
+2023-09-03 21:15:01,025 - Checking for abbreviation: worldbreaker
+2023-09-03 21:15:01,025 - Fuzzy match score for darkportal: 7
+2023-09-03 21:15:01,025 - Fuzzy match score for worldbreaker: 8
+2023-09-03 21:15:03,409 - Matched set abbreviation: Dark Portal
+2023-09-03 21:15:03,409 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 21:15:03,414 - Single Set ID 37 found for card name Wing Clip and abbreviation Dark Portal.
+2023-09-03 21:15:03,414 - Querying 'card_versions' for card name: Wing Clip and set ID: 37
+2023-09-03 21:15:03,415 - Card ID found: 7613
+2023-09-03 21:15:03,415 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 21:15:03,415 - Inserting into 'collection_inventory'. Card Name:Wing Clip, Card ID: 7613, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 21:15:03.415557
+2023-09-03 21:15:03,427 - Insertion successful. Card Name: Wing Clip, Set ID: 37, Card ID: 7613, Variant ID: 5, Instance: 1, Date: 2023-09-03 21:15:03.415557
+2023-09-03 21:15:03,428 - Checked existing card with card_id: 7613, variant_id: 5, instance: 1. Count found: 7
+2023-09-03 21:15:04,737 - Starting the card scanning process.
+2023-09-03 21:18:16,422 - Exiting program
