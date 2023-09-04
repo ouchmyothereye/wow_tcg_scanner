@@ -31858,3 +31858,1106 @@
 2023-09-02 13:26:43,972 - Checked existing card with card_id: 6387, variant_id: 5, instance: 1. Count found: 2
 2023-09-02 13:26:45,630 - Starting the card scanning process.
 2023-09-02 13:27:00,708 - Exiting program
+2023-09-02 13:55:08,647 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:55:08,648 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:55:08,650 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:55:08,656 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:11,658 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:55:11,658 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:14,658 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:55:14,658 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:17,659 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:55:17,659 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 13:55:42,339 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:55:42,340 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:55:42,340 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:55:42,346 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:45,348 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:55:45,348 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:48,348 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:55:48,348 - Making request: GET http://169.254.169.254
+2023-09-02 13:55:51,349 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:55:51,349 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 13:56:13,214 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:56:13,214 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:56:13,214 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:56:13,218 - Making request: GET http://169.254.169.254
+2023-09-02 13:56:16,219 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:56:16,219 - Making request: GET http://169.254.169.254
+2023-09-02 13:56:19,219 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:56:19,219 - Making request: GET http://169.254.169.254
+2023-09-02 13:56:22,220 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:56:22,220 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 13:57:32,490 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:57:32,490 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:57:32,490 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:57:32,495 - Making request: GET http://169.254.169.254
+2023-09-02 13:57:35,496 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:57:35,496 - Making request: GET http://169.254.169.254
+2023-09-02 13:57:38,496 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:57:38,496 - Making request: GET http://169.254.169.254
+2023-09-02 13:57:41,497 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:57:41,497 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 13:58:51,352 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:58:51,353 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:58:51,353 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:58:51,359 - Making request: GET http://169.254.169.254
+2023-09-02 13:58:54,360 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:58:54,360 - Making request: GET http://169.254.169.254
+2023-09-02 13:58:57,361 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:58:57,361 - Making request: GET http://169.254.169.254
+2023-09-02 13:59:00,362 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:59:00,362 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 13:59:40,457 - Checking None for explicit credentials as part of auth process...
+2023-09-02 13:59:40,458 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 13:59:40,458 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 13:59:40,462 - Making request: GET http://169.254.169.254
+2023-09-02 13:59:43,463 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 13:59:43,463 - Making request: GET http://169.254.169.254
+2023-09-02 13:59:46,464 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 13:59:46,464 - Making request: GET http://169.254.169.254
+2023-09-02 13:59:49,464 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 13:59:49,464 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 14:00:22,836 - Checking None for explicit credentials as part of auth process...
+2023-09-02 14:00:22,836 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 14:00:22,836 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 14:00:22,840 - Making request: GET http://169.254.169.254
+2023-09-02 14:00:25,842 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 14:00:25,842 - Making request: GET http://169.254.169.254
+2023-09-02 14:00:28,843 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 14:00:28,843 - Making request: GET http://169.254.169.254
+2023-09-02 14:00:31,844 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 14:00:31,844 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 14:01:22,770 - Checking None for explicit credentials as part of auth process...
+2023-09-02 14:01:22,770 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 14:01:22,770 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 14:01:22,775 - Making request: GET http://169.254.169.254
+2023-09-02 14:01:25,777 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 14:01:25,777 - Making request: GET http://169.254.169.254
+2023-09-02 14:01:28,777 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 14:01:28,777 - Making request: GET http://169.254.169.254
+2023-09-02 14:01:31,778 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 14:01:31,778 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 14:03:00,627 - Checking None for explicit credentials as part of auth process...
+2023-09-02 14:03:00,627 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 14:03:00,627 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 14:03:00,632 - Making request: GET http://169.254.169.254
+2023-09-02 14:03:03,632 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 14:03:03,632 - Making request: GET http://169.254.169.254
+2023-09-02 14:03:06,632 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 14:03:06,632 - Making request: GET http://169.254.169.254
+2023-09-02 14:03:09,633 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 14:03:09,633 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-02 14:07:31,708 - Checking None for explicit credentials as part of auth process...
+2023-09-02 14:07:31,708 - Checking Cloud SDK credentials as part of auth process...
+2023-09-02 14:07:31,708 - Cloud SDK credentials not found on disk; not using them
+2023-09-02 14:07:31,712 - Making request: GET http://169.254.169.254
+2023-09-02 14:07:34,713 - Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: timed out
+2023-09-02 14:07:34,713 - Making request: GET http://169.254.169.254
+2023-09-02 14:07:37,715 - Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: timed out
+2023-09-02 14:07:37,715 - Making request: GET http://169.254.169.254
+2023-09-02 14:07:40,717 - Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: timed out
+2023-09-02 14:07:40,717 - Authentication failed using Compute Engine authentication due to unavailable metadata server.
+2023-09-03 18:23:36,803 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 18:23:36,827 - Starting the card scanning process.
+2023-09-03 18:23:55,230 - Exiting program
+2023-09-03 18:25:08,360 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 18:25:08,382 - Starting the card scanning process.
+2023-09-03 18:26:09,941 - Image captured and saved as captured_img.jpg
+2023-09-03 18:26:10,246 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:26:10,864 - Texts found in the image: ["Hammer of Wrath\nInstant Ability - Holy\nYour hero deals 3 holy damage to target\nhero or ally with damage on it. That damage\ncan't be prevented.\nYou cannot run from the divine hand of ce\nRELA DICTALS43", 'Hammer', 'of', 'Wrath', 'Instant', 'Ability', '-', 'Holy', 'Your', 'hero', 'deals', '3', 'holy', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'with', 'damage', 'on', 'it', '.', 'That', 'damage', "can't", 'be', 'prevented', '.', 'You', 'cannot', 'run', 'from', 'the', 'divine', 'hand', 'of', 'ce', 'RELA', 'DICTALS43']
+2023-09-03 18:26:10,866 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:26:10,868 - Querying 'wow_cards' for potential card name: Hammer of Wrath
+2023-09-03 18:26:10,871 - Card name is unique. Set ID for Hammer of Wrath: 37
+2023-09-03 18:26:10,871 - Querying 'card_versions' for card name: Hammer of Wrath and set ID: 37
+2023-09-03 18:26:10,872 - Card ID found: 4108
+2023-09-03 18:26:10,872 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:27:56,090 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 18:27:56,100 - Starting the card scanning process.
+2023-09-03 18:28:21,003 - Image captured and saved as captured_img.jpg
+2023-09-03 18:28:21,301 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:28:21,748 - Texts found in the image: ["Hammer of Wrath\nInstant Ability - Holy\nYour hero deals 3 holy damage to target\nhero or ally with damage on it. That damage\ncan't be prevented.\nCAS MINEDIETAUS 18", 'Hammer', 'of', 'Wrath', 'Instant', 'Ability', '-', 'Holy', 'Your', 'hero', 'deals', '3', 'holy', 'damage', 'to', 'target', 'hero', 'or', 'ally', 'with', 'damage', 'on', 'it', '.', 'That', 'damage', "can't", 'be', 'prevented', '.', 'CAS', 'MINEDIETAUS', '18']
+2023-09-03 18:28:21,749 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:28:21,750 - Querying 'wow_cards' for potential card name: Hammer of Wrath
+2023-09-03 18:28:21,752 - Card name is unique. Set ID for Hammer of Wrath: 37
+2023-09-03 18:28:21,752 - Querying 'card_versions' for card name: Hammer of Wrath and set ID: 37
+2023-09-03 18:28:21,753 - Card ID found: 4108
+2023-09-03 18:28:21,753 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:28:21,753 - Inserting into 'collection_inventory'. Card Name:Hammer of Wrath, Card ID: 4108, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:28:21.753108
+2023-09-03 18:28:21,763 - Insertion successful. Card Name: Hammer of Wrath, Set ID: 37, Card ID: 4108, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:28:21.753108
+2023-09-03 18:28:21,764 - Checked existing card with card_id: 4108, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:28:23,747 - Starting the card scanning process.
+2023-09-03 18:30:48,634 - Image captured and saved as captured_img.jpg
+2023-09-03 18:30:48,932 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:30:49,179 - Texts found in the image: ['2\nScout Omerrta\nAlly-Ore Warrior\nProtector', '2', 'Scout', 'Omerrta', 'Ally', '-', 'Ore', 'Warrior', 'Protector']
+2023-09-03 18:30:49,180 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:30:49,180 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:30:49,183 - Querying 'wow_cards' for potential card name: Scout Omerrta
+2023-09-03 18:30:49,186 - Possible set abbreviations for Scout Omerrta: ['Class', 'Dark Portal']
+2023-09-03 18:30:49,186 - Cleaned text for abbreviation matching: 2scoutomerrtaallyorewarriorprotector
+2023-09-03 18:30:49,186 - Checking for abbreviation: class
+2023-09-03 18:30:49,186 - Checking for abbreviation: darkportal
+2023-09-03 18:30:49,186 - Fuzzy match score for class: 5
+2023-09-03 18:30:49,187 - Fuzzy match score for darkportal: 22
+2023-09-03 18:30:51,774 - Matched set abbreviation: Dark Portal
+2023-09-03 18:30:51,774 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:30:52,636 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 18:30:52,636 - Set ID found: 37
+2023-09-03 18:30:52,636 - Querying 'card_versions' for card name: Scout Omerrta and set ID: 37
+2023-09-03 18:30:52,637 - Card ID found: 6387
+2023-09-03 18:30:52,637 - Multiple variants found for card ID 6387: [3, 5]
+2023-09-03 18:30:53,982 - Inserting into 'collection_inventory'. Card Name:Scout Omerrta, Card ID: 6387, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:30:53.982404
+2023-09-03 18:30:53,986 - Insertion successful. Card Name: Scout Omerrta, Set ID: 37, Card ID: 6387, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:30:53.982404
+2023-09-03 18:30:53,988 - Checked existing card with card_id: 6387, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:30:55,661 - Starting the card scanning process.
+2023-09-03 18:31:28,354 - Exiting program
+2023-09-03 18:32:11,283 - Checking C:\Users\hallc\Desktop\wowtcgscanner-2be9d99c07b5.json for explicit credentials as part of auth process...
+2023-09-03 18:32:11,292 - Starting the card scanning process.
+2023-09-03 18:32:25,736 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:26,041 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:26,466 - Texts found in the image: ['Outrider Zarg\nAlly-Ore Hunter\nFerocity\nAt the end of your turn, if Outrider Zarg dealt no\ndamage this turn, destroy him.\nMA\nSanam 52134\n2', 'Outrider', 'Zarg', 'Ally', '-', 'Ore', 'Hunter', 'Ferocity', 'At', 'the', 'end', 'of', 'your', 'turn', ',', 'if', 'Outrider', 'Zarg', 'dealt', 'no', 'damage', 'this', 'turn', ',', 'destroy', 'him', '.', 'MA', 'Sanam', '52134', '2']
+2023-09-03 18:32:26,466 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:26,467 - Querying 'wow_cards' for potential card name: Outrider Zarg
+2023-09-03 18:32:26,469 - Card name is unique. Set ID for Outrider Zarg: 37
+2023-09-03 18:32:26,469 - Querying 'card_versions' for card name: Outrider Zarg and set ID: 37
+2023-09-03 18:32:26,470 - Card ID found: 5859
+2023-09-03 18:32:26,470 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:32:26,471 - Inserting into 'collection_inventory'. Card Name:Outrider Zarg, Card ID: 5859, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:26.471741
+2023-09-03 18:32:26,481 - Insertion successful. Card Name: Outrider Zarg, Set ID: 37, Card ID: 5859, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:26.471741
+2023-09-03 18:32:26,483 - Checked existing card with card_id: 5859, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:32:28,189 - Starting the card scanning process.
+2023-09-03 18:32:32,612 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:32,912 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:33,148 - Texts found in the image: ['3\nMagran Proudstep\nAlly-Tauren Hunter\nFerocity\nLong-Range (Defenders deal no combat damage to\nthis character)\n2\n0\n2', '3', 'Magran', 'Proudstep', 'Ally', '-', 'Tauren', 'Hunter', 'Ferocity', 'Long', '-', 'Range', '(', 'Defenders', 'deal', 'no', 'combat', 'damage', 'to', 'this', 'character', ')', '2', '0', '2']
+2023-09-03 18:32:33,148 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:33,149 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:32:33,151 - Querying 'wow_cards' for potential card name: Magran Proudstep
+2023-09-03 18:32:33,153 - Card name is unique. Set ID for Magran Proudstep: 37
+2023-09-03 18:32:33,153 - Querying 'card_versions' for card name: Magran Proudstep and set ID: 37
+2023-09-03 18:32:33,154 - Card ID found: 5236
+2023-09-03 18:32:33,154 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:32:33,154 - Inserting into 'collection_inventory'. Card Name:Magran Proudstep, Card ID: 5236, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:33.154916
+2023-09-03 18:32:33,164 - Insertion successful. Card Name: Magran Proudstep, Set ID: 37, Card ID: 5236, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:33.154916
+2023-09-03 18:32:33,165 - Checked existing card with card_id: 5236, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:32:34,978 - Starting the card scanning process.
+2023-09-03 18:32:36,664 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:36,961 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:37,369 - Texts found in the image: ['3\n2\nMorik\nAlly-Ore Shaman\nFerocity\nWhen Morik attacks, each player draws a card.\nCALE OGLAL P24519\n2', '3', '2', 'Morik', 'Ally', '-', 'Ore', 'Shaman', 'Ferocity', 'When', 'Morik', 'attacks', ',', 'each', 'player', 'draws', 'a', 'card', '.', 'CALE', 'OGLAL', 'P24519', '2']
+2023-09-03 18:32:37,370 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:37,370 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:32:37,372 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:32:37,373 - Querying 'wow_cards' for potential card name: Morik
+2023-09-03 18:32:37,373 - Card name is unique. Set ID for Morik: 37
+2023-09-03 18:32:37,374 - Querying 'card_versions' for card name: Morik and set ID: 37
+2023-09-03 18:32:37,374 - Card ID found: 5592
+2023-09-03 18:32:37,374 - Multiple variants found for card ID 5592: [3, 5]
+2023-09-03 18:32:39,823 - Inserting into 'collection_inventory'. Card Name:Morik, Card ID: 5592, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:39.823635
+2023-09-03 18:32:39,827 - Insertion successful. Card Name: Morik, Set ID: 37, Card ID: 5592, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:39.823635
+2023-09-03 18:32:39,827 - Checked existing card with card_id: 5592, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:32:41,093 - Starting the card scanning process.
+2023-09-03 18:32:43,390 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:43,686 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:43,976 - Texts found in the image: ['Scout Omerrta\n2\n8\nAlly-Ore Warrior\nProtector\nStay here while I check out the path ahead"\nTINPORTAL 217 35 Art by\n1', 'Scout', 'Omerrta', '2', '8', 'Ally', '-', 'Ore', 'Warrior', 'Protector', 'Stay', 'here', 'while', 'I', 'check', 'out', 'the', 'path', 'ahead', '"', 'TINPORTAL', '217', '35', 'Art', 'by', '1']
+2023-09-03 18:32:43,979 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:43,980 - Querying 'wow_cards' for potential card name: Scout Omerrta
+2023-09-03 18:32:43,983 - Possible set abbreviations for Scout Omerrta: ['Class', 'Dark Portal']
+2023-09-03 18:32:43,983 - Cleaned text for abbreviation matching: scoutomerrta28allyorewarriorprotectorstayherewhileicheckoutthepathaheadtinportal21735artby1
+2023-09-03 18:32:43,983 - Checking for abbreviation: class
+2023-09-03 18:32:43,984 - Checking for abbreviation: darkportal
+2023-09-03 18:32:43,984 - Fuzzy match score for class: 4
+2023-09-03 18:32:43,984 - Fuzzy match score for darkportal: 18
+2023-09-03 18:32:45,867 - Matched set abbreviation: Dark Portal
+2023-09-03 18:32:45,867 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:32:46,519 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 18:32:46,519 - Set ID found: 37
+2023-09-03 18:32:46,519 - Querying 'card_versions' for card name: Scout Omerrta and set ID: 37
+2023-09-03 18:32:46,520 - Card ID found: 6387
+2023-09-03 18:32:46,520 - Multiple variants found for card ID 6387: [3, 5]
+2023-09-03 18:32:47,767 - Inserting into 'collection_inventory'. Card Name:Scout Omerrta, Card ID: 6387, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:47.767625
+2023-09-03 18:32:47,771 - Insertion successful. Card Name: Scout Omerrta, Set ID: 37, Card ID: 6387, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:47.767625
+2023-09-03 18:32:47,771 - Checked existing card with card_id: 6387, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:32:49,445 - Starting the card scanning process.
+2023-09-03 18:32:51,003 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:51,291 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:51,568 - Texts found in the image: ["Nyn'jah\nAlly-Troll Rogue\nWhen Nyn jah enters play, you may ready target\nopposing equipment. You control that equipment\nwhile Nyn'jah remains in your party.\n3\nCAS FAR PORTAL SO\nAby John\n3", "Nyn'jah", 'Ally', '-', 'Troll', 'Rogue', 'When', 'Nyn', 'jah', 'enters', 'play', ',', 'you', 'may', 'ready', 'target', 'opposing', 'equipment', '.', 'You', 'control', 'that', 'equipment', 'while', "Nyn'jah", 'remains', 'in', 'your', 'party', '.', '3', 'CAS', 'FAR', 'PORTAL', 'SO', 'Aby', 'John', '3']
+2023-09-03 18:32:51,569 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:51,570 - Querying 'wow_cards' for potential card name: Nyn'jah
+2023-09-03 18:32:51,571 - Card name is unique. Set ID for Nyn'jah: 37
+2023-09-03 18:32:51,571 - Querying 'card_versions' for card name: Nyn'jah and set ID: 37
+2023-09-03 18:32:51,573 - Card ID found: 5781
+2023-09-03 18:32:51,573 - Multiple variants found for card ID 5781: [3, 5]
+2023-09-03 18:32:54,107 - Inserting into 'collection_inventory'. Card Name:Nyn'jah, Card ID: 5781, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:54.107820
+2023-09-03 18:32:54,112 - Insertion successful. Card Name: Nyn'jah, Set ID: 37, Card ID: 5781, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:54.107820
+2023-09-03 18:32:54,112 - Checked existing card with card_id: 5781, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:32:55,678 - Starting the card scanning process.
+2023-09-03 18:32:57,941 - Image captured and saved as captured_img.jpg
+2023-09-03 18:32:58,243 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:32:58,513 - Texts found in the image: ['Outrider Zarg\n4\nAlly-Ore Hunter\nFerocity\nAt the end of your turn, if Outrider Zarg dealt no\ndamage this turn, destroy him.\nCAS PARA\n2', 'Outrider', 'Zarg', '4', 'Ally', '-', 'Ore', 'Hunter', 'Ferocity', 'At', 'the', 'end', 'of', 'your', 'turn', ',', 'if', 'Outrider', 'Zarg', 'dealt', 'no', 'damage', 'this', 'turn', ',', 'destroy', 'him', '.', 'CAS', 'PARA', '2']
+2023-09-03 18:32:58,513 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:32:58,514 - Querying 'wow_cards' for potential card name: Outrider Zarg
+2023-09-03 18:32:58,516 - Card name is unique. Set ID for Outrider Zarg: 37
+2023-09-03 18:32:58,516 - Querying 'card_versions' for card name: Outrider Zarg and set ID: 37
+2023-09-03 18:32:58,516 - Card ID found: 5859
+2023-09-03 18:32:58,516 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:32:58,516 - Inserting into 'collection_inventory'. Card Name:Outrider Zarg, Card ID: 5859, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:32:58.516476
+2023-09-03 18:32:58,529 - Insertion successful. Card Name: Outrider Zarg, Set ID: 37, Card ID: 5859, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:32:58.516476
+2023-09-03 18:32:58,530 - Checked existing card with card_id: 5859, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:33:00,142 - Starting the card scanning process.
+2023-09-03 18:33:02,464 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:02,772 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:03,022 - Texts found in the image: ['Outrider Zarg\nAlly-Ore Hunter\nFerocity\nAt the end of your turn, if Outrider Zarg dealt no\ndamage this turn, destroy him.\nCILING\n2', 'Outrider', 'Zarg', 'Ally', '-', 'Ore', 'Hunter', 'Ferocity', 'At', 'the', 'end', 'of', 'your', 'turn', ',', 'if', 'Outrider', 'Zarg', 'dealt', 'no', 'damage', 'this', 'turn', ',', 'destroy', 'him', '.', 'CILING', '2']
+2023-09-03 18:33:03,023 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:03,024 - Querying 'wow_cards' for potential card name: Outrider Zarg
+2023-09-03 18:33:03,026 - Card name is unique. Set ID for Outrider Zarg: 37
+2023-09-03 18:33:03,026 - Querying 'card_versions' for card name: Outrider Zarg and set ID: 37
+2023-09-03 18:33:03,029 - Card ID found: 5859
+2023-09-03 18:33:03,029 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:03,029 - Inserting into 'collection_inventory'. Card Name:Outrider Zarg, Card ID: 5859, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:03.029435
+2023-09-03 18:33:03,042 - Insertion successful. Card Name: Outrider Zarg, Set ID: 37, Card ID: 5859, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:03.029435
+2023-09-03 18:33:03,044 - Checked existing card with card_id: 5859, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:33:04,648 - Starting the card scanning process.
+2023-09-03 18:33:06,405 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:06,709 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:07,305 - Texts found in the image: ['Outrider Zarg\nAlly-Ore Hunter\nFerocity\nAt the end of your turn, if Outrider Zarg dealt no\ndamage this turn, destroy him..\nGAS ARD PORTAL 221 JIN\nn\nAt by Paw\n2', 'Outrider', 'Zarg', 'Ally', '-', 'Ore', 'Hunter', 'Ferocity', 'At', 'the', 'end', 'of', 'your', 'turn', ',', 'if', 'Outrider', 'Zarg', 'dealt', 'no', 'damage', 'this', 'turn', ',', 'destroy', 'him', '..', 'GAS', 'ARD', 'PORTAL', '221', 'JIN', 'n', 'At', 'by', 'Paw', '2']
+2023-09-03 18:33:07,306 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:07,306 - Querying 'wow_cards' for potential card name: Outrider Zarg
+2023-09-03 18:33:07,309 - Card name is unique. Set ID for Outrider Zarg: 37
+2023-09-03 18:33:07,309 - Querying 'card_versions' for card name: Outrider Zarg and set ID: 37
+2023-09-03 18:33:07,310 - Card ID found: 5859
+2023-09-03 18:33:07,310 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:07,310 - Inserting into 'collection_inventory'. Card Name:Outrider Zarg, Card ID: 5859, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:07.310117
+2023-09-03 18:33:07,319 - Insertion successful. Card Name: Outrider Zarg, Set ID: 37, Card ID: 5859, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:07.310117
+2023-09-03 18:33:07,321 - Checked existing card with card_id: 5859, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:33:08,918 - Starting the card scanning process.
+2023-09-03 18:33:10,734 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:11,035 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:11,453 - Texts found in the image: ['3\nMagran Proudstep\nAlly-Tauren Hunter\nFerocity\nLong-Range (Defenders deal no combat damage to\nthis character)\nAND DORTAL 221 15\nArt by Maxes Cound\n2', '3', 'Magran', 'Proudstep', 'Ally', '-', 'Tauren', 'Hunter', 'Ferocity', 'Long', '-', 'Range', '(', 'Defenders', 'deal', 'no', 'combat', 'damage', 'to', 'this', 'character', ')', 'AND', 'DORTAL', '221', '15', 'Art', 'by', 'Maxes', 'Cound', '2']
+2023-09-03 18:33:11,454 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:11,454 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:33:11,456 - Querying 'wow_cards' for potential card name: Magran Proudstep
+2023-09-03 18:33:11,457 - Card name is unique. Set ID for Magran Proudstep: 37
+2023-09-03 18:33:11,457 - Querying 'card_versions' for card name: Magran Proudstep and set ID: 37
+2023-09-03 18:33:11,458 - Card ID found: 5236
+2023-09-03 18:33:11,458 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:11,458 - Inserting into 'collection_inventory'. Card Name:Magran Proudstep, Card ID: 5236, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:11.458095
+2023-09-03 18:33:11,466 - Insertion successful. Card Name: Magran Proudstep, Set ID: 37, Card ID: 5236, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:11.458095
+2023-09-03 18:33:11,469 - Checked existing card with card_id: 5236, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:33:13,268 - Starting the card scanning process.
+2023-09-03 18:33:15,165 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:15,452 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:15,843 - Texts found in the image: ['Ra\'chee\nAlly-Troll Priest\n1\n20\nWhen Ra\'chee enters play, he heals 2 damage\nfrom target hero or ally.\n"Voodoo be good for you, mon\nArt by Warren Body\nSE DARK PORTAG 230 31\n2', "Ra'chee", 'Ally', '-', 'Troll', 'Priest', '1', '20', 'When', "Ra'chee", 'enters', 'play', ',', 'he', 'heals', '2', 'damage', 'from', 'target', 'hero', 'or', 'ally', '.', '"', 'Voodoo', 'be', 'good', 'for', 'you', ',', 'mon', 'Art', 'by', 'Warren', 'Body', 'SE', 'DARK', 'PORTAG', '230', '31', '2']
+2023-09-03 18:33:15,843 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:15,844 - Querying 'wow_cards' for potential card name: Ra'chee
+2023-09-03 18:33:15,845 - Possible set abbreviations for Ra'chee: ['Horde Priest', 'Dark Portal']
+2023-09-03 18:33:15,845 - Cleaned text for abbreviation matching: allytrollpriest120whenentersplayheheals2damagefromtargetheroorallyvoodoobegoodforyoumonartbywarrenbodysedarkportag230312
+2023-09-03 18:33:15,845 - Checking for abbreviation: hordepriest
+2023-09-03 18:33:15,845 - Checking for abbreviation: darkportal
+2023-09-03 18:33:15,845 - Fuzzy match score for hordepriest: 11
+2023-09-03 18:33:15,846 - Fuzzy match score for darkportal: 14
+2023-09-03 18:33:19,003 - Matched set abbreviation: Dark Portal
+2023-09-03 18:33:19,003 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:33:19,009 - Single Set ID 37 found for card name Ra'chee and abbreviation Dark Portal.
+2023-09-03 18:33:19,009 - Querying 'card_versions' for card name: Ra'chee and set ID: 37
+2023-09-03 18:33:19,010 - Card ID found: 6069
+2023-09-03 18:33:19,010 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:19,010 - Inserting into 'collection_inventory'. Card Name:Ra'chee, Card ID: 6069, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:19.010854
+2023-09-03 18:33:19,018 - Insertion successful. Card Name: Ra'chee, Set ID: 37, Card ID: 6069, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:19.010854
+2023-09-03 18:33:19,020 - Checked existing card with card_id: 6069, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:33:20,309 - Starting the card scanning process.
+2023-09-03 18:33:22,025 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:22,332 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:22,583 - Texts found in the image: ['3\nMagran Proudstep\nAlly-Tauren Hunter\nFerocity\nLong-Range (Defenders deal no combat damage to\nthis character)\n1\nCAS FERR FATAL 2233159\n2', '3', 'Magran', 'Proudstep', 'Ally', '-', 'Tauren', 'Hunter', 'Ferocity', 'Long', '-', 'Range', '(', 'Defenders', 'deal', 'no', 'combat', 'damage', 'to', 'this', 'character', ')', '1', 'CAS', 'FERR', 'FATAL', '2233159', '2']
+2023-09-03 18:33:22,583 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:22,584 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:33:22,585 - Querying 'wow_cards' for potential card name: Magran Proudstep
+2023-09-03 18:33:22,585 - Card name is unique. Set ID for Magran Proudstep: 37
+2023-09-03 18:33:22,585 - Querying 'card_versions' for card name: Magran Proudstep and set ID: 37
+2023-09-03 18:33:22,586 - Card ID found: 5236
+2023-09-03 18:33:22,586 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:22,586 - Inserting into 'collection_inventory'. Card Name:Magran Proudstep, Card ID: 5236, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:22.586479
+2023-09-03 18:33:22,593 - Insertion successful. Card Name: Magran Proudstep, Set ID: 37, Card ID: 5236, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:22.586479
+2023-09-03 18:33:22,594 - Checked existing card with card_id: 5236, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:33:24,400 - Starting the card scanning process.
+2023-09-03 18:33:25,960 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:26,257 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:26,505 - Texts found in the image: ["Waz'luk\nAlly-Troll Mage\nWhen Waz'luk enters play, he deals 1 fire\ndamage to target hero\n2\nHe makes quille a first impression\nDARK ORTAS 242 311\nArt by Poke Par\n1", "Waz'luk", 'Ally', '-', 'Troll', 'Mage', 'When', "Waz'luk", 'enters', 'play', ',', 'he', 'deals', '1', 'fire', 'damage', 'to', 'target', 'hero', '2', 'He', 'makes', 'quille', 'a', 'first', 'impression', 'DARK', 'ORTAS', '242', '311', 'Art', 'by', 'Poke', 'Par', '1']
+2023-09-03 18:33:26,506 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:26,506 - Querying 'wow_cards' for potential card name: Waz'luk
+2023-09-03 18:33:26,510 - Possible set abbreviations for Waz'luk: ['Citadel Raid', 'Class', 'Horde Mage', 'Horde Priest', 'Horde Warlock', 'Sylvanus', 'Dark Portal']
+2023-09-03 18:33:26,510 - Cleaned text for abbreviation matching: allytrollmagewhenentersplayhedeals1firedamagetotargethero2hemakesquilleafirstimpressiondarkortas242311artbypokepar1
+2023-09-03 18:33:26,510 - Checking for abbreviation: citadelraid
+2023-09-03 18:33:26,510 - Checking for abbreviation: class
+2023-09-03 18:33:26,510 - Checking for abbreviation: hordemage
+2023-09-03 18:33:26,510 - Checking for abbreviation: hordepriest
+2023-09-03 18:33:26,510 - Checking for abbreviation: hordewarlock
+2023-09-03 18:33:26,510 - Checking for abbreviation: sylvanus
+2023-09-03 18:33:26,510 - Checking for abbreviation: darkportal
+2023-09-03 18:33:26,511 - Fuzzy match score for citadelraid: 10
+2023-09-03 18:33:26,511 - Fuzzy match score for class: 7
+2023-09-03 18:33:26,511 - Fuzzy match score for hordemage: 8
+2023-09-03 18:33:26,511 - Fuzzy match score for hordepriest: 11
+2023-09-03 18:33:26,511 - Fuzzy match score for hordewarlock: 11
+2023-09-03 18:33:26,511 - Fuzzy match score for sylvanus: 5
+2023-09-03 18:33:26,512 - Fuzzy match score for darkportal: 13
+2023-09-03 18:33:29,572 - Matched set abbreviation: Dark Portal
+2023-09-03 18:33:29,572 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:33:30,772 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 18:33:30,772 - Set ID found: 37
+2023-09-03 18:33:30,772 - Querying 'card_versions' for card name: Waz'luk and set ID: 37
+2023-09-03 18:33:30,773 - Card ID found: 7559
+2023-09-03 18:33:30,773 - Multiple variants found for card ID 7559: [9, 2, 3, 5]
+2023-09-03 18:33:33,734 - Inserting into 'collection_inventory'. Card Name:Waz'luk, Card ID: 7559, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:33.734632
+2023-09-03 18:33:33,736 - Insertion successful. Card Name: Waz'luk, Set ID: 37, Card ID: 7559, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:33.734632
+2023-09-03 18:33:33,745 - Checked existing card with card_id: 7559, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:33:35,151 - Starting the card scanning process.
+2023-09-03 18:33:37,148 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:37,450 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:37,689 - Texts found in the image: ['6\n6\nVanda Skydaughter\nAlly - Tauren Druid\n"Nature on just around you. It\'s above you as well\nGAS PARK PORTAL 919 39 A\n5', '6', '6', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', '"', 'Nature', 'on', 'just', 'around', 'you', '.', "It's", 'above', 'you', 'as', 'well', 'GAS', 'PARK', 'PORTAL', '919', '39', 'A', '5']
+2023-09-03 18:33:37,690 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:37,691 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:33:37,694 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:33:37,695 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:33:37,697 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:33:37,697 - Cleaned text for abbreviation matching: 66vandaskydaughterallytaurendruidnatureonjustaroundyouaboveyouaswellgasparkportal91939a5
+2023-09-03 18:33:37,697 - Checking for abbreviation: class
+2023-09-03 18:33:37,697 - Checking for abbreviation: hordedruid
+2023-09-03 18:33:37,697 - Checking for abbreviation: hordeshaman
+2023-09-03 18:33:37,697 - Checking for abbreviation: darkportal
+2023-09-03 18:33:37,697 - Fuzzy match score for class: 6
+2023-09-03 18:33:37,698 - Fuzzy match score for hordedruid: 14
+2023-09-03 18:33:37,698 - Fuzzy match score for hordeshaman: 4
+2023-09-03 18:33:37,698 - Fuzzy match score for darkportal: 20
+2023-09-03 18:33:41,137 - Matched set abbreviation: Dark Portal
+2023-09-03 18:33:41,137 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:33:41,142 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:33:41,142 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:33:41,143 - Card ID found: 7371
+2023-09-03 18:33:41,143 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:41,143 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:41.143630
+2023-09-03 18:33:41,155 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:41.143630
+2023-09-03 18:33:41,156 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:33:42,760 - Starting the card scanning process.
+2023-09-03 18:33:44,974 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:45,262 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:45,559 - Texts found in the image: ["9\n6\nVanda Skydaughter\nAlly-Tauren Druid\nNature ont just around you. It's above you as well\nGAS LALO GRATAR DIN At by I\n5", '9', '6', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', 'Nature', 'ont', 'just', 'around', 'you', '.', "It's", 'above', 'you', 'as', 'well', 'GAS', 'LALO', 'GRATAR', 'DIN', 'At', 'by', 'I', '5']
+2023-09-03 18:33:45,559 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:45,559 - Querying 'wow_cards' for potential card name: 9
+2023-09-03 18:33:45,562 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:33:45,563 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:33:45,565 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:33:45,565 - Cleaned text for abbreviation matching: 96vandaskydaughterallytaurendruidnatureontjustaroundyouaboveyouaswellgaslalogratardinatbyi5
+2023-09-03 18:33:45,565 - Checking for abbreviation: class
+2023-09-03 18:33:45,565 - Checking for abbreviation: hordedruid
+2023-09-03 18:33:45,565 - Checking for abbreviation: hordeshaman
+2023-09-03 18:33:45,565 - Checking for abbreviation: darkportal
+2023-09-03 18:33:45,565 - Fuzzy match score for class: 6
+2023-09-03 18:33:45,566 - Fuzzy match score for hordedruid: 14
+2023-09-03 18:33:45,566 - Fuzzy match score for hordeshaman: 4
+2023-09-03 18:33:45,566 - Fuzzy match score for darkportal: 12
+2023-09-03 18:33:46,477 - Matched set abbreviation: Dark Portal
+2023-09-03 18:33:46,477 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:33:46,483 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:33:46,484 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:33:46,484 - Card ID found: 7371
+2023-09-03 18:33:46,484 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:46,484 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:46.484903
+2023-09-03 18:33:46,496 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:46.484903
+2023-09-03 18:33:46,497 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:33:48,099 - Starting the card scanning process.
+2023-09-03 18:33:49,879 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:50,179 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:50,534 - Texts found in the image: ['Ra\'chee\nAlly - Troll Priest\nWhen Ra\'chee enters play, he heals 2 damage\nfrom target hero or ally.\n1\n"Voodoo be good for you, mon\nGOALD DATA 230 15\nAby Way\ncinco\n2', "Ra'chee", 'Ally', '-', 'Troll', 'Priest', 'When', "Ra'chee", 'enters', 'play', ',', 'he', 'heals', '2', 'damage', 'from', 'target', 'hero', 'or', 'ally', '.', '1', '"', 'Voodoo', 'be', 'good', 'for', 'you', ',', 'mon', 'GOALD', 'DATA', '230', '15', 'Aby', 'Way', 'cinco', '2']
+2023-09-03 18:33:50,535 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:50,535 - Querying 'wow_cards' for potential card name: Ra'chee
+2023-09-03 18:33:50,537 - Possible set abbreviations for Ra'chee: ['Horde Priest', 'Dark Portal']
+2023-09-03 18:33:50,537 - Cleaned text for abbreviation matching: allytrollpriestwhenentersplayheheals2damagefromtargetheroorally1voodoobegoodforyoumongoalddata23015abywaycinco2
+2023-09-03 18:33:50,537 - Checking for abbreviation: hordepriest
+2023-09-03 18:33:50,537 - Checking for abbreviation: darkportal
+2023-09-03 18:33:50,537 - Fuzzy match score for hordepriest: 11
+2023-09-03 18:33:50,537 - Fuzzy match score for darkportal: 3
+2023-09-03 18:33:51,531 - Matched set abbreviation: Dark Portal
+2023-09-03 18:33:51,531 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:33:51,538 - Single Set ID 37 found for card name Ra'chee and abbreviation Dark Portal.
+2023-09-03 18:33:51,538 - Querying 'card_versions' for card name: Ra'chee and set ID: 37
+2023-09-03 18:33:51,539 - Card ID found: 6069
+2023-09-03 18:33:51,539 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:33:51,539 - Inserting into 'collection_inventory'. Card Name:Ra'chee, Card ID: 6069, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:51.539361
+2023-09-03 18:33:51,554 - Insertion successful. Card Name: Ra'chee, Set ID: 37, Card ID: 6069, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:51.539361
+2023-09-03 18:33:51,555 - Checked existing card with card_id: 6069, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:33:52,849 - Starting the card scanning process.
+2023-09-03 18:33:54,538 - Image captured and saved as captured_img.jpg
+2023-09-03 18:33:54,833 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:33:55,057 - Texts found in the image: ["Ally-Troll Rogue\nWhen Nyn'jah enters play, you may ready target\nopposing equipment. You control that equipment\nwhile Nyn'jah remains in your party.\n3\nNyn'jah\n3\nAM PORTAL IN\ntake that\n3", 'Ally', '-', 'Troll', 'Rogue', 'When', "Nyn'jah", 'enters', 'play', ',', 'you', 'may', 'ready', 'target', 'opposing', 'equipment', '.', 'You', 'control', 'that', 'equipment', 'while', "Nyn'jah", 'remains', 'in', 'your', 'party', '.', '3', "Nyn'jah", '3', 'AM', 'PORTAL', 'IN', 'take', 'that', '3']
+2023-09-03 18:33:55,059 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:33:55,059 - Querying 'wow_cards' for potential card name: Ally-Troll Rogue
+2023-09-03 18:33:55,061 - Querying 'wow_cards' for potential card name: When Nyn'jah enters play, you may ready target
+2023-09-03 18:33:55,062 - Querying 'wow_cards' for potential card name: opposing equipment. You control that equipment
+2023-09-03 18:33:55,062 - Querying 'wow_cards' for potential card name: while Nyn'jah remains in your party.
+2023-09-03 18:33:55,063 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:33:55,063 - Querying 'wow_cards' for potential card name: Nyn'jah
+2023-09-03 18:33:55,064 - Card name is unique. Set ID for Nyn'jah: 37
+2023-09-03 18:33:55,064 - Querying 'card_versions' for card name: Nyn'jah and set ID: 37
+2023-09-03 18:33:55,064 - Card ID found: 5781
+2023-09-03 18:33:55,064 - Multiple variants found for card ID 5781: [3, 5]
+2023-09-03 18:33:56,265 - Inserting into 'collection_inventory'. Card Name:Nyn'jah, Card ID: 5781, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:33:56.265350
+2023-09-03 18:33:56,269 - Insertion successful. Card Name: Nyn'jah, Set ID: 37, Card ID: 5781, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:33:56.265350
+2023-09-03 18:33:56,270 - Checked existing card with card_id: 5781, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:33:57,829 - Starting the card scanning process.
+2023-09-03 18:34:00,009 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:00,312 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:00,571 - Texts found in the image: ['Ra\'chee\nAlly-Troll Priest\nWhen Ra\'chee enters play, he heals 2 damage\nfrom target hero or ally.\n1\n"Voodoo be good for you, mon\nDAUDONATAS SIN AN Mily\naby\n2', "Ra'chee", 'Ally', '-', 'Troll', 'Priest', 'When', "Ra'chee", 'enters', 'play', ',', 'he', 'heals', '2', 'damage', 'from', 'target', 'hero', 'or', 'ally', '.', '1', '"', 'Voodoo', 'be', 'good', 'for', 'you', ',', 'mon', 'DAUDONATAS', 'SIN', 'AN', 'Mily', 'aby', '2']
+2023-09-03 18:34:00,572 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:00,573 - Querying 'wow_cards' for potential card name: Ra'chee
+2023-09-03 18:34:00,576 - Possible set abbreviations for Ra'chee: ['Horde Priest', 'Dark Portal']
+2023-09-03 18:34:00,576 - Cleaned text for abbreviation matching: allytrollpriestwhenentersplayheheals2damagefromtargetheroorally1voodoobegoodforyoumondaudonatassinanmilyaby2
+2023-09-03 18:34:00,576 - Checking for abbreviation: hordepriest
+2023-09-03 18:34:00,576 - Checking for abbreviation: darkportal
+2023-09-03 18:34:00,577 - Fuzzy match score for hordepriest: 12
+2023-09-03 18:34:00,578 - Fuzzy match score for darkportal: 3
+2023-09-03 18:34:01,787 - Matched set abbreviation: Dark Portal
+2023-09-03 18:34:01,787 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:34:01,792 - Single Set ID 37 found for card name Ra'chee and abbreviation Dark Portal.
+2023-09-03 18:34:01,792 - Querying 'card_versions' for card name: Ra'chee and set ID: 37
+2023-09-03 18:34:01,793 - Card ID found: 6069
+2023-09-03 18:34:01,793 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:01,793 - Inserting into 'collection_inventory'. Card Name:Ra'chee, Card ID: 6069, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:01.793081
+2023-09-03 18:34:01,800 - Insertion successful. Card Name: Ra'chee, Set ID: 37, Card ID: 6069, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:01.793081
+2023-09-03 18:34:01,801 - Checked existing card with card_id: 6069, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:34:03,098 - Starting the card scanning process.
+2023-09-03 18:34:04,962 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:05,265 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:05,503 - Texts found in the image: ["Tiril Dawnrider\nAlly-Blood Elf Rogue\nFerocity\nAt the end of your turn, put Tiril Dawnrider into\nhis owner's hand.\nSS 10 HI1 14\n1", 'Tiril', 'Dawnrider', 'Ally', '-', 'Blood', 'Elf', 'Rogue', 'Ferocity', 'At', 'the', 'end', 'of', 'your', 'turn', ',', 'put', 'Tiril', 'Dawnrider', 'into', 'his', "owner's", 'hand', '.', 'SS', '10', 'HI1', '14', '1']
+2023-09-03 18:34:05,503 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:05,504 - Querying 'wow_cards' for potential card name: Tiril Dawnrider
+2023-09-03 18:34:05,507 - Card name is unique. Set ID for Tiril Dawnrider: 37
+2023-09-03 18:34:05,507 - Querying 'card_versions' for card name: Tiril Dawnrider and set ID: 37
+2023-09-03 18:34:05,508 - Card ID found: 7155
+2023-09-03 18:34:05,509 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:05,509 - Inserting into 'collection_inventory'. Card Name:Tiril Dawnrider, Card ID: 7155, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:05.509571
+2023-09-03 18:34:05,523 - Insertion successful. Card Name: Tiril Dawnrider, Set ID: 37, Card ID: 7155, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:05.509571
+2023-09-03 18:34:05,525 - Checked existing card with card_id: 7155, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:34:07,106 - Starting the card scanning process.
+2023-09-03 18:34:08,696 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:08,998 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:09,263 - Texts found in the image: ['2\nLeeza. Tomb Robber\nAlly-Undead Rogue\nStealth (Can\'t protect against this character.)\n2\nWhen Leeza deals combat damage, you may remove\ntarget card in a graveyard from the game.\nCe\n"The dead have no need for their riches\nAr by LA, Wie\nbut (2', '2', 'Leeza', '.', 'Tomb', 'Robber', 'Ally', '-', 'Undead', 'Rogue', 'Stealth', '(', "Can't", 'protect', 'against', 'this', 'character', '.', ')', '2', 'When', 'Leeza', 'deals', 'combat', 'damage', ',', 'you', 'may', 'remove', 'target', 'card', 'in', 'a', 'graveyard', 'from', 'the', 'game', '.', 'Ce', '"', 'The', 'dead', 'have', 'no', 'need', 'for', 'their', 'riches', 'Ar', 'by', 'LA', ',', 'Wie', 'but', '(', '2']
+2023-09-03 18:34:09,264 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:09,265 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:34:09,268 - Querying 'wow_cards' for potential card name: Leeza. Tomb Robber
+2023-09-03 18:34:09,268 - Querying 'wow_cards' for potential card name: Ally-Undead Rogue
+2023-09-03 18:34:09,270 - Querying 'wow_cards' for potential card name: Stealth (Can't protect against this character.)
+2023-09-03 18:34:09,270 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:34:09,271 - Querying 'wow_cards' for potential card name: When Leeza deals combat damage, you may remove
+2023-09-03 18:34:09,272 - Querying 'wow_cards' for potential card name: target card in a graveyard from the game.
+2023-09-03 18:34:09,272 - Querying 'wow_cards' for potential card name: Ce
+2023-09-03 18:34:09,273 - Querying 'wow_cards' for potential card name: "The dead have no need for their riches
+2023-09-03 18:34:09,273 - Querying 'wow_cards' for potential card name: Ar by LA, Wie
+2023-09-03 18:34:09,274 - Querying 'wow_cards' for potential card name: but (2
+2023-09-03 18:34:09,274 - Failed to identify the card or its set. Exiting.
+2023-09-03 18:34:09,274 - Starting the card scanning process.
+2023-09-03 18:34:12,999 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:13,300 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:13,570 - Texts found in the image: ["2\nLeeza. Tomb Robber\n2\nAlly - Undead Rogue\nStealth (Can't protect against this character)\nWhen Leeza deals combat damage, you may remove\ntarget card in a graveyard from the game.\nbut I do 2\nC\nThe dead have no need for their riches\nGASPARD PORTAL1 920 JM\nMA\nG", '2', 'Leeza', '.', 'Tomb', 'Robber', '2', 'Ally', '-', 'Undead', 'Rogue', 'Stealth', '(', "Can't", 'protect', 'against', 'this', 'character', ')', 'When', 'Leeza', 'deals', 'combat', 'damage', ',', 'you', 'may', 'remove', 'target', 'card', 'in', 'a', 'graveyard', 'from', 'the', 'game', '.', 'but', 'I', 'do', '2', 'C', 'The', 'dead', 'have', 'no', 'need', 'for', 'their', 'riches', 'GASPARD', 'PORTAL1', '920', 'JM', 'MA', 'G']
+2023-09-03 18:34:13,571 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:13,572 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:34:13,574 - Querying 'wow_cards' for potential card name: Leeza. Tomb Robber
+2023-09-03 18:34:13,574 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:34:13,575 - Querying 'wow_cards' for potential card name: Ally - Undead Rogue
+2023-09-03 18:34:13,575 - Querying 'wow_cards' for potential card name: Stealth (Can't protect against this character)
+2023-09-03 18:34:13,576 - Querying 'wow_cards' for potential card name: When Leeza deals combat damage, you may remove
+2023-09-03 18:34:13,577 - Querying 'wow_cards' for potential card name: target card in a graveyard from the game.
+2023-09-03 18:34:13,577 - Querying 'wow_cards' for potential card name: but I do 2
+2023-09-03 18:34:13,578 - Querying 'wow_cards' for potential card name: C
+2023-09-03 18:34:13,578 - Querying 'wow_cards' for potential card name: The dead have no need for their riches
+2023-09-03 18:34:13,579 - Querying 'wow_cards' for potential card name: GASPARD PORTAL1 920 JM
+2023-09-03 18:34:13,579 - Querying 'wow_cards' for potential card name: MA
+2023-09-03 18:34:13,580 - Querying 'wow_cards' for potential card name: G
+2023-09-03 18:34:13,580 - Failed to identify the card or its set. Exiting.
+2023-09-03 18:34:13,580 - Starting the card scanning process.
+2023-09-03 18:34:18,741 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:19,041 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:19,266 - Texts found in the image: ['3\nMorik\nAlly-Ore Shaman\nFerocity\nWhen Morik attacks, each player draws a card.\n2\n2\nDARK PORTAL 92434\nN\nAby', '3', 'Morik', 'Ally', '-', 'Ore', 'Shaman', 'Ferocity', 'When', 'Morik', 'attacks', ',', 'each', 'player', 'draws', 'a', 'card', '.', '2', '2', 'DARK', 'PORTAL', '92434', 'N', 'Aby']
+2023-09-03 18:34:19,267 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:19,267 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:34:19,270 - Querying 'wow_cards' for potential card name: Morik
+2023-09-03 18:34:19,271 - Card name is unique. Set ID for Morik: 37
+2023-09-03 18:34:19,271 - Querying 'card_versions' for card name: Morik and set ID: 37
+2023-09-03 18:34:19,272 - Card ID found: 5592
+2023-09-03 18:34:19,272 - Multiple variants found for card ID 5592: [3, 5]
+2023-09-03 18:34:24,405 - Inserting into 'collection_inventory'. Card Name:Morik, Card ID: 5592, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:24.405091
+2023-09-03 18:34:24,408 - Insertion successful. Card Name: Morik, Set ID: 37, Card ID: 5592, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:24.405091
+2023-09-03 18:34:24,408 - Checked existing card with card_id: 5592, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:34:25,662 - Starting the card scanning process.
+2023-09-03 18:34:27,159 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:27,459 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:27,708 - Texts found in the image: ["Ra'chee\n1\nAlly - Troll Priest\nWhen Ra'chee enters play, he heals 2 damage\nfrom target hero or ally.\nGAS AND PORTAL-210 39\nAt by Mary\n2", "Ra'chee", '1', 'Ally', '-', 'Troll', 'Priest', 'When', "Ra'chee", 'enters', 'play', ',', 'he', 'heals', '2', 'damage', 'from', 'target', 'hero', 'or', 'ally', '.', 'GAS', 'AND', 'PORTAL', '-', '210', '39', 'At', 'by', 'Mary', '2']
+2023-09-03 18:34:27,709 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:27,711 - Querying 'wow_cards' for potential card name: Ra'chee
+2023-09-03 18:34:27,714 - Possible set abbreviations for Ra'chee: ['Horde Priest', 'Dark Portal']
+2023-09-03 18:34:27,714 - Cleaned text for abbreviation matching: 1allytrollpriestwhenentersplayheheals2damagefromtargetheroorallygasandportal21039atbymary2
+2023-09-03 18:34:27,714 - Checking for abbreviation: hordepriest
+2023-09-03 18:34:27,714 - Checking for abbreviation: darkportal
+2023-09-03 18:34:27,715 - Fuzzy match score for hordepriest: 14
+2023-09-03 18:34:27,715 - Fuzzy match score for darkportal: 18
+2023-09-03 18:34:29,195 - Matched set abbreviation: Dark Portal
+2023-09-03 18:34:29,195 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:34:29,202 - Single Set ID 37 found for card name Ra'chee and abbreviation Dark Portal.
+2023-09-03 18:34:29,202 - Querying 'card_versions' for card name: Ra'chee and set ID: 37
+2023-09-03 18:34:29,203 - Card ID found: 6069
+2023-09-03 18:34:29,203 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:29,203 - Inserting into 'collection_inventory'. Card Name:Ra'chee, Card ID: 6069, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:29.203867
+2023-09-03 18:34:29,212 - Insertion successful. Card Name: Ra'chee, Set ID: 37, Card ID: 6069, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:29.203867
+2023-09-03 18:34:29,213 - Checked existing card with card_id: 6069, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 18:34:30,510 - Starting the card scanning process.
+2023-09-03 18:34:33,975 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:34,277 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:34,539 - Texts found in the image: ["Ra'chee\n1\nAlly- Troll Priest\nWhen Ra'chee enters play, he heals 2 damage\nfrom target hero or ally.\nB\nSIMPAIRED\n2", "Ra'chee", '1', 'Ally-', 'Troll', 'Priest', 'When', "Ra'chee", 'enters', 'play', ',', 'he', 'heals', '2', 'damage', 'from', 'target', 'hero', 'or', 'ally', '.', 'B', 'SIMPAIRED', '2']
+2023-09-03 18:34:34,540 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:34,540 - Querying 'wow_cards' for potential card name: Ra'chee
+2023-09-03 18:34:34,545 - Possible set abbreviations for Ra'chee: ['Horde Priest', 'Dark Portal']
+2023-09-03 18:34:34,545 - Cleaned text for abbreviation matching: 1trollpriestwhenentersplayheheals2damagefromtargetheroorallybsimpaired2
+2023-09-03 18:34:34,545 - Checking for abbreviation: hordepriest
+2023-09-03 18:34:34,545 - Checking for abbreviation: darkportal
+2023-09-03 18:34:34,545 - Fuzzy match score for hordepriest: 17
+2023-09-03 18:34:34,546 - Fuzzy match score for darkportal: 7
+2023-09-03 18:34:36,635 - Matched set abbreviation: Dark Portal
+2023-09-03 18:34:36,636 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:34:36,641 - Single Set ID 37 found for card name Ra'chee and abbreviation Dark Portal.
+2023-09-03 18:34:36,641 - Querying 'card_versions' for card name: Ra'chee and set ID: 37
+2023-09-03 18:34:36,642 - Card ID found: 6069
+2023-09-03 18:34:36,642 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:36,642 - Inserting into 'collection_inventory'. Card Name:Ra'chee, Card ID: 6069, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:36.642237
+2023-09-03 18:34:36,653 - Insertion successful. Card Name: Ra'chee, Set ID: 37, Card ID: 6069, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:36.642237
+2023-09-03 18:34:36,654 - Checked existing card with card_id: 6069, variant_id: 5, instance: 1. Count found: 6
+2023-09-03 18:34:37,951 - Starting the card scanning process.
+2023-09-03 18:34:40,215 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:40,519 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:40,948 - Texts found in the image: ['3\nSZ\nBluffwatchers\nAlly-Tauren Warrior\nBluffwatchers has +1 ATK and +1 health\nfor each other ally named Bluffwatchers in\nyour party.\nUnlimited\nThose who visit the capital city of the tauren\nknow better than to misbehave\nSAS MEMORATAL 201 379 At by\n2', '3', 'SZ', 'Bluffwatchers', 'Ally', '-', 'Tauren', 'Warrior', 'Bluffwatchers', 'has', '+1', 'ATK', 'and', '+1', 'health', 'for', 'each', 'other', 'ally', 'named', 'Bluffwatchers', 'in', 'your', 'party', '.', 'Unlimited', 'Those', 'who', 'visit', 'the', 'capital', 'city', 'of', 'the', 'tauren', 'know', 'better', 'than', 'to', 'misbehave', 'SAS', 'MEMORATAL', '201', '379', 'At', 'by', '2']
+2023-09-03 18:34:40,948 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:40,949 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:34:40,949 - Querying 'wow_cards' for potential card name: SZ
+2023-09-03 18:34:40,950 - Querying 'wow_cards' for potential card name: Bluffwatchers
+2023-09-03 18:34:40,951 - Card name is unique. Set ID for Bluffwatchers: 37
+2023-09-03 18:34:40,951 - Querying 'card_versions' for card name: Bluffwatchers and set ID: 37
+2023-09-03 18:34:40,951 - Card ID found: 1958
+2023-09-03 18:34:40,951 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:40,952 - Inserting into 'collection_inventory'. Card Name:Bluffwatchers, Card ID: 1958, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:40.951262
+2023-09-03 18:34:40,965 - Insertion successful. Card Name: Bluffwatchers, Set ID: 37, Card ID: 1958, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:40.951262
+2023-09-03 18:34:40,966 - Checked existing card with card_id: 1958, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:34:42,481 - Starting the card scanning process.
+2023-09-03 18:34:44,070 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:44,371 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:44,757 - Texts found in the image: ["3\nBoneshanks\nAlly-Undead Warrior\n3\nWhen Boneshanks is destroyed, destroy\ntarget ally.\nHe'll drag you with him to the grave\nARM PORTAS F0037 Aby\n2", '3', 'Boneshanks', 'Ally', '-', 'Undead', 'Warrior', '3', 'When', 'Boneshanks', 'is', 'destroyed', ',', 'destroy', 'target', 'ally', '.', "He'll", 'drag', 'you', 'with', 'him', 'to', 'the', 'grave', 'ARM', 'PORTAS', 'F0037', 'Aby', '2']
+2023-09-03 18:34:44,758 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:44,759 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:34:44,761 - Querying 'wow_cards' for potential card name: Boneshanks
+2023-09-03 18:34:44,762 - Card name is unique. Set ID for Boneshanks: 37
+2023-09-03 18:34:44,762 - Querying 'card_versions' for card name: Boneshanks and set ID: 37
+2023-09-03 18:34:44,762 - Card ID found: 1977
+2023-09-03 18:34:44,763 - Multiple variants found for card ID 1977: [3, 5]
+2023-09-03 18:34:46,834 - Inserting into 'collection_inventory'. Card Name:Boneshanks, Card ID: 1977, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:46.834733
+2023-09-03 18:34:46,837 - Insertion successful. Card Name: Boneshanks, Set ID: 37, Card ID: 1977, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:46.834733
+2023-09-03 18:34:46,837 - Checked existing card with card_id: 1977, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:34:48,381 - Starting the card scanning process.
+2023-09-03 18:34:49,997 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:50,301 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:50,700 - Texts found in the image: ['2\nAraelun\nAlly-Blood Elf Paladin\nThe Blood Knights of Silvermoon are the\nbackbone of the blood elf army\nArt by DON\nCAP OLAN PORTAR STAR\n3', '2', 'Araelun', 'Ally', '-', 'Blood', 'Elf', 'Paladin', 'The', 'Blood', 'Knights', 'of', 'Silvermoon', 'are', 'the', 'backbone', 'of', 'the', 'blood', 'elf', 'army', 'Art', 'by', 'DON', 'CAP', 'OLAN', 'PORTAR', 'STAR', '3']
+2023-09-03 18:34:50,701 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:50,701 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:34:50,704 - Querying 'wow_cards' for potential card name: Araelun
+2023-09-03 18:34:50,705 - Possible set abbreviations for Araelun: ['Dark Portal', 'Class']
+2023-09-03 18:34:50,705 - Cleaned text for abbreviation matching: 2araelunallybloodelfpaladinthebloodknightsofsilvermoonarethebackboneofthebloodelfarmyartbydoncapolanportarstar3
+2023-09-03 18:34:50,705 - Checking for abbreviation: darkportal
+2023-09-03 18:34:50,705 - Checking for abbreviation: class
+2023-09-03 18:34:50,705 - Fuzzy match score for darkportal: 13
+2023-09-03 18:34:50,705 - Fuzzy match score for class: 7
+2023-09-03 18:34:52,367 - Matched set abbreviation: Dark Portal
+2023-09-03 18:34:52,368 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:34:52,374 - Single Set ID 37 found for card name Araelun and abbreviation Dark Portal.
+2023-09-03 18:34:52,374 - Querying 'card_versions' for card name: Araelun and set ID: 37
+2023-09-03 18:34:52,374 - Card ID found: 1034
+2023-09-03 18:34:52,374 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:52,374 - Inserting into 'collection_inventory'. Card Name:Araelun, Card ID: 1034, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:52.374002
+2023-09-03 18:34:52,385 - Insertion successful. Card Name: Araelun, Set ID: 37, Card ID: 1034, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:52.374002
+2023-09-03 18:34:52,388 - Checked existing card with card_id: 1034, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:34:53,693 - Starting the card scanning process.
+2023-09-03 18:34:55,219 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:55,504 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:55,775 - Texts found in the image: ['3\nBluffwatchers\nAlly-Tauren Warrior\nBluffwatchers has +1 ATK and +1 health\nfor each other ally named Bluffwatchers in\nyour party.\nUnlimited\nThose who visit the capital city of the tauren\nknow better than to mabehave\nSAS CEAT COATAN 880 319 Anby\n$\n2', '3', 'Bluffwatchers', 'Ally', '-', 'Tauren', 'Warrior', 'Bluffwatchers', 'has', '+1', 'ATK', 'and', '+1', 'health', 'for', 'each', 'other', 'ally', 'named', 'Bluffwatchers', 'in', 'your', 'party', '.', 'Unlimited', 'Those', 'who', 'visit', 'the', 'capital', 'city', 'of', 'the', 'tauren', 'know', 'better', 'than', 'to', 'mabehave', 'SAS', 'CEAT', 'COATAN', '880', '319', 'Anby', '$', '2']
+2023-09-03 18:34:55,776 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:55,777 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:34:55,779 - Querying 'wow_cards' for potential card name: Bluffwatchers
+2023-09-03 18:34:55,780 - Card name is unique. Set ID for Bluffwatchers: 37
+2023-09-03 18:34:55,780 - Querying 'card_versions' for card name: Bluffwatchers and set ID: 37
+2023-09-03 18:34:55,782 - Card ID found: 1958
+2023-09-03 18:34:55,782 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:55,782 - Inserting into 'collection_inventory'. Card Name:Bluffwatchers, Card ID: 1958, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:55.782620
+2023-09-03 18:34:55,795 - Insertion successful. Card Name: Bluffwatchers, Set ID: 37, Card ID: 1958, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:55.782620
+2023-09-03 18:34:55,796 - Checked existing card with card_id: 1958, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:34:57,312 - Starting the card scanning process.
+2023-09-03 18:34:58,804 - Image captured and saved as captured_img.jpg
+2023-09-03 18:34:59,105 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:34:59,363 - Texts found in the image: ['5\nBranu Wildbloom\nAlly-Tauren Druid\nWhen Branu Wildbloom enters play, put the\ntop card of your deck into your resource row\nface down and exhausted.\n2\nPARK PORTAL 907 315\nAt by W\n3', '5', 'Branu', 'Wildbloom', 'Ally', '-', 'Tauren', 'Druid', 'When', 'Branu', 'Wildbloom', 'enters', 'play', ',', 'put', 'the', 'top', 'card', 'of', 'your', 'deck', 'into', 'your', 'resource', 'row', 'face', 'down', 'and', 'exhausted', '.', '2', 'PARK', 'PORTAL', '907', '315', 'At', 'by', 'W', '3']
+2023-09-03 18:34:59,363 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:34:59,365 - Querying 'wow_cards' for potential card name: 5
+2023-09-03 18:34:59,367 - Querying 'wow_cards' for potential card name: Branu Wildbloom
+2023-09-03 18:34:59,368 - Card name is unique. Set ID for Branu Wildbloom: 37
+2023-09-03 18:34:59,368 - Querying 'card_versions' for card name: Branu Wildbloom and set ID: 37
+2023-09-03 18:34:59,368 - Card ID found: 2063
+2023-09-03 18:34:59,368 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:34:59,368 - Inserting into 'collection_inventory'. Card Name:Branu Wildbloom, Card ID: 2063, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:34:59.368067
+2023-09-03 18:34:59,377 - Insertion successful. Card Name: Branu Wildbloom, Set ID: 37, Card ID: 2063, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:34:59.368067
+2023-09-03 18:34:59,379 - Checked existing card with card_id: 2063, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:35:00,973 - Starting the card scanning process.
+2023-09-03 18:35:02,899 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:03,204 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:03,425 - Texts found in the image: ['2\n2\nBhenn Checks-the-Sky\nInstant Ally-Tauren Druid\nWhen Bhenn Checks-the-Sky enters play.\nyou may exhaust target ally.\nby Greg Hebrand\n+\n1', '2', '2', 'Bhenn', 'Checks', '-', 'the', '-', 'Sky', 'Instant', 'Ally', '-', 'Tauren', 'Druid', 'When', 'Bhenn', 'Checks', '-', 'the', '-', 'Sky', 'enters', 'play', '.', 'you', 'may', 'exhaust', 'target', 'ally', '.', 'by', 'Greg', 'Hebrand', '+', '1']
+2023-09-03 18:35:03,426 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:03,426 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:03,429 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:03,429 - Querying 'wow_cards' for potential card name: Bhenn Checks-the-Sky
+2023-09-03 18:35:03,430 - Possible set abbreviations for Bhenn Checks-the-Sky: ['Dark Portal', 'Ancients', 'Horde Paladin']
+2023-09-03 18:35:03,430 - Cleaned text for abbreviation matching: 22bhenncheckstheskyinstantallytaurendruidwhenbhenncheckstheskyentersplayyoumayexhausttargetallybygreghebrand1
+2023-09-03 18:35:03,430 - Checking for abbreviation: darkportal
+2023-09-03 18:35:03,430 - Checking for abbreviation: ancients
+2023-09-03 18:35:03,430 - Checking for abbreviation: hordepaladin
+2023-09-03 18:35:03,430 - Fuzzy match score for darkportal: 7
+2023-09-03 18:35:03,430 - Fuzzy match score for ancients: 12
+2023-09-03 18:35:03,430 - Fuzzy match score for hordepaladin: 7
+2023-09-03 18:35:04,758 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:04,758 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:35:04,763 - Single Set ID 37 found for card name Bhenn Checks-the-Sky and abbreviation Dark Portal.
+2023-09-03 18:35:04,763 - Querying 'card_versions' for card name: Bhenn Checks-the-Sky and set ID: 37
+2023-09-03 18:35:04,764 - Card ID found: 1812
+2023-09-03 18:35:04,764 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:04,764 - Inserting into 'collection_inventory'. Card Name:Bhenn Checks-the-Sky, Card ID: 1812, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:04.764923
+2023-09-03 18:35:04,770 - Insertion successful. Card Name: Bhenn Checks-the-Sky, Set ID: 37, Card ID: 1812, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:04.764923
+2023-09-03 18:35:04,772 - Checked existing card with card_id: 1812, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:35:06,381 - Starting the card scanning process.
+2023-09-03 18:35:07,936 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:08,237 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:08,471 - Texts found in the image: ['2\nAraelun\nAlly-Blood Elf Paladin\nThe Blood Knights of Silvermoon are the\nbackbone of the blood elf army\nArt by ON\nDANN PORTAL 18 19\n3', '2', 'Araelun', 'Ally', '-', 'Blood', 'Elf', 'Paladin', 'The', 'Blood', 'Knights', 'of', 'Silvermoon', 'are', 'the', 'backbone', 'of', 'the', 'blood', 'elf', 'army', 'Art', 'by', 'ON', 'DANN', 'PORTAL', '18', '19', '3']
+2023-09-03 18:35:08,472 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:08,472 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:08,474 - Querying 'wow_cards' for potential card name: Araelun
+2023-09-03 18:35:08,475 - Possible set abbreviations for Araelun: ['Dark Portal', 'Class']
+2023-09-03 18:35:08,475 - Cleaned text for abbreviation matching: 2araelunallybloodelfpaladinthebloodknightsofsilvermoonarethebackboneofthebloodelfarmyartbyondannportal18193
+2023-09-03 18:35:08,475 - Checking for abbreviation: darkportal
+2023-09-03 18:35:08,475 - Checking for abbreviation: class
+2023-09-03 18:35:08,475 - Fuzzy match score for darkportal: 15
+2023-09-03 18:35:08,475 - Fuzzy match score for class: 7
+2023-09-03 18:35:10,377 - Matched set abbreviation: Class
+2023-09-03 18:35:10,379 - Querying 'sets' for set abbreviation: Class
+2023-09-03 18:35:10,383 - Single Set ID 72 found for card name Araelun and abbreviation Class.
+2023-09-03 18:35:10,383 - Querying 'card_versions' for card name: Araelun and set ID: 72
+2023-09-03 18:35:10,384 - Card ID found: 1494
+2023-09-03 18:35:10,384 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:10,384 - Inserting into 'collection_inventory'. Card Name:Araelun, Card ID: 1494, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:10.384802
+2023-09-03 18:35:10,395 - Insertion successful. Card Name: Araelun, Set ID: 72, Card ID: 1494, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:10.384802
+2023-09-03 18:35:10,397 - Checked existing card with card_id: 1494, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:35:11,706 - Starting the card scanning process.
+2023-09-03 18:35:13,232 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:13,520 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:13,779 - Texts found in the image: ['2\nBhenn Checks-the-Sky\nInstant Ally - Tauren Druid\nWhen Bhenn Checks-the-Sky enters play,\nyou may exhaust target ally.\n2\nCARE PORTAL TRAD Art by Greg Hidd', '2', 'Bhenn', 'Checks', '-', 'the', '-', 'Sky', 'Instant', 'Ally', '-', 'Tauren', 'Druid', 'When', 'Bhenn', 'Checks', '-', 'the', '-', 'Sky', 'enters', 'play', ',', 'you', 'may', 'exhaust', 'target', 'ally', '.', '2', 'CARE', 'PORTAL', 'TRAD', 'Art', 'by', 'Greg', 'Hidd']
+2023-09-03 18:35:13,780 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:13,781 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:13,783 - Querying 'wow_cards' for potential card name: Bhenn Checks-the-Sky
+2023-09-03 18:35:13,785 - Possible set abbreviations for Bhenn Checks-the-Sky: ['Dark Portal', 'Ancients', 'Horde Paladin']
+2023-09-03 18:35:13,785 - Cleaned text for abbreviation matching: 2bhenncheckstheskyinstantallytaurendruidwhenbhenncheckstheskyentersplayyoumayexhausttargetally2careportaltradartbygreghidd
+2023-09-03 18:35:13,785 - Checking for abbreviation: darkportal
+2023-09-03 18:35:13,785 - Checking for abbreviation: ancients
+2023-09-03 18:35:13,785 - Checking for abbreviation: hordepaladin
+2023-09-03 18:35:13,785 - Fuzzy match score for darkportal: 14
+2023-09-03 18:35:13,786 - Fuzzy match score for ancients: 11
+2023-09-03 18:35:13,786 - Fuzzy match score for hordepaladin: 6
+2023-09-03 18:35:15,705 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:15,705 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:35:15,712 - Single Set ID 37 found for card name Bhenn Checks-the-Sky and abbreviation Dark Portal.
+2023-09-03 18:35:15,712 - Querying 'card_versions' for card name: Bhenn Checks-the-Sky and set ID: 37
+2023-09-03 18:35:15,712 - Card ID found: 1812
+2023-09-03 18:35:15,712 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:15,712 - Inserting into 'collection_inventory'. Card Name:Bhenn Checks-the-Sky, Card ID: 1812, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:15.712513
+2023-09-03 18:35:15,724 - Insertion successful. Card Name: Bhenn Checks-the-Sky, Set ID: 37, Card ID: 1812, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:15.712513
+2023-09-03 18:35:15,726 - Checked existing card with card_id: 1812, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:35:17,343 - Starting the card scanning process.
+2023-09-03 18:35:19,459 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:19,762 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:19,997 - Texts found in the image: ['2\nAraelun\nAlly-Blood Elf Paladin\nThe Blood Knights of Silvermoon are the\nbackbone of the blood elf army\nArt by UDON\nDARK PORTAL 1ST 115\nC\n3', '2', 'Araelun', 'Ally', '-', 'Blood', 'Elf', 'Paladin', 'The', 'Blood', 'Knights', 'of', 'Silvermoon', 'are', 'the', 'backbone', 'of', 'the', 'blood', 'elf', 'army', 'Art', 'by', 'UDON', 'DARK', 'PORTAL', '1ST', '115', 'C', '3']
+2023-09-03 18:35:19,997 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:19,998 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:19,999 - Querying 'wow_cards' for potential card name: Araelun
+2023-09-03 18:35:20,000 - Possible set abbreviations for Araelun: ['Dark Portal', 'Class']
+2023-09-03 18:35:20,000 - Cleaned text for abbreviation matching: 2araelunallybloodelfpaladinthebloodknightsofsilvermoonarethebackboneofthebloodelfarmyartbyudondarkportal1st115c3
+2023-09-03 18:35:20,000 - Checking for abbreviation: darkportal
+2023-09-03 18:35:20,000 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:20,000 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:20,000 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:35:20,006 - Single Set ID 37 found for card name Araelun and abbreviation Dark Portal.
+2023-09-03 18:35:20,006 - Querying 'card_versions' for card name: Araelun and set ID: 37
+2023-09-03 18:35:20,006 - Card ID found: 1034
+2023-09-03 18:35:20,006 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:20,006 - Inserting into 'collection_inventory'. Card Name:Araelun, Card ID: 1034, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:20.006447
+2023-09-03 18:35:20,019 - Insertion successful. Card Name: Araelun, Set ID: 37, Card ID: 1034, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:20.006447
+2023-09-03 18:35:20,021 - Checked existing card with card_id: 1034, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:35:21,323 - Starting the card scanning process.
+2023-09-03 18:35:22,736 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:23,024 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:23,290 - Texts found in the image: ['5\nBranu Wildbloom\nAlly-Tauren Druid\nWhen Branu Wildbloom enters play, put the\ntop card of your deck into your resource row.\nface down and exhausted.\n2\nSCAM FORTAL 2497 S\n3', '5', 'Branu', 'Wildbloom', 'Ally', '-', 'Tauren', 'Druid', 'When', 'Branu', 'Wildbloom', 'enters', 'play', ',', 'put', 'the', 'top', 'card', 'of', 'your', 'deck', 'into', 'your', 'resource', 'row', '.', 'face', 'down', 'and', 'exhausted', '.', '2', 'SCAM', 'FORTAL', '2497', 'S', '3']
+2023-09-03 18:35:23,291 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:23,291 - Querying 'wow_cards' for potential card name: 5
+2023-09-03 18:35:23,294 - Querying 'wow_cards' for potential card name: Branu Wildbloom
+2023-09-03 18:35:23,295 - Card name is unique. Set ID for Branu Wildbloom: 37
+2023-09-03 18:35:23,295 - Querying 'card_versions' for card name: Branu Wildbloom and set ID: 37
+2023-09-03 18:35:23,296 - Card ID found: 2063
+2023-09-03 18:35:23,296 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:23,296 - Inserting into 'collection_inventory'. Card Name:Branu Wildbloom, Card ID: 2063, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:23.296036
+2023-09-03 18:35:23,307 - Insertion successful. Card Name: Branu Wildbloom, Set ID: 37, Card ID: 2063, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:23.296036
+2023-09-03 18:35:23,308 - Checked existing card with card_id: 2063, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:35:24,902 - Starting the card scanning process.
+2023-09-03 18:35:26,520 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:26,814 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:27,074 - Texts found in the image: ['2\nAraelun\nAlly Blood Elf Paladin\nThe Blood Knights of Silvermoon are the\nbackbone of the blood elf army\nGASTRO PORTAL SO 315 Atby UDON\n3', '2', 'Araelun', 'Ally', 'Blood', 'Elf', 'Paladin', 'The', 'Blood', 'Knights', 'of', 'Silvermoon', 'are', 'the', 'backbone', 'of', 'the', 'blood', 'elf', 'army', 'GASTRO', 'PORTAL', 'SO', '315', 'Atby', 'UDON', '3']
+2023-09-03 18:35:27,074 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:27,075 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:27,078 - Querying 'wow_cards' for potential card name: Araelun
+2023-09-03 18:35:27,081 - Possible set abbreviations for Araelun: ['Dark Portal', 'Class']
+2023-09-03 18:35:27,081 - Cleaned text for abbreviation matching: 2araelunallybloodelfpaladinthebloodknightsofsilvermoonarethebackboneofthebloodelfarmygastroportalso315atbyudon3
+2023-09-03 18:35:27,081 - Checking for abbreviation: darkportal
+2023-09-03 18:35:27,081 - Checking for abbreviation: class
+2023-09-03 18:35:27,081 - Fuzzy match score for darkportal: 15
+2023-09-03 18:35:27,082 - Fuzzy match score for class: 7
+2023-09-03 18:35:30,656 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:30,656 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:35:30,661 - Single Set ID 37 found for card name Araelun and abbreviation Dark Portal.
+2023-09-03 18:35:30,661 - Querying 'card_versions' for card name: Araelun and set ID: 37
+2023-09-03 18:35:30,662 - Card ID found: 1034
+2023-09-03 18:35:30,662 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:30,662 - Inserting into 'collection_inventory'. Card Name:Araelun, Card ID: 1034, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:30.662955
+2023-09-03 18:35:30,674 - Insertion successful. Card Name: Araelun, Set ID: 37, Card ID: 1034, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:30.662955
+2023-09-03 18:35:30,675 - Checked existing card with card_id: 1034, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:35:31,972 - Starting the card scanning process.
+2023-09-03 18:35:33,388 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:33,689 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:33,953 - Texts found in the image: ['2\nAraelun\nAlly-Blood Elf Paladin\nThe Blood Knights of Silvermoon are the\nbackbone of the blood elf army\nGAME PORTAL DO 3\nby\nOTI IN CN N\n3', '2', 'Araelun', 'Ally', '-', 'Blood', 'Elf', 'Paladin', 'The', 'Blood', 'Knights', 'of', 'Silvermoon', 'are', 'the', 'backbone', 'of', 'the', 'blood', 'elf', 'army', 'GAME', 'PORTAL', 'DO', '3', 'by', 'OTI', 'IN', 'CN', 'N', '3']
+2023-09-03 18:35:33,954 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:33,954 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:33,957 - Querying 'wow_cards' for potential card name: Araelun
+2023-09-03 18:35:33,958 - Possible set abbreviations for Araelun: ['Dark Portal', 'Class']
+2023-09-03 18:35:33,958 - Cleaned text for abbreviation matching: 2araelunallybloodelfpaladinthebloodknightsofsilvermoonarethebackboneofthebloodelfarmygameportaldo3byotiincnn3
+2023-09-03 18:35:33,959 - Checking for abbreviation: darkportal
+2023-09-03 18:35:33,959 - Checking for abbreviation: class
+2023-09-03 18:35:33,959 - Fuzzy match score for darkportal: 15
+2023-09-03 18:35:33,959 - Fuzzy match score for class: 7
+2023-09-03 18:35:36,453 - Matched set abbreviation: Dark Portal
+2023-09-03 18:35:36,454 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:35:36,460 - Single Set ID 37 found for card name Araelun and abbreviation Dark Portal.
+2023-09-03 18:35:36,460 - Querying 'card_versions' for card name: Araelun and set ID: 37
+2023-09-03 18:35:36,460 - Card ID found: 1034
+2023-09-03 18:35:36,461 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:35:36,461 - Inserting into 'collection_inventory'. Card Name:Araelun, Card ID: 1034, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:36.461267
+2023-09-03 18:35:36,472 - Insertion successful. Card Name: Araelun, Set ID: 37, Card ID: 1034, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:36.461267
+2023-09-03 18:35:36,474 - Checked existing card with card_id: 1034, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 18:35:37,773 - Starting the card scanning process.
+2023-09-03 18:35:39,312 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:39,605 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:39,866 - Texts found in the image: ["2\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\n0\nAs the first daughter of Roza, Debros is\nblessed with her mother's energy\nOR PARK PORTAL 206-3119 Art by\n1", '2', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', '0', 'As', 'the', 'first', 'daughter', 'of', 'Roza', ',', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'OR', 'PARK', 'PORTAL', '206-3119', 'Art', 'by', '1']
+2023-09-03 18:35:39,867 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:39,868 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:39,871 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:35:39,872 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:35:39,872 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:35:39,872 - Card ID found: 2629
+2023-09-03 18:35:39,872 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:35:42,382 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:42.382392
+2023-09-03 18:35:42,386 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:42.382392
+2023-09-03 18:35:42,388 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 1
+2023-09-03 18:35:44,281 - Starting the card scanning process.
+2023-09-03 18:35:45,693 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:45,996 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:46,243 - Texts found in the image: ["2\nDebros Cousin-to-Moon\nAlly-Tauren Druid\n0\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza Debros is\nblessed with her mother's energy\nSE DARK PORTAL SK JH Aet by Lars Ge", '2', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', '0', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'SE', 'DARK', 'PORTAL', 'SK', 'JH', 'Aet', 'by', 'Lars', 'Ge']
+2023-09-03 18:35:46,244 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:46,244 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:46,247 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:35:46,248 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:35:46,248 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:35:46,248 - Card ID found: 2629
+2023-09-03 18:35:46,248 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:35:46,847 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:46.847184
+2023-09-03 18:35:46,851 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:46.847184
+2023-09-03 18:35:46,851 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:35:48,748 - Starting the card scanning process.
+2023-09-03 18:35:50,215 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:50,515 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:50,766 - Texts found in the image: ["2\n0\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza, Debros is\nblessed with her mother's energy\nCARN PORTAL Z3M\nArt by l\nONE\n1", '2', '0', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', ',', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'CARN', 'PORTAL', 'Z3M', 'Art', 'by', 'l', 'ONE', '1']
+2023-09-03 18:35:50,767 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:50,767 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:50,770 - Querying 'wow_cards' for potential card name: 0
+2023-09-03 18:35:50,771 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:35:50,772 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:35:50,772 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:35:50,773 - Card ID found: 2629
+2023-09-03 18:35:50,773 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:35:51,340 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:51.340962
+2023-09-03 18:35:51,345 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:51.340962
+2023-09-03 18:35:51,346 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:35:53,228 - Starting the card scanning process.
+2023-09-03 18:35:54,692 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:54,993 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:55,242 - Texts found in the image: ["2\n0\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza, Debros is\nblessed with her mother's energy\nGAS DALM PORTAL 900 119 Anby Lan", '2', '0', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', ',', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'GAS', 'DALM', 'PORTAL', '900', '119', 'Anby', 'Lan']
+2023-09-03 18:35:55,243 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:55,244 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:55,246 - Querying 'wow_cards' for potential card name: 0
+2023-09-03 18:35:55,246 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:35:55,248 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:35:55,248 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:35:55,248 - Card ID found: 2629
+2023-09-03 18:35:55,249 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:35:55,766 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:35:55.766235
+2023-09-03 18:35:55,769 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:35:55.766235
+2023-09-03 18:35:55,771 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:35:57,672 - Starting the card scanning process.
+2023-09-03 18:35:59,157 - Image captured and saved as captured_img.jpg
+2023-09-03 18:35:59,465 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:35:59,726 - Texts found in the image: ["2\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza Debros is\nblessed with her mother's energy\nCADELN PALTAR SAYING Art by La Gae We", '2', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'CADELN', 'PALTAR', 'SAYING', 'Art', 'by', 'La', 'Gae', 'We']
+2023-09-03 18:35:59,727 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:35:59,729 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:35:59,731 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:35:59,732 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:35:59,732 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:35:59,733 - Card ID found: 2629
+2023-09-03 18:35:59,733 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:36:00,256 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:00.256199
+2023-09-03 18:36:00,258 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:00.256199
+2023-09-03 18:36:00,258 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 18:36:02,148 - Starting the card scanning process.
+2023-09-03 18:36:04,264 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:04,567 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:04,968 - Texts found in the image: ["2\nO\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza Debros is\nblessed with her mother's energy\nAt by\nCARD PORTAS 200 315\n1", '2', 'O', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'At', 'by', 'CARD', 'PORTAS', '200', '315', '1']
+2023-09-03 18:36:04,969 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:04,970 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:36:04,972 - Querying 'wow_cards' for potential card name: O
+2023-09-03 18:36:04,972 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:36:04,973 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:36:04,973 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:36:04,973 - Card ID found: 2629
+2023-09-03 18:36:04,973 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:36:06,064 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:06.064353
+2023-09-03 18:36:06,066 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:06.064353
+2023-09-03 18:36:06,066 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 6
+2023-09-03 18:36:07,959 - Starting the card scanning process.
+2023-09-03 18:36:09,612 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:09,915 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:10,169 - Texts found in the image: ["2\nO\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza, Debros s\nblessed with her mother's energy\nCASAL DECHAROTON IN Ant by lan", '2', 'O', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', ',', 'Debros', 's', 'blessed', 'with', 'her', "mother's", 'energy', 'CASAL', 'DECHAROTON', 'IN', 'Ant', 'by', 'lan']
+2023-09-03 18:36:10,170 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:10,170 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:36:10,172 - Querying 'wow_cards' for potential card name: O
+2023-09-03 18:36:10,173 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:36:10,174 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:36:10,174 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:36:10,174 - Card ID found: 2629
+2023-09-03 18:36:10,174 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:36:11,417 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:11.417709
+2023-09-03 18:36:11,422 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:11.417709
+2023-09-03 18:36:11,422 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 7
+2023-09-03 18:36:13,316 - Starting the card scanning process.
+2023-09-03 18:36:14,843 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:15,131 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:15,401 - Texts found in the image: ["2\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza, Debros is\nblessed with her mother's energy\nAt by Lan Grat\nGDYAN PORTAL 201 319\n1", '2', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', ',', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'At', 'by', 'Lan', 'Grat', 'GDYAN', 'PORTAL', '201', '319', '1']
+2023-09-03 18:36:15,402 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:15,402 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:36:15,404 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:36:15,404 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:36:15,404 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:36:15,406 - Card ID found: 2629
+2023-09-03 18:36:15,406 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:36:16,084 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:16.084799
+2023-09-03 18:36:16,089 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:16.084799
+2023-09-03 18:36:16,089 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 8
+2023-09-03 18:36:17,989 - Starting the card scanning process.
+2023-09-03 18:36:19,490 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:19,788 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:20,069 - Texts found in the image: ["2\nDebros Cousin-to-Moon\nAlly-Tauren Druid\nDebros Cousin-to-Moon has +1 ATK for each\nresource you have.\nAs the first daughter of Roza Debros is\nblessed with her mother's energy\nArt by lan Gra\nSS PARK PORTAS 204 315\n1", '2', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'Ally', '-', 'Tauren', 'Druid', 'Debros', 'Cousin', '-', 'to', '-', 'Moon', 'has', '+1', 'ATK', 'for', 'each', 'resource', 'you', 'have', '.', 'As', 'the', 'first', 'daughter', 'of', 'Roza', 'Debros', 'is', 'blessed', 'with', 'her', "mother's", 'energy', 'Art', 'by', 'lan', 'Gra', 'SS', 'PARK', 'PORTAS', '204', '315', '1']
+2023-09-03 18:36:20,070 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:20,071 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:36:20,073 - Querying 'wow_cards' for potential card name: Debros Cousin-to-Moon
+2023-09-03 18:36:20,074 - Card name is unique. Set ID for Debros Cousin-to-Moon: 37
+2023-09-03 18:36:20,074 - Querying 'card_versions' for card name: Debros Cousin-to-Moon and set ID: 37
+2023-09-03 18:36:20,075 - Card ID found: 2629
+2023-09-03 18:36:20,075 - Multiple variants found for card ID 2629: [3, 5]
+2023-09-03 18:36:22,263 - Inserting into 'collection_inventory'. Card Name:Debros Cousin-to-Moon, Card ID: 2629, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:22.263013
+2023-09-03 18:36:22,264 - Insertion successful. Card Name: Debros Cousin-to-Moon, Set ID: 37, Card ID: 2629, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:22.263013
+2023-09-03 18:36:22,264 - Checked existing card with card_id: 2629, variant_id: 5, instance: 1. Count found: 9
+2023-09-03 18:36:24,151 - Starting the card scanning process.
+2023-09-03 18:36:25,640 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:25,924 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:26,146 - Texts found in the image: ['6\n6\nVanda Skydaughter\nAlly-Tauren Druid\n"Nature isn\'t just around you It\'s above you as well\nArt by Zo\nCAS CARD PORTAS 219 19\n5', '6', '6', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', '"', 'Nature', "isn't", 'just', 'around', 'you', "It's", 'above', 'you', 'as', 'well', 'Art', 'by', 'Zo', 'CAS', 'CARD', 'PORTAS', '219', '19', '5']
+2023-09-03 18:36:26,146 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:26,147 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:26,149 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:26,151 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:36:26,151 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:36:26,152 - Cleaned text for abbreviation matching: 66vandaskydaughterallytaurendruidnaturejustaroundyouaboveyouaswellartbyzocascardportas219195
+2023-09-03 18:36:26,152 - Checking for abbreviation: class
+2023-09-03 18:36:26,152 - Checking for abbreviation: hordedruid
+2023-09-03 18:36:26,152 - Checking for abbreviation: hordeshaman
+2023-09-03 18:36:26,152 - Checking for abbreviation: darkportal
+2023-09-03 18:36:26,152 - Fuzzy match score for class: 6
+2023-09-03 18:36:26,152 - Fuzzy match score for hordedruid: 14
+2023-09-03 18:36:26,152 - Fuzzy match score for hordeshaman: 4
+2023-09-03 18:36:26,152 - Fuzzy match score for darkportal: 16
+2023-09-03 18:36:28,442 - Matched set abbreviation: Dark Portal
+2023-09-03 18:36:28,442 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:36:28,450 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:36:28,450 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:36:28,451 - Card ID found: 7371
+2023-09-03 18:36:28,451 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:36:28,451 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:28.451167
+2023-09-03 18:36:28,462 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:28.451167
+2023-09-03 18:36:28,463 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:36:30,071 - Starting the card scanning process.
+2023-09-03 18:36:31,569 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:31,863 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:32,207 - Texts found in the image: ['6\n6\nVanda Skydaughter\nAlly-Tauren Druid\n"Nature isn\'t just around you\nCADERN DCATAL 359 19\nit\'s above you as well.\nArt by Los Za\nON IN O\n5', '6', '6', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', '"', 'Nature', "isn't", 'just', 'around', 'you', 'CADERN', 'DCATAL', '359', '19', "it's", 'above', 'you', 'as', 'well', '.', 'Art', 'by', 'Los', 'Za', 'ON', 'IN', 'O', '5']
+2023-09-03 18:36:32,208 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:32,209 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:32,211 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:32,212 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:36:32,214 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:36:32,214 - Cleaned text for abbreviation matching: 66vandaskydaughterallytaurendruidnaturejustaroundyoucaderndcatal35919aboveyouaswellartbyloszaonino5
+2023-09-03 18:36:32,214 - Checking for abbreviation: class
+2023-09-03 18:36:32,215 - Checking for abbreviation: hordedruid
+2023-09-03 18:36:32,215 - Checking for abbreviation: hordeshaman
+2023-09-03 18:36:32,215 - Checking for abbreviation: darkportal
+2023-09-03 18:36:32,215 - Fuzzy match score for class: 6
+2023-09-03 18:36:32,215 - Fuzzy match score for hordedruid: 13
+2023-09-03 18:36:32,215 - Fuzzy match score for hordeshaman: 4
+2023-09-03 18:36:32,215 - Fuzzy match score for darkportal: 13
+2023-09-03 18:36:33,383 - Matched set abbreviation: Dark Portal
+2023-09-03 18:36:33,383 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:36:33,388 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:36:33,388 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:36:33,389 - Card ID found: 7371
+2023-09-03 18:36:33,389 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:36:33,389 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:33.389178
+2023-09-03 18:36:33,400 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:33.389178
+2023-09-03 18:36:33,403 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:36:35,012 - Starting the card scanning process.
+2023-09-03 18:36:36,475 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:36,773 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:37,012 - Texts found in the image: ['Vanda Skydaughter\nAlly-Tauren Druid\n6\n"Nature n\'t just around you. It\'s above\n5', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', '6', '"', 'Nature', "n't", 'just', 'around', 'you', '.', "It's", 'above', '5']
+2023-09-03 18:36:37,013 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:37,013 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:36:37,017 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:36:37,017 - Cleaned text for abbreviation matching: vandaskydaughterallytaurendruid6naturejustaroundyouabove5
+2023-09-03 18:36:37,017 - Checking for abbreviation: class
+2023-09-03 18:36:37,017 - Checking for abbreviation: hordedruid
+2023-09-03 18:36:37,018 - Checking for abbreviation: hordeshaman
+2023-09-03 18:36:37,018 - Checking for abbreviation: darkportal
+2023-09-03 18:36:37,018 - Fuzzy match score for class: 10
+2023-09-03 18:36:37,018 - Fuzzy match score for hordedruid: 21
+2023-09-03 18:36:37,018 - Fuzzy match score for hordeshaman: 6
+2023-09-03 18:36:37,018 - Fuzzy match score for darkportal: 18
+2023-09-03 18:36:37,931 - Matched set abbreviation: Dark Portal
+2023-09-03 18:36:37,933 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:36:37,940 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:36:37,940 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:36:37,941 - Card ID found: 7371
+2023-09-03 18:36:37,941 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:36:37,942 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:37.941836
+2023-09-03 18:36:37,954 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:37.941836
+2023-09-03 18:36:37,955 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 5
+2023-09-03 18:36:39,563 - Starting the card scanning process.
+2023-09-03 18:36:41,248 - Image captured and saved as captured_img.jpg
+2023-09-03 18:36:41,550 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:36:41,773 - Texts found in the image: ["6\n6\nVanda Skydaughter\nAlly-Tauren Druid\nNature ant just around you it's above you as well\nO DARK PORTAL 239 319 Art by Tontin\n1\n5\n\u0441\u043b", '6', '6', 'Vanda', 'Skydaughter', 'Ally', '-', 'Tauren', 'Druid', 'Nature', 'ant', 'just', 'around', 'you', "it's", 'above', 'you', 'as', 'well', 'O', 'DARK', 'PORTAL', '239', '319', 'Art', 'by', 'Tontin', '1', '5', '\u0441\u043b']
+2023-09-03 18:36:41,782 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:36:41,783 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:41,786 - Querying 'wow_cards' for potential card name: 6
+2023-09-03 18:36:41,787 - Querying 'wow_cards' for potential card name: Vanda Skydaughter
+2023-09-03 18:36:41,789 - Possible set abbreviations for Vanda Skydaughter: ['Class', 'Horde Druid', 'Horde Shaman', 'Dark Portal']
+2023-09-03 18:36:41,789 - Cleaned text for abbreviation matching: 66vandaskydaughterallytaurendruidnatureantjustaroundyouaboveyouaswellodarkportal239319artbytontin15\u0441\u043b
+2023-09-03 18:36:41,789 - Checking for abbreviation: class
+2023-09-03 18:36:41,789 - Checking for abbreviation: hordedruid
+2023-09-03 18:36:41,789 - Checking for abbreviation: hordeshaman
+2023-09-03 18:36:41,789 - Checking for abbreviation: darkportal
+2023-09-03 18:36:41,789 - Matched set abbreviation: Dark Portal
+2023-09-03 18:36:41,789 - Matched set abbreviation: Dark Portal
+2023-09-03 18:36:41,790 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:36:41,794 - Single Set ID 37 found for card name Vanda Skydaughter and abbreviation Dark Portal.
+2023-09-03 18:36:41,795 - Querying 'card_versions' for card name: Vanda Skydaughter and set ID: 37
+2023-09-03 18:36:41,795 - Card ID found: 7371
+2023-09-03 18:36:41,795 - Only one variant with ID 5 found. Variant ID: 5, Instance: 1
+2023-09-03 18:36:41,795 - Inserting into 'collection_inventory'. Card Name:Vanda Skydaughter, Card ID: 7371, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:36:41.795320
+2023-09-03 18:36:41,801 - Insertion successful. Card Name: Vanda Skydaughter, Set ID: 37, Card ID: 7371, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:36:41.795320
+2023-09-03 18:36:41,803 - Checked existing card with card_id: 7371, variant_id: 5, instance: 1. Count found: 6
+2023-09-03 18:36:43,412 - Starting the card scanning process.
+2023-09-03 18:37:26,719 - Image captured and saved as captured_img.jpg
+2023-09-03 18:37:27,028 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:37:27,268 - Texts found in the image: ["27\n2\nAlly - Owl\nHootie\nPet (1)\nOpposing heroes and allies have -1 ATK\nHe doesn't mean it when he blocks your view\n2", '27', '2', 'Ally', '-', 'Owl', 'Hootie', 'Pet', '(', '1', ')', 'Opposing', 'heroes', 'and', 'allies', 'have', '-1', 'ATK', 'He', "doesn't", 'mean', 'it', 'when', 'he', 'blocks', 'your', 'view', '2']
+2023-09-03 18:37:27,268 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:37:27,269 - Querying 'wow_cards' for potential card name: 27
+2023-09-03 18:37:27,271 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:37:27,272 - Querying 'wow_cards' for potential card name: Ally - Owl
+2023-09-03 18:37:27,273 - Querying 'wow_cards' for potential card name: Hootie
+2023-09-03 18:37:27,274 - Card name is unique. Set ID for Hootie: 37
+2023-09-03 18:37:27,274 - Querying 'card_versions' for card name: Hootie and set ID: 37
+2023-09-03 18:37:27,274 - Card ID found: 4246
+2023-09-03 18:37:27,274 - Multiple variants found for card ID 4246: [2, 3, 5]
+2023-09-03 18:37:29,815 - Inserting into 'collection_inventory'. Card Name:Hootie, Card ID: 4246, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:37:29.815809
+2023-09-03 18:37:29,820 - Insertion successful. Card Name: Hootie, Set ID: 37, Card ID: 4246, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:37:29.815809
+2023-09-03 18:37:29,821 - Checked existing card with card_id: 4246, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:37:31,010 - Starting the card scanning process.
+2023-09-03 18:37:32,508 - Image captured and saved as captured_img.jpg
+2023-09-03 18:37:32,809 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:37:33,034 - Texts found in the image: ['2\nAlly-Owl\nHootie\nOpposing heroes and allies have -1 ATK\nSEPT\nPet (1)\nwick\n2', '2', 'Ally', '-', 'Owl', 'Hootie', 'Opposing', 'heroes', 'and', 'allies', 'have', '-1', 'ATK', 'SEPT', 'Pet', '(', '1', ')', 'wick', '2']
+2023-09-03 18:37:33,034 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:37:33,034 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:37:33,037 - Querying 'wow_cards' for potential card name: Ally-Owl
+2023-09-03 18:37:33,038 - Querying 'wow_cards' for potential card name: Hootie
+2023-09-03 18:37:33,039 - Card name is unique. Set ID for Hootie: 37
+2023-09-03 18:37:33,039 - Querying 'card_versions' for card name: Hootie and set ID: 37
+2023-09-03 18:37:33,040 - Card ID found: 4246
+2023-09-03 18:37:33,040 - Multiple variants found for card ID 4246: [2, 3, 5]
+2023-09-03 18:37:33,942 - Inserting into 'collection_inventory'. Card Name:Hootie, Card ID: 4246, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:37:33.942199
+2023-09-03 18:37:33,943 - Insertion successful. Card Name: Hootie, Set ID: 37, Card ID: 4246, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:37:33.942199
+2023-09-03 18:37:33,943 - Checked existing card with card_id: 4246, variant_id: 5, instance: 1. Count found: 3
+2023-09-03 18:37:35,144 - Starting the card scanning process.
+2023-09-03 18:37:36,928 - Image captured and saved as captured_img.jpg
+2023-09-03 18:37:37,230 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:37:37,512 - Texts found in the image: ['2\n2\nAlly-Owl\nHootie\nOpposing heroes and allies have -1 ATK.\nGOBERNTAL 4319\nPet (1)\nArt by Randy\n2', '2', '2', 'Ally', '-', 'Owl', 'Hootie', 'Opposing', 'heroes', 'and', 'allies', 'have', '-1', 'ATK', '.', 'GOBERNTAL', '4319', 'Pet', '(', '1', ')', 'Art', 'by', 'Randy', '2']
+2023-09-03 18:37:37,513 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:37:37,514 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:37:37,516 - Querying 'wow_cards' for potential card name: 2
+2023-09-03 18:37:37,517 - Querying 'wow_cards' for potential card name: Ally-Owl
+2023-09-03 18:37:37,518 - Querying 'wow_cards' for potential card name: Hootie
+2023-09-03 18:37:37,519 - Card name is unique. Set ID for Hootie: 37
+2023-09-03 18:37:37,519 - Querying 'card_versions' for card name: Hootie and set ID: 37
+2023-09-03 18:37:37,520 - Card ID found: 4246
+2023-09-03 18:37:37,520 - Multiple variants found for card ID 4246: [2, 3, 5]
+2023-09-03 18:37:38,190 - Inserting into 'collection_inventory'. Card Name:Hootie, Card ID: 4246, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:37:38.190462
+2023-09-03 18:37:38,193 - Insertion successful. Card Name: Hootie, Set ID: 37, Card ID: 4246, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:37:38.190462
+2023-09-03 18:37:38,193 - Checked existing card with card_id: 4246, variant_id: 5, instance: 1. Count found: 4
+2023-09-03 18:37:39,393 - Starting the card scanning process.
+2023-09-03 18:37:41,013 - Image captured and saved as captured_img.jpg
+2023-09-03 18:37:41,314 - Attempting to send image captured_img.jpg to Google Cloud Vision.
+2023-09-03 18:37:41,529 - Texts found in the image: ['3\nVindicator Enkallus\nAlly-Draenel Shaman\nProtector\n4', '3', 'Vindicator', 'Enkallus', 'Ally', '-', 'Draenel', 'Shaman', 'Protector', '4']
+2023-09-03 18:37:41,530 - Connecting to the 'wow_cards' SQLite database.
+2023-09-03 18:37:41,530 - Querying 'wow_cards' for potential card name: 3
+2023-09-03 18:37:41,532 - Querying 'wow_cards' for potential card name: Vindicator Enkallus
+2023-09-03 18:37:41,534 - Possible set abbreviations for Vindicator Enkallus: ['Class', 'Dark Portal']
+2023-09-03 18:37:41,534 - Cleaned text for abbreviation matching: 3vindicatorenkallusallydraenelshamanprotector4
+2023-09-03 18:37:41,534 - Checking for abbreviation: class
+2023-09-03 18:37:41,534 - Checking for abbreviation: darkportal
+2023-09-03 18:37:41,535 - Fuzzy match score for class: 16
+2023-09-03 18:37:41,535 - Fuzzy match score for darkportal: 21
+2023-09-03 18:37:44,062 - Matched set abbreviation: Dark Portal
+2023-09-03 18:37:44,062 - Querying 'sets' for set abbreviation: Dark Portal
+2023-09-03 18:37:45,105 - User selected Set ID 37 associated with block name Azeroth and set abbreviation Dark Portal.
+2023-09-03 18:37:45,105 - Set ID found: 37
+2023-09-03 18:37:45,105 - Querying 'card_versions' for card name: Vindicator Enkallus and set ID: 37
+2023-09-03 18:37:45,105 - Card ID found: 7439
+2023-09-03 18:37:45,106 - Multiple variants found for card ID 7439: [2, 3, 5]
+2023-09-03 18:37:46,941 - Inserting into 'collection_inventory'. Card Name:Vindicator Enkallus, Card ID: 7439, Variant ID: 5, Instance: 1, Scan Date: 2023-09-03 18:37:46.941680
+2023-09-03 18:37:46,945 - Insertion successful. Card Name: Vindicator Enkallus, Set ID: 37, Card ID: 7439, Variant ID: 5, Instance: 1, Date: 2023-09-03 18:37:46.941680
+2023-09-03 18:37:46,946 - Checked existing card with card_id: 7439, variant_id: 5, instance: 1. Count found: 2
+2023-09-03 18:37:48,833 - Starting the card scanning process.
+2023-09-03 18:37:57,858 - Exiting program

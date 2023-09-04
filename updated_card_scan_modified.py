@@ -177,7 +177,7 @@ def update_ignore_flag():
 
 
 def capture_image():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     while True:
         ret, frame = cap.read()
         cv2.imshow('Press NumPad Enter to Capture or q to Quit', frame)
@@ -384,11 +384,11 @@ def query_database(texts):
         variant_id = choose_variant_id(unique_variant_ids)
         instance = next(v[1] for v in variants if v[0] == variant_id)
     # Step 8: Insert into collection_inventory
-        current_date = datetime.now()
-        logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
-        cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
+    current_date = datetime.now()
+    logging.info(f"Inserting into 'collection_inventory'. Card Name:{card_name}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Scan Date: {current_date}")
+    cursor.execute("INSERT INTO collection_inventory (card_id, variant_id, instance, scan_date) VALUES (?, ?, ?, ?)", 
                         (card_id, variant_id, instance, current_date))
-        conn.commit()
+    conn.commit()
 
     logging.info(f"Insertion successful. Card Name: {card_name}, Set ID: {set_id}, Card ID: {card_id}, Variant ID: {variant_id}, Instance: {instance}, Date: {current_date}")
     # Check if this is a new card or an existing one
