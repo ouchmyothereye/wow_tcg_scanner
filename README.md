@@ -20,6 +20,7 @@ To run this utility, you will need the following Python libraries:
 2. **Google Cloud Vision**: 
     - Create your own Google Cloud Vision service account to use the API. Follow the [official documentation](https://cloud.google.com/vision/docs/setup) to get started.
     - Place the JSON key for the service account in your environment variables. This is essential for the script to access Google Cloud Vision services.
+    - Note that use of the Google Cloud Vision API for text detection is free, up to point. Please refer to the [pricing policy](https://cloud.google.com/vision/pricing) for any limits.
 
 ## Usage
 
