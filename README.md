@@ -37,7 +37,7 @@ For real-time monitoring of the card recognition and cataloging process, it's re
 
 ## Database Structure: `wow_cards.db`
 
-The SQLite database, `wow_cards.db`, contains information regarding the World of Warcraft Trading Card Game (WoW TCG) cards, their variants, and your collection inventory. A variety of sources were used to create the database, including tcgplayer, wowcards.info, and the (WoW TCG Collection Tracker Google Sheet by Plague_dog32)[https://docs.google.com/spreadsheets/d/1JwrDMrWvFY0Egl0_6wz1SvF4KqVPdOywaBCdRNoq-II/edit#gid=1157922476].
+The SQLite database, `wow_cards.db`, contains information regarding the World of Warcraft Trading Card Game (WoW TCG) cards, their variants, and your collection inventory. A variety of sources were used to create the database, including tcgplayer, wowcards.info, and the [WoW TCG Collection Tracker Google Sheet by Plague_dog32](https://docs.google.com/spreadsheets/d/1JwrDMrWvFY0Egl0_6wz1SvF4KqVPdOywaBCdRNoq-II/edit#gid=1157922476).
 
 ### Tables and Descriptions:
 
